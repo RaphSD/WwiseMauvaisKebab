@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{495DA0F7-B6FC-4048-A597-6DF997B83F5D}" SchemaVersion="85">
+	<GameParameters>
+		<WorkUnit Name="WU_VBG_RTPC" ID="{495DA0F7-B6FC-4048-A597-6DF997B83F5D}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="debug_SPEEDPLAYBACK" ID="{F81781CB-1AA9-46E7-A96B-765CF6B13E13}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="RTPC_DistVillage" ID="{A1B01ACA-BCEB-4CC0-864A-645CE50ABEE7}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="100"/>
+						<Property Name="RTPCRamping" Type="int16" Value="1"/>
+						<Property Name="SlewRateDown" Type="Real64" Value="67"/>
+						<Property Name="SlewRateUp" Type="Real64" Value="69"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="RTPC_GAMEDEFINED_DISTANCE_MOULIN" ID="{45CE2059-DB18-4F6A-A943-F244616F52EB}">
+					<PropertyList>
+						<Property Name="BindToBuiltInParam" Type="int16" Value="1"/>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+					</PropertyList>
+				</GameParameter>
+				<Folder Name="M_DISTANCESPHERE" ID="{C27E526F-2AF8-44BA-829C-04A3CD35C0F7}" ShortID="433055449"/>
+				<GameParameter Name="TUTO_SC_PAINtoGTR" ID="{3C747DAE-43BE-4312-9342-6781079F2B9A}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="-96"/>
+						<Property Name="Max" Type="Real64" Value="0"/>
+						<Property Name="Min" Type="Real64" Value="-96"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="SC_SPECIALS_ImpactToSkill" ID="{AD8A6DC4-6E8E-4664-9ABA-4A1E5A61D820}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="-12"/>
+						<Property Name="Max" Type="Real64" Value="0"/>
+						<Property Name="Min" Type="Real64" Value="-12"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

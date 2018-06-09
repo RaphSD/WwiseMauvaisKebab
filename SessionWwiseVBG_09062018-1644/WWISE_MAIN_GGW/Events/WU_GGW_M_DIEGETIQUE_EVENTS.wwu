@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{E7974608-84AF-448F-A6D2-D4F9EA8B369A}" SchemaVersion="85">
+	<Events>
+		<WorkUnit Name="WU_GGW_M_DIEGETIQUE_EVENTS" ID="{E7974608-84AF-448F-A6D2-D4F9EA8B369A}" PersistMode="Standalone"/>
+	</Events>
+</WwiseDocument>

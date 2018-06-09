@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{CC6E3512-3E78-4588-811B-6A06DBC62EA6}" SchemaVersion="85">
+	<Modulators>
+		<WorkUnit Name="WU_VBG_SHARESET_Modulators" ID="{CC6E3512-3E78-4588-811B-6A06DBC62EA6}" PersistMode="Standalone">
+			<ChildrenList>
+				<ModulatorEnvelope Name="ATK_LFO_PASSBY" ID="{89220F1E-DED6-4B31-A076-20A2471A7D0B}" ShortID="51882171">
+					<PropertyList>
+						<Property Name="EnvelopeAttackTime" Type="Real64" Value="8">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{0964B703-6107-457E-9F20-3CFB2FCFED57}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="4"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="EnvelopeDecayTime" Type="Real64" Value="1"/>
+						<Property Name="EnvelopeStopPlayback" Type="bool" Value="False"/>
+					</PropertyList>
+				</ModulatorEnvelope>
+				<ModulatorLfo Name="LFO_PASSBY" ID="{2417227C-4084-4E7A-A4FF-46D2528E534A}" ShortID="1062729352">
+					<PropertyList>
+						<Property Name="LfoFrequency" Type="Real64" Value="0.012">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{2182DFA6-3790-4817-A4CA-D6B8A325EAD0}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Min" Type="Real64" Value="-0.02"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="LfoPWM" Type="Real64" Value="32.1">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{650F99A6-E965-449B-84E6-679E91ACC9C7}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="14"/>
+											<Property Name="Min" Type="Real64" Value="-3"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+							<RTPCList>
+								<RTPC Name="" ID="{514F4029-F0AD-43B9-ACA6-632DBDBB455F}" ShortID="193032632">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="LFO_PWM_PASSBY" ID="{70C46A89-CCE1-4189-80B6-048C9ED42D5B}" WorkUnitID="{CC6E3512-3E78-4588-811B-6A06DBC62EA6}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{0BD4FAB5-D722-42DC-B1B0-EFAC8B485C1F}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="1"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>17.42739</YPos>
+												<Flags>21</Flags>
+											</Point>
+											<Point>
+												<XPos>1</XPos>
+												<YPos>49.37758</YPos>
+												<Flags>53</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+						<Property Name="LfoSmoothing" Type="Real64" Value="45"/>
+						<Property Name="LfoWaveform" Type="int32" Value="2"/>
+					</PropertyList>
+				</ModulatorLfo>
+				<ModulatorLfo Name="LFO_PWM_PASSBY" ID="{70C46A89-CCE1-4189-80B6-048C9ED42D5B}" ShortID="735502839">
+					<PropertyList>
+						<Property Name="LfoFrequency" Type="Real64" Value="0.09"/>
+					</PropertyList>
+				</ModulatorLfo>
+				<ModulatorLfo Name="LFO_BUS_PASSBY" ID="{9BD0138D-4158-4E08-A749-2065C68473B1}" ShortID="341714842">
+					<PropertyList>
+						<Property Name="LfoFrequency" Type="Real64" Value="0.1"/>
+						<Property Name="LfoSmoothing" Type="Real64" Value="38"/>
+						<Property Name="LfoWaveform" Type="int32" Value="5"/>
+					</PropertyList>
+				</ModulatorLfo>
+				<ModulatorEnvelope Name="ADSR_PASSBY2" ID="{4B433619-4FB5-42C7-9B4A-999958452571}" ShortID="915310115">
+					<PropertyList>
+						<Property Name="EnvelopeAttackCurve" Type="Real64" Value="22"/>
+						<Property Name="EnvelopeAttackTime" Type="Real64" Value="14.632">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{1BBD00CF-C1F1-42B2-BE0F-D7F696C6766B}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="10"/>
+											<Property Name="Min" Type="Real64" Value="-5"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="EnvelopeDecayTime" Type="Real64" Value="15.263">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{068CCA7D-DB65-4EB8-A68A-CAD342F41729}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="10"/>
+											<Property Name="Min" Type="Real64" Value="-5"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="EnvelopeStopPlayback" Type="bool" Value="False"/>
+						<Property Name="EnvelopeSustainLevel" Type="Real64" Value="0"/>
+						<Property Name="ModulatorScope" Type="int32" Value="0"/>
+					</PropertyList>
+				</ModulatorEnvelope>
+				<ModulatorEnvelope Name="ADSR_FALAISE_VENTSIFFLANT" ID="{743BB3AF-7106-4C2A-B6F3-DFC2A6177B4D}" ShortID="536165269">
+					<PropertyList>
+						<Property Name="EnvelopeAttackTime" Type="Real64" Value="8">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{43DD3118-E10A-4529-8AAD-1AA6AAAB49FB}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="4"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="EnvelopeDecayTime" Type="Real64" Value="14">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{2FCEFA42-5B8C-4902-98D8-9C3E22D0848D}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="4"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="EnvelopeStopPlayback" Type="bool" Value="False"/>
+						<Property Name="EnvelopeSustainLevel" Type="Real64" Value="0"/>
+						<Property Name="ModulatorScope" Type="int32" Value="0"/>
+					</PropertyList>
+				</ModulatorEnvelope>
+				<ModulatorLfo Name="LFO_FALAISE_VENTSIFFLANT_PITCH" ID="{A24D3D31-AF91-4CB9-8064-620A034F3187}" ShortID="1020559078">
+					<PropertyList>
+						<Property Name="LfoDepth" Type="Real64" Value="23.2"/>
+						<Property Name="LfoFrequency" Type="Real64" Value="0.2"/>
+						<Property Name="LfoSmoothing" Type="Real64" Value="15"/>
+						<Property Name="LfoWaveform" Type="int32" Value="5"/>
+						<Property Name="ModulatorScope" Type="int32" Value="3"/>
+					</PropertyList>
+				</ModulatorLfo>
+				<Folder Name="OBJETS" ID="{E7301537-9572-4FD5-AAE3-71AAF7F49E9F}" ShortID="694652227">
+					<ChildrenList>
+						<ModulatorEnvelope Name="ADSR_INTERACTIVE_OBJECTS_IMPACTDEBRIS_STONE" ID="{C32922A2-8220-49EA-B86A-7D11B1BCEC3B}" ShortID="191235937">
+							<PropertyList>
+								<Property Name="EnvelopeAttackCurve" Type="Real64" Value="100"/>
+								<Property Name="EnvelopeAttackTime" Type="Real64" Value="0"/>
+								<Property Name="EnvelopeDecayTime" Type="Real64" Value="0.125">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{0D0B2034-B051-4C8D-9E85-D426D4497A15}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="0.7"/>
+													<Property Name="Min" Type="Real64" Value="-0.1"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="EnvelopeSustainLevel" Type="Real64" Value="0"/>
+							</PropertyList>
+						</ModulatorEnvelope>
+						<ModulatorEnvelope Name="ADSR_INTERACTIVE_OBJECTS_DESTRUCTION_STONE" ID="{F70D67D9-EB20-490F-BFB0-97FA6628E853}" ShortID="628499419">
+							<PropertyList>
+								<Property Name="EnvelopeAttackCurve" Type="Real64" Value="98"/>
+								<Property Name="EnvelopeAttackTime" Type="Real64" Value="0">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{9AAF75A7-9863-47FC-83F7-58E6C3F41DBD}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="0.01"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="EnvelopeDecayTime" Type="Real64" Value="0.237">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{7C3DEF62-6C33-4A94-A8CA-52E9A276DB28}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="0.7"/>
+													<Property Name="Min" Type="Real64" Value="-0.1"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="EnvelopeReleaseTime" Type="Real64" Value="0.353"/>
+								<Property Name="EnvelopeSustainLevel" Type="Real64" Value="0"/>
+							</PropertyList>
+						</ModulatorEnvelope>
+						<ModulatorEnvelope Name="ADSR_INTERACTIVE_OBJECTS_IMPACTDEBRIS_WOOD" ID="{0FB3CA93-9232-43DC-B534-8095270D269D}" ShortID="510912649">
+							<PropertyList>
+								<Property Name="EnvelopeAttackCurve" Type="Real64" Value="100"/>
+								<Property Name="EnvelopeAttackTime" Type="Real64" Value="0.474"/>
+								<Property Name="EnvelopeDecayTime" Type="Real64" Value="0.121">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{5641A40F-CB68-4BBD-93D0-005565DC1463}">
+												<PropertyList>
+													<Property Name="Max" Type="Real64" Value="0.7"/>
+													<Property Name="Min" Type="Real64" Value="-0.1"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="EnvelopeReleaseTime" Type="Real64" Value="0"/>
+								<Property Name="EnvelopeStopPlayback" Type="bool" Value="False"/>
+								<Property Name="EnvelopeSustainLevel" Type="Real64" Value="0"/>
+								<Property Name="EnvelopeSustainTime" Type="Real64" Value="0.016"/>
+							</PropertyList>
+						</ModulatorEnvelope>
+						<ModulatorEnvelope Name="ADSR_INTERACTIVE_OBJECTS_DESTRUCTION_WOOD" ID="{C9A7D008-5B9E-4DF8-80B4-4EF12253CE40}" ShortID="270950106">
+							<PropertyList>
+								<Property Name="EnvelopeAttackCurve" Type="Real64" Value="100"/>
+								<Property Name="EnvelopeAttackTime" Type="Real64" Value="0">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{B6915452-FC1F-4366-AED4-0C97201F17CA}">
+												<PropertyList>
+													<Property Name="Max" Type="Real64" Value="0.01"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="EnvelopeDecayTime" Type="Real64" Value="0.458">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{CB890208-B0F4-49E7-8681-A64734FAFAC0}">
+												<PropertyList>
+													<Property Name="Max" Type="Real64" Value="0.7"/>
+													<Property Name="Min" Type="Real64" Value="-0.1"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="EnvelopeReleaseTime" Type="Real64" Value="0"/>
+								<Property Name="EnvelopeStopPlayback" Type="bool" Value="False"/>
+								<Property Name="EnvelopeSustainLevel" Type="Real64" Value="0"/>
+							</PropertyList>
+						</ModulatorEnvelope>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Modulators>
+</WwiseDocument>

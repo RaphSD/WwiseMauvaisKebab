@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{EC599E7E-DEA6-4303-A073-F1E8555D106B}" SchemaVersion="85">
+	<Queries>
+		<WorkUnit Name="WU_VBG_Queries" ID="{EC599E7E-DEA6-4303-A073-F1E8555D106B}" PersistMode="Standalone">
+			<ChildrenList>
+				<Query Name="SEGMENT_tracks" ID="{CFE661BD-3E41-4518-BFBD-95E9F3372EBE}">
+					<PropertyList>
+						<Property Name="ObjectType" Type="int32" Value="665"/>
+					</PropertyList>
+				</Query>
+				<Query Name="STATE_GAMEPLAY" ID="{08AFA06F-9FAB-449D-83E0-070817797C99}">
+					<ChildrenList>
+						<SearchCriteria Name="StateState Group Specific Usage" ID="{A2236F18-B835-4E2C-A585-7B3F89C062E2}" SearchOperationID="{313F6446-18EA-477F-99A8-309E2F800C0A}">
+							<PropertyList>
+								<Property Name="StateGroup" Type="string" Value="{12F9E07A-027C-40A9-8887-7FCD8D88B8A6}"/>
+							</PropertyList>
+						</SearchCriteria>
+						<SearchCriteria Name="StateDefine State Values" ID="{18A0263F-A5EB-458D-85A5-29ADB61122F5}" SearchOperationID="{E2BA49FE-AADD-4726-A72E-9958C70A9F19}"/>
+					</ChildrenList>
+				</Query>
+			</ChildrenList>
+		</WorkUnit>
+	</Queries>
+</WwiseDocument>

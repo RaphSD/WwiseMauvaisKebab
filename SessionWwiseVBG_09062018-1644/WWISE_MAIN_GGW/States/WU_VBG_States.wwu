@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{CE988CDB-2DEC-4B44-AE99-406B162A76C1}" SchemaVersion="85">
+	<States>
+		<WorkUnit Name="WU_VBG_States" ID="{CE988CDB-2DEC-4B44-AE99-406B162A76C1}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="GAMEPLAY_PHASE" ID="{12F9E07A-027C-40A9-8887-7FCD8D88B8A6}">
+					<PropertyList>
+						<Property Name="DefaultTransitionTime" Type="Real64" Value="4"/>
+					</PropertyList>
+					<ChildrenList>
+						<State Name="None" ID="{AB850241-5098-4B72-9705-4E635D79468A}"/>
+						<State Name="ACTIF" ID="{5037D32D-7DF3-4544-AF6C-649D26966A85}"/>
+						<State Name="PASSIF" ID="{EDDD970B-5A0A-482B-9E93-E3C58749BD75}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="MAP_ZONE" ID="{A5FF9F26-E645-40B1-A544-42050EAFF3D0}">
+					<PropertyList>
+						<Property Name="DefaultTransitionTime" Type="Real64" Value="0"/>
+					</PropertyList>
+					<ChildrenList>
+						<State Name="None" ID="{E333AAB6-5BE6-42E1-8B49-7DBEEB7E3D2A}"/>
+						<State Name="PORT_MER" ID="{08EEC8DD-B198-464B-8F65-2EA270C2C391}"/>
+						<State Name="PORT" ID="{043CCA0F-0E58-4B37-9D53-F3B7120D3209}"/>
+						<State Name="FALAISE" ID="{5CB745B9-61E5-476E-B139-0055819A76AE}"/>
+						<State Name="VILLAGE" ID="{DA36E68C-BFB9-4945-B864-1626C864EC6F}"/>
+					</ChildrenList>
+					<TransitionList>
+						<Transition>
+							<StartState Name="PORT" ID="{043CCA0F-0E58-4B37-9D53-F3B7120D3209}"/>
+							<EndState Name="PORT_MER" ID="{08EEC8DD-B198-464B-8F65-2EA270C2C391}"/>
+							<Time>8</Time>
+							<IsShared>true</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="PORT" ID="{043CCA0F-0E58-4B37-9D53-F3B7120D3209}"/>
+							<EndState Name="FALAISE" ID="{5CB745B9-61E5-476E-B139-0055819A76AE}"/>
+							<Time>14</Time>
+							<IsShared>true</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="FALAISE" ID="{5CB745B9-61E5-476E-B139-0055819A76AE}"/>
+							<EndState Name="VILLAGE" ID="{DA36E68C-BFB9-4945-B864-1626C864EC6F}"/>
+							<Time>14</Time>
+							<IsShared>true</IsShared>
+						</Transition>
+					</TransitionList>
+				</StateGroup>
+				<StateGroup Name="MAP_ZONE_FALAISE" ID="{574E5013-147D-40A3-BEB6-FB2429A1169D}">
+					<PropertyList>
+						<Property Name="DefaultTransitionTime" Type="Real64" Value="1.7"/>
+					</PropertyList>
+					<ChildrenList>
+						<State Name="None" ID="{F7E252E4-E4C4-45B5-B240-76A4E0D8F8EF}"/>
+						<State Name="FALAISE_BEGIN" ID="{45208006-D480-44BB-A159-8FB15AE55C49}"/>
+						<State Name="FALAISE_END" ID="{86783706-57C2-4898-A14E-CAA1944EA592}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="CLOCHES_PLAYEDONCE" ID="{63420C3B-915C-4E42-8373-2A463E497DED}">
+					<PropertyList>
+						<Property Name="DefaultTransitionTime" Type="Real64" Value="2"/>
+					</PropertyList>
+					<ChildrenList>
+						<State Name="None" ID="{ED694261-B290-4651-B7A8-66AE21EE2468}"/>
+						<State Name="CLOCHES_PLAYEDONCE_TRUE" ID="{D2FD8B23-FE96-4698-970B-DC255A83AC64}"/>
+						<State Name="CLOCHES_PLAYEDONCE_FALSE" ID="{DC6A1D07-6CB7-41C6-87EF-C34C8E9F1742}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="MUSIQUE_VILLAGE_END" ID="{81BA56A8-B260-4C7C-8A81-7B38928FA1C8}">
+					<ChildrenList>
+						<State Name="None" ID="{D622E5EF-C25F-4EC1-BED3-C54F5F5A28AC}"/>
+						<State Name="END" ID="{39D4A364-4B5A-4ABB-923B-FB6380E131DA}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="MUSIQUE_BAGARRE_END" ID="{337806C1-B083-4265-B144-203CECB1EF4C}">
+					<ChildrenList>
+						<State Name="None" ID="{B6A231CD-1C41-4048-A287-7C871E57C742}"/>
+						<State Name="END" ID="{76AD8184-63A7-4D8F-AC3B-1C1B9AFB0E6D}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="MUSIQUE_TUTO_END" ID="{5859FDF4-05C0-45EE-9139-59641A98B4B9}">
+					<ChildrenList>
+						<State Name="None" ID="{0CA60A7A-6318-49BA-9B87-37691A305380}"/>
+						<State Name="END" ID="{C210AC2A-C924-4681-A756-5BF7C0E4C1F4}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="GAME_PHASE" ID="{1A53AEE9-5968-4D31-9211-ADCE44100A52}">
+					<PropertyList>
+						<Property Name="DefaultTransitionTime" Type="Real64" Value="4"/>
+					</PropertyList>
+					<ChildrenList>
+						<State Name="None" ID="{906AA8EA-66E8-4C54-8652-F23C96C24AFB}"/>
+						<State Name="MENU" ID="{ED0DD46B-8588-4520-A034-C19A44E24DF7}"/>
+						<State Name="INGAME" ID="{46D05DF8-C2ED-40B8-B923-95E086FC1009}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>

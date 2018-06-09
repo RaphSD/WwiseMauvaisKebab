@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{2B42A094-68F1-4414-A1E6-24FF64B8FBF8}" SchemaVersion="85">
+	<Busses>
+		<WorkUnit Name="Default Work Unit" ID="{2B42A094-68F1-4414-A1E6-24FF64B8FBF8}" PersistMode="Standalone">
+			<ChildrenList>
+				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
+					<ReferenceList>
+						<Reference Name="AudioDevice">
+							<ObjectRef Name="System" ID="{850A1253-0D3C-4F84-B063-3E92BA4DBEBB}" WorkUnitID="{2487C6A0-FA32-4207-A1CE-5CDA417A171C}"/>
+						</Reference>
+						<Reference Name="Effect3" PluginName="Wwise Peak Limiter" CompanyID="0" PluginID="110" PluginType="3">
+							<ObjectRef Name="Brick_Wall_Minus_1dB_Peak_Fast_Release" ID="{2144284E-7ADD-4341-86A4-4E468BEC9A2D}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Bus Name="SFX" ID="{53966FD4-D982-418F-9758-6E299712664C}">
+							<ChildrenList>
+								<Bus Name="SFX_DRY" ID="{FB8E013A-CCFE-499F-B0D5-C74A2D2DAF2E}">
+									<ChildrenList>
+										<Bus Name="CHARA" ID="{967B77B6-5132-4815-A5B7-8C5944134086}">
+											<ChildrenList>
+												<Bus Name="HEPHA" ID="{6D8BB1D6-1943-4F23-A4EE-AA0D281A0342}"/>
+											</ChildrenList>
+										</Bus>
+										<Bus Name="AMB" ID="{52FAE969-B729-4298-A285-73A7629A04F5}">
+											<PropertyList>
+												<Property Name="BusVolume" Type="Real64">
+													<ValueList>
+														<Value>7</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+										</Bus>
+										<Bus Name="OBJECTS" ID="{BC2BF6A1-68D4-484C-8A4B-1CCCA959DB1B}"/>
+									</ChildrenList>
+								</Bus>
+								<Bus Name="SFX_RVB" ID="{9A9F36B1-D8EF-40DA-8C63-D1BF5B2509A7}">
+									<ChildrenList>
+										<AuxBus Name="AC_FALAISE" ID="{94A2E18E-ABD9-436E-BDAB-7A89594E206A}">
+											<ReferenceList>
+												<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+													<ObjectRef Name="Hall_Small_Bright" ID="{D8AD1955-D2BA-4C88-A806-E2D8AB47A90B}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+												</Reference>
+											</ReferenceList>
+										</AuxBus>
+										<AuxBus Name="AC_PORT" ID="{57330065-42D0-456F-BF38-FC9438A8BC3F}">
+											<ReferenceList>
+												<Reference Name="Effect0">
+													<Custom CreatedFrom="{FE29AE8D-FD86-4652-A95D-68D32F5760EC}">
+														<Effect Name="Have_U_Ever_Been_Outside (Custom)" ID="{88ECEC12-12A6-4913-8F5E-CF2D1D1B2DCC}" ShortID="314772660" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+															<PropertyList>
+																<Property Name="DecayTime" Type="Real32" Value="2.5"/>
+																<Property Name="Density" Type="Real32" Value="50"/>
+																<Property Name="ERLevel" Type="Real32" Value="-19"/>
+																<Property Name="ERPattern" Type="int32" Value="29"/>
+																<Property Name="Filter1Freq" Type="Real32" Value="210"/>
+																<Property Name="Filter1Gain" Type="Real32" Value="1.5"/>
+																<Property Name="Filter2Freq" Type="Real32" Value="6830"/>
+																<Property Name="Filter2Gain" Type="Real32" Value="-7.5"/>
+																<Property Name="Filter2Q" Type="Real32" Value="0.65"/>
+																<Property Name="Filter3Freq" Type="Real32" Value="8440"/>
+																<Property Name="Filter3Gain" Type="Real32" Value="-4"/>
+																<Property Name="HFDamping" Type="Real32" Value="5.05"/>
+																<Property Name="PreDelay" Type="Real32" Value="164"/>
+																<Property Name="Quality" Type="int32" Value="12"/>
+																<Property Name="ReverbLevel" Type="Real32" Value="-25"/>
+																<Property Name="RoomShape" Type="Real32" Value="36"/>
+																<Property Name="RoomSize" Type="Real32" Value="-4"/>
+																<Property Name="StereoWidth" Type="Real32" Value="136"/>
+															</PropertyList>
+														</Effect>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+										</AuxBus>
+										<AuxBus Name="AC_VILLAGE" ID="{0D2D0970-187F-476F-BE41-AD8CDD5D3F9B}">
+											<ReferenceList>
+												<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+													<ObjectRef Name="Hall_Medium_Bright" ID="{3C3845B2-C76E-4634-9108-83FA43A5A7BC}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+												</Reference>
+											</ReferenceList>
+										</AuxBus>
+									</ChildrenList>
+								</Bus>
+							</ChildrenList>
+						</Bus>
+						<Bus Name="M" ID="{D3DCFA47-4DAA-4AA2-9128-E0A7E9FB6208}">
+							<ChildrenList>
+								<Bus Name="M_RVB" ID="{C8393370-1A12-4D28-96F5-628497ADF0D9}">
+									<ChildrenList>
+										<AuxBus Name="M_FALAISE_RVB" ID="{4C9DD660-34C6-4B58-A460-7C5DE1473FD8}">
+											<ReferenceList>
+												<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+													<ObjectRef Name="Hall_Small_Bright" ID="{D8AD1955-D2BA-4C88-A806-E2D8AB47A90B}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+												</Reference>
+											</ReferenceList>
+										</AuxBus>
+										<AuxBus Name="M_PORT_RVB" ID="{4039EBFF-2400-4578-8F9F-94214D86D0F0}">
+											<ReferenceList>
+												<Reference Name="Effect0">
+													<Custom CreatedFrom="{FE29AE8D-FD86-4652-A95D-68D32F5760EC}">
+														<Effect Name="Have_U_Ever_Been_Outside (Custom)" ID="{E3E269A8-2D89-4311-B2DE-E2B93D7E1C1E}" ShortID="422508839" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+															<PropertyList>
+																<Property Name="DecayTime" Type="Real32" Value="2.5"/>
+																<Property Name="Density" Type="Real32" Value="50"/>
+																<Property Name="Diffusion" Type="Real32" Value="19"/>
+																<Property Name="ERLevel" Type="Real32" Value="-16"/>
+																<Property Name="ERPattern" Type="int32" Value="29"/>
+																<Property Name="EnableToneControls" Type="bool" Value="True"/>
+																<Property Name="Filter1Freq" Type="Real32" Value="210"/>
+																<Property Name="Filter1Gain" Type="Real32" Value="1.5"/>
+																<Property Name="Filter2Freq" Type="Real32" Value="6830"/>
+																<Property Name="Filter2Gain" Type="Real32" Value="-7.5"/>
+																<Property Name="Filter2Q" Type="Real32" Value="0.65"/>
+																<Property Name="Filter3Freq" Type="Real32" Value="8440"/>
+																<Property Name="Filter3Gain" Type="Real32" Value="-4"/>
+																<Property Name="HFDamping" Type="Real32" Value="10"/>
+																<Property Name="PreDelay" Type="Real32" Value="87"/>
+																<Property Name="Quality" Type="int32" Value="6"/>
+																<Property Name="ReverbLevel" Type="Real32" Value="-26"/>
+																<Property Name="RoomShape" Type="Real32" Value="36"/>
+																<Property Name="RoomSize" Type="Real32" Value="-4"/>
+																<Property Name="StereoWidth" Type="Real32" Value="136"/>
+															</PropertyList>
+														</Effect>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+										</AuxBus>
+										<AuxBus Name="M_VILLAGE_RVB" ID="{3120EE01-40A8-4A6D-9AD2-16C5717D99D4}">
+											<ReferenceList>
+												<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+													<ObjectRef Name="Hall_Medium_Bright" ID="{3C3845B2-C76E-4634-9108-83FA43A5A7BC}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+												</Reference>
+											</ReferenceList>
+										</AuxBus>
+									</ChildrenList>
+								</Bus>
+								<Bus Name="M_DRY" ID="{A4856902-9336-4E76-AF6A-5D2A1F580A1B}">
+									<ChildrenList>
+										<Bus Name="M_TUTO" ID="{356057B1-D0CA-45A3-AD4D-663D66CEA03D}">
+											<ChildrenList>
+												<Bus Name="M_THEME" ID="{52A19408-E689-4041-86E5-76EBDB20CE6D}"/>
+												<Bus Name="PAIN_GTR" ID="{4970CEB5-8E9F-4002-9461-5B78A472965D}">
+													<ReferenceList>
+														<Reference Name="Effect0">
+															<Custom>
+																<Effect Name="Wwise Meter (Custom)" ID="{13DC685D-9AAC-4D71-93CB-F8DF2F9BBC6D}" ShortID="364517824" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">
+																	<PropertyList>
+																		<Property Name="Max" Type="Real32" Value="-37.6"/>
+																		<Property Name="MeterScope" Type="int32" Value="1"/>
+																		<Property Name="Min" Type="Real32" Value="-96"/>
+																		<Property Name="ReleaseTime" Type="Real32" Value="0"/>
+																	</PropertyList>
+																	<PluginData>
+	<GameParameter Name="TUTO_SC_PAINtoGTR" ID="{3C747DAE-43BE-4312-9342-6781079F2B9A}"/>
+</PluginData>
+																</Effect>
+															</Custom>
+														</Reference>
+													</ReferenceList>
+												</Bus>
+												<Bus Name="FRACAS" ID="{47DDEDC6-09C1-42C4-B54D-46EBB4F9EAD6}"/>
+											</ChildrenList>
+										</Bus>
+									</ChildrenList>
+								</Bus>
+							</ChildrenList>
+						</Bus>
+					</ChildrenList>
+				</Bus>
+			</ChildrenList>
+		</WorkUnit>
+	</Busses>
+</WwiseDocument>

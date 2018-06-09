@@ -1,0 +1,97 @@
+Switch Group	ID	Name			Wwise Object Path	Notes
+	3068589479	SW_INTERACTIVE_OBJECTS			\WU_VBG_Switches\SW_INTERACTIVE_OBJECTS	
+
+Switch	ID	Name	Switch Group			Notes
+	459611840	DEBRIS	SW_INTERACTIVE_OBJECTS			
+	2446376615	DESTRUCTION	SW_INTERACTIVE_OBJECTS			
+	3257506471	IMPACT	SW_INTERACTIVE_OBJECTS			
+
+State Group	ID	Name			Wwise Object Path	Notes
+	311715509	MUSIQUE_VILLAGE_END			\WU_VBG_States\MUSIQUE_VILLAGE_END	
+	405198451	CLOCHES_PLAYEDONCE			\WU_VBG_States\CLOCHES_PLAYEDONCE	
+	838332226	MAP_ZONE			\WU_VBG_States\MAP_ZONE	
+	1237485236	MAP_ZONE_FALAISE			\WU_VBG_States\MAP_ZONE_FALAISE	
+	1314692777	MUSIQUE_TUTO_END			\WU_VBG_States\MUSIQUE_TUTO_END	
+	2407702553	GAMEPLAY_PHASE			\WU_VBG_States\GAMEPLAY_PHASE	
+	2547494701	MUSIQUE_BAGARRE_END			\WU_VBG_States\MUSIQUE_BAGARRE_END	
+	3211383847	GAME_PHASE			\WU_VBG_States\GAME_PHASE	
+
+State	ID	Name	State Group			Notes
+	0	None	MUSIQUE_VILLAGE_END			
+	529726532	END	MUSIQUE_VILLAGE_END			
+	0	None	CLOCHES_PLAYEDONCE			
+	431645235	CLOCHES_PLAYEDONCE_FALSE	CLOCHES_PLAYEDONCE			
+	1549226682	CLOCHES_PLAYEDONCE_TRUE	CLOCHES_PLAYEDONCE			
+	0	None	MAP_ZONE			
+	1608679832	PORT	MAP_ZONE			
+	1866337637	PORT_MER	MAP_ZONE			
+	3168137712	FALAISE	MAP_ZONE			
+	3945572659	VILLAGE	MAP_ZONE			
+	0	None	MAP_ZONE_FALAISE			
+	2124917922	FALAISE_BEGIN	MAP_ZONE_FALAISE			
+	3997991830	FALAISE_END	MAP_ZONE_FALAISE			
+	0	None	MUSIQUE_TUTO_END			
+	529726532	END	MUSIQUE_TUTO_END			
+	0	None	GAMEPLAY_PHASE			
+	2247125562	ACTIF	GAMEPLAY_PHASE			
+	2831715831	PASSIF	GAMEPLAY_PHASE			
+	0	None	MUSIQUE_BAGARRE_END			
+	529726532	END	MUSIQUE_BAGARRE_END			
+	0	None	GAME_PHASE			
+	984691642	INGAME	GAME_PHASE			
+	2607556080	MENU	GAME_PHASE			
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	504532776	Brick			\Factory Reflect Acoustic Textures\Textures\Brick	
+	513139656	Mountain			\Factory Reflect Acoustic Textures\Textures\Mountain	
+	841620460	Concrete			\Factory Reflect Acoustic Textures\Textures\Concrete	
+	1755085759	Wood_Deep			\Factory Reflect Acoustic Textures\Textures\Wood_Deep	
+	1873957695	Anechoic			\Factory Reflect Acoustic Textures\Textures\Anechoic	
+	1970351858	Fabric			\Factory Reflect Acoustic Textures\Textures\Fabric	
+	2058049674	Wood			\Factory Reflect Acoustic Textures\Textures\Wood	
+	2412606308	Carpet			\Factory Reflect Acoustic Textures\Textures\Carpet	
+	2637588553	Tile			\Factory Reflect Acoustic Textures\Textures\Tile	
+	2928161104	Curtains			\Factory Reflect Acoustic Textures\Textures\Curtains	
+	3195498748	Cork_Tiles			\Factory Reflect Acoustic Textures\Textures\Cork_Tiles	
+	3670307564	Drywall			\Factory Reflect Acoustic Textures\Textures\Drywall	
+	4168643977	Acoustic_Banner			\Factory Reflect Acoustic Textures\Textures\Acoustic_Banner	
+	4262522749	Wood_Bright			\Factory Reflect Acoustic Textures\Textures\Wood_Bright	
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	84696434	M			\Default Work Unit\Master Audio Bus\M	
+	129293648	SFX_DRY			\Default Work Unit\Master Audio Bus\SFX\SFX_DRY	
+	194138449	SFX_RVB			\Default Work Unit\Master Audio Bus\SFX\SFX_RVB	
+	202719381	M_RVB			\Default Work Unit\Master Audio Bus\M\M_RVB	
+	268255780	M_DRY			\Default Work Unit\Master Audio Bus\M\M_DRY	
+	393239870	SFX			\Default Work Unit\Master Audio Bus\SFX	
+	434268486	CHARA			\Default Work Unit\Master Audio Bus\SFX\SFX_DRY\CHARA	
+	538663323	M_TUTO			\Default Work Unit\Master Audio Bus\M\M_DRY\M_TUTO	
+	1117531639	AMB			\Default Work Unit\Master Audio Bus\SFX\SFX_DRY\AMB	
+	1695690031	OBJECTS			\Default Work Unit\Master Audio Bus\SFX\SFX_DRY\OBJECTS	
+	1717569757	PAIN_GTR			\Default Work Unit\Master Audio Bus\M\M_DRY\M_TUTO\PAIN_GTR	
+	2461340601	HEPHA			\Default Work Unit\Master Audio Bus\SFX\SFX_DRY\CHARA\HEPHA	
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+	4071691516	M_THEME			\Default Work Unit\Master Audio Bus\M\M_DRY\M_TUTO\M_THEME	
+	4170330561	FRACAS			\Default Work Unit\Master Audio Bus\M\M_DRY\M_TUTO\FRACAS	
+
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	403506911	M_PORT_RVB			\Default Work Unit\Master Audio Bus\M\M_RVB\M_PORT_RVB	
+	2055135965	AC_PORT			\Default Work Unit\Master Audio Bus\SFX\SFX_RVB\AC_PORT	
+	2198744599	M_FALAISE_RVB			\Default Work Unit\Master Audio Bus\M\M_RVB\M_FALAISE_RVB	
+	2725865684	AC_VILLAGE			\Default Work Unit\Master Audio Bus\SFX\SFX_RVB\AC_VILLAGE	
+	2844349151	AC_FALAISE			\Default Work Unit\Master Audio Bus\SFX\SFX_RVB\AC_FALAISE	
+	4179182004	M_VILLAGE_RVB			\Default Work Unit\Master Audio Bus\M\M_RVB\M_VILLAGE_RVB	
+
+Effect plug-ins	ID	Name	Type				Notes
+	314772660	Have_U_Ever_Been_Outside (Custom)	Wwise RoomVerb			
+	364517824	Wwise Meter (Custom)	Wwise Meter			
+	422508839	Have_U_Ever_Been_Outside (Custom)	Wwise RoomVerb			
+	1459522457	Brick_Wall_Minus_1dB_Peak_Fast_Release	Wwise Peak Limiter			
+	1520064353	Hall_Medium_Bright	Wwise RoomVerb			
+	2949243095	Hall_Small_Bright	Wwise RoomVerb			
+
+Audio Devices	ID	Name	Type				Notes
+	530303819	Communication	Communication			
+	2317455096	No_Output	No Output			
+	3859886410	System	System			
+

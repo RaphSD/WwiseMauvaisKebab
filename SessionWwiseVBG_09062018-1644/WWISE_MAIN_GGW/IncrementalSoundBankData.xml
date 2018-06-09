@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<IncrementalBankBuild Version="6" Flags="3336423860">
+	<Platform GUID="{2F72EF33-3FC4-417F-8086-D3B58A8649BD}">
+		<Banks>
+			<Language ID="393239870">
+				<File Name="Init" Hash="4200214980" Timestamp="1528148774"/>
+				<File Name="VBG_MAIN_SBK" Hash="3061187222" Timestamp="1528222213"/>
+			</Language>
+			<Language ID="684519430">
+				<File Name="VBG_MAIN_SBK" Hash="1384838678" Timestamp="1526216060"/>
+			</Language>
+		</Banks>
+		<XMLInfo>
+			<Language ID="393239870">
+				<File Name="Init" Hash="2261663032" Timestamp="1528148774"/>
+				<File Name="VBG_MAIN_SBK" Hash="497386697" Timestamp="1528222214"/>
+			</Language>
+			<Language ID="684519430">
+				<File Name="VBG_MAIN_SBK" Hash="3939943864" Timestamp="1526216062"/>
+			</Language>
+			<Language ID="-1">
+				<File Name="" Hash="2450069733" Timestamp="1528222213"/>
+			</Language>
+		</XMLInfo>
+		<JSONInfo>
+			<Language ID="393239870">
+				<File Name="Init" Hash="1668456625" Timestamp="1528148774"/>
+				<File Name="VBG_MAIN_SBK" Hash="618983451" Timestamp="1528222214"/>
+			</Language>
+			<Language ID="684519430">
+				<File Name="VBG_MAIN_SBK" Hash="216259670" Timestamp="1526216062"/>
+			</Language>
+			<Language ID="-1">
+				<File Name="" Hash="1928928132" Timestamp="1528222214"/>
+			</Language>
+		</JSONInfo>
+	</Platform>
+</IncrementalBankBuild>

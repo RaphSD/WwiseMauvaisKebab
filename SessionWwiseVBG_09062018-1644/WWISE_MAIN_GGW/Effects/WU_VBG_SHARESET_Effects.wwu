@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{E9DE74B4-CD13-4986-8797-043FE5249101}" SchemaVersion="85">
+	<Effects>
+		<WorkUnit Name="WU_VBG_SHARESET_Effects" ID="{E9DE74B4-CD13-4986-8797-043FE5249101}" PersistMode="Standalone"/>
+	</Effects>
+</WwiseDocument>

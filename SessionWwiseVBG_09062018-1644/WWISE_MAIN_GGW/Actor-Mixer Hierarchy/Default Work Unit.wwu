@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{4D9979DD-035D-4954-82ED-5B4E97F59563}" SchemaVersion="85">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{4D9979DD-035D-4954-82ED-5B4E97F59563}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="EVENTBATCHRENAME" ID="{CD4D3F48-44FB-477C-A958-63DE02CEDCC9}" ShortID="1036218759"/>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

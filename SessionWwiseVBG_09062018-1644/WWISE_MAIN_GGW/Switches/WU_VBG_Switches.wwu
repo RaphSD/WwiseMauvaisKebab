@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{37F7B3E2-994F-479E-9504-DE4D5023DBB8}" SchemaVersion="85">
+	<Switches>
+		<WorkUnit Name="WU_VBG_Switches" ID="{37F7B3E2-994F-479E-9504-DE4D5023DBB8}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="SW_Footsteps_Texture" ID="{F985EDC7-D408-4E34-8334-FBA5CC6A11D0}">
+					<ChildrenList>
+						<Switch Name="Dirt" ID="{CB99854B-A3D8-429F-ABD9-08EF2C087269}"/>
+						<Switch Name="Wood" ID="{76B7D577-3F3F-4F04-87AE-21A3D481B242}"/>
+						<Switch Name="Stone" ID="{C09AE937-39A2-4AF3-BBE8-EB82020FEB76}"/>
+						<Switch Name="Metal" ID="{05465050-7C53-480A-B288-875374F1E282}"/>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="SW_M_VBG_PROGRESS" ID="{A6537C94-F225-4B67-B5B9-FAB17FE7EFC8}">
+					<ChildrenList>
+						<Switch Name="INTRO" ID="{593ABECF-3743-44B8-B447-3CD636E018AD}"/>
+						<Switch Name="THEME" ID="{12F63D31-7FBE-4FB1-8C4B-FF03239AC912}"/>
+						<Switch Name="THEMPROG" ID="{43A9693D-9715-4F6B-9C80-4310A6C7E044}"/>
+						<Switch Name="THEMEACC" ID="{89C396E7-8C91-4607-B854-4CA2580F39C7}"/>
+						<Switch Name="FINAL" ID="{76467A9E-03B7-47CF-B455-AA665555B5D8}"/>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="SW_INTERACTIVE_OBJECTS" ID="{3D13D9D3-7F90-440F-9398-C1318C032169}">
+					<ChildrenList>
+						<Switch Name="IMPACT" ID="{3DE6E014-E7A9-46C9-BA5B-D0AB0D443DA3}"/>
+						<Switch Name="DESTRUCTION" ID="{14AE909D-4602-4CEC-B7B7-6FAABDB77106}"/>
+						<Switch Name="DEBRIS" ID="{E78B1833-2D04-4CE5-95A1-B2A303719A58}"/>
+					</ChildrenList>
+					<SwitchOnRTPC>
+						<GameParameterRef Name="RTPC_DistVillage" ID="{A1B01ACA-BCEB-4CC0-864A-645CE50ABEE7}"/>
+						<Curve Name="" ID="{9850C4C5-A542-4A90-A678-4C24BFC7C15B}">
+							<PropertyList>
+								<Property Name="Flags" Type="int32" Value="65537"/>
+							</PropertyList>
+							<PointList>
+								<Point>
+									<XPos>0</XPos>
+									<YPos>0</YPos>
+									<Flags>5</Flags>
+								</Point>
+								<Point>
+									<XPos>100</XPos>
+									<YPos>0</YPos>
+									<Flags>37</Flags>
+								</Point>
+							</PointList>
+						</Curve>
+					</SwitchOnRTPC>
+				</SwitchGroup>
+				<SwitchGroup Name="SW_TOURBILOL" ID="{CD9BF80F-B613-4CBE-BDAB-EEC91FC08A14}">
+					<ChildrenList>
+						<Switch Name="TRUE" ID="{45519F2A-B81A-4BD8-9BBB-A6D0C1A4EB31}"/>
+						<Switch Name="FALSE" ID="{8EBD0C97-4407-42B0-94A0-C56E27C47B88}"/>
+					</ChildrenList>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</Switches>
+</WwiseDocument>

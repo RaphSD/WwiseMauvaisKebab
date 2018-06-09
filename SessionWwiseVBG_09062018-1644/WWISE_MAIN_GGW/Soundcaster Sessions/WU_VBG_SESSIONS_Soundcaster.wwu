@@ -1,0 +1,851 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{ABDB9467-B005-4135-A1B4-EFC94AF808F8}" SchemaVersion="85">
+	<SoundcasterSessions>
+		<WorkUnit Name="WU_VBG_SESSIONS_Soundcaster" ID="{ABDB9467-B005-4135-A1B4-EFC94AF808F8}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="SDC_MAIN" ID="{39D57F5E-396E-45C8-8560-B06504D45311}">
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="debug_SPEEDPLAYBACK" ID="{F81781CB-1AA9-46E7-A96B-765CF6B13E13}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_DistVillage" ID="{A1B01ACA-BCEB-4CC0-864A-645CE50ABEE7}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_GAMEDEFINED_DISTANCE_MOULIN" ID="{45CE2059-DB18-4F6A-A943-F244616F52EB}"/>
+							<Value>0</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="FALAISE_BEGIN" ID="{45208006-D480-44BB-A159-8FB15AE55C49}"/>
+						<CurrentStateRef Name="ACTIF" ID="{5037D32D-7DF3-4544-AF6C-649D26966A85}"/>
+						<CurrentStateRef Name="PORT_MER" ID="{08EEC8DD-B198-464B-8F65-2EA270C2C391}"/>
+						<CurrentStateRef Name="CLOCHES_PLAYEDONCE_TRUE" ID="{D2FD8B23-FE96-4698-970B-DC255A83AC64}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="DEBRIS" ID="{E78B1833-2D04-4CE5-95A1-B2A303719A58}"/>
+						<CurrentSwitchRef Name="INTRO" ID="{593ABECF-3743-44B8-B447-3CD636E018AD}"/>
+						<CurrentSwitchRef Name="Metal" ID="{05465050-7C53-480A-B288-875374F1E282}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+				<SoundcasterSession Name="SDC_M_DEMO2" ID="{795D4D00-4FB3-40AB-B924-CBA28E1E9EF5}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="test_M_VILLAGE_DIEGETIQUE" ID="{F6FD5BDF-AFDB-4D35-9AB8-99C39732CD4A}" WorkUnitID="{18170C99-9932-4AEA-A67D-3ACB79FC6612}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="TriggerZone_PORT_MER" ID="{CAA76D2D-EF84-45F9-BB34-6FC40A3FD9D8}" WorkUnitID="{18170C99-9932-4AEA-A67D-3ACB79FC6612}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="TriggerZone_PORT" ID="{4FEEB20E-72D6-4421-8BC5-42B8114E9C1F}" WorkUnitID="{18170C99-9932-4AEA-A67D-3ACB79FC6612}"/>
+							<Position X="3" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="TriggerZone_FALAISE" ID="{AA66F78E-4496-4EBA-8238-F723E8F0C0DA}" WorkUnitID="{18170C99-9932-4AEA-A67D-3ACB79FC6612}"/>
+							<Position X="3" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="TriggerZone_VILLAGE" ID="{5189156D-ED9A-45C1-A5CD-5919EE796024}" WorkUnitID="{18170C99-9932-4AEA-A67D-3ACB79FC6612}"/>
+							<Position X="3" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_M_THEME_VILLAGE_FIN" ID="{EB31EEE5-3917-44D6-A174-A33EEA872104}" WorkUnitID="{18170C99-9932-4AEA-A67D-3ACB79FC6612}"/>
+							<Position X="3" Y="4"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="TriggerZone_BEGIN_FALAISE" ID="{F4A87C89-3B6D-40D5-9641-B26F6FBCDF4B}" WorkUnitID="{18170C99-9932-4AEA-A67D-3ACB79FC6612}"/>
+							<Position X="4" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="TriggerZone_END_FALAISE" ID="{4DC4B9DF-DEA7-4EFB-86F7-1693F3C08972}" WorkUnitID="{18170C99-9932-4AEA-A67D-3ACB79FC6612}"/>
+							<Position X="4" Y="2"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="TUTO_SC_PAINtoGTR" ID="{3C747DAE-43BE-4312-9342-6781079F2B9A}"/>
+							<Value>-96</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="debug_SPEEDPLAYBACK" ID="{F81781CB-1AA9-46E7-A96B-765CF6B13E13}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_DistVillage" ID="{A1B01ACA-BCEB-4CC0-864A-645CE50ABEE7}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_GAMEDEFINED_DISTANCE_MOULIN" ID="{45CE2059-DB18-4F6A-A943-F244616F52EB}"/>
+							<Value>0</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="FALAISE_END" ID="{86783706-57C2-4898-A14E-CAA1944EA592}"/>
+						<CurrentStateRef Name="ACTIF" ID="{5037D32D-7DF3-4544-AF6C-649D26966A85}"/>
+						<CurrentStateRef Name="PORT" ID="{043CCA0F-0E58-4B37-9D53-F3B7120D3209}"/>
+						<CurrentStateRef Name="None" ID="{D622E5EF-C25F-4EC1-BED3-C54F5F5A28AC}"/>
+						<CurrentStateRef Name="CLOCHES_PLAYEDONCE_FALSE" ID="{DC6A1D07-6CB7-41C6-87EF-C34C8E9F1742}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="DEBRIS" ID="{E78B1833-2D04-4CE5-95A1-B2A303719A58}"/>
+						<CurrentSwitchRef Name="INTRO" ID="{593ABECF-3743-44B8-B447-3CD636E018AD}"/>
+						<CurrentSwitchRef Name="Metal" ID="{05465050-7C53-480A-B288-875374F1E282}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+				<SoundcasterSession Name="SDC_AMB" ID="{ECE84A1A-8D1E-458B-9423-25A7A519252C}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="AMB_Init" ID="{B5E153F3-BD29-4951-99EA-C4AE99B45339}" WorkUnitID="{18170C99-9932-4AEA-A67D-3ACB79FC6612}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="AMB_PORT" ID="{4B1DF12D-4ADA-4ECF-B917-099F6432248F}" WorkUnitID="{18170C99-9932-4AEA-A67D-3ACB79FC6612}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="AMB_FALAISE" ID="{1A75576D-8424-4DB5-999E-DD6334FC8EE9}" WorkUnitID="{18170C99-9932-4AEA-A67D-3ACB79FC6612}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="TriggerZone_PORT_MER" ID="{CAA76D2D-EF84-45F9-BB34-6FC40A3FD9D8}" WorkUnitID="{18170C99-9932-4AEA-A67D-3ACB79FC6612}"/>
+							<Position X="3" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="TriggerZone_PORT" ID="{4FEEB20E-72D6-4421-8BC5-42B8114E9C1F}" WorkUnitID="{18170C99-9932-4AEA-A67D-3ACB79FC6612}"/>
+							<Position X="3" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="TriggerZone_FALAISE" ID="{AA66F78E-4496-4EBA-8238-F723E8F0C0DA}" WorkUnitID="{18170C99-9932-4AEA-A67D-3ACB79FC6612}"/>
+							<Position X="3" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="TriggerZone_VILLAGE" ID="{5189156D-ED9A-45C1-A5CD-5919EE796024}" WorkUnitID="{18170C99-9932-4AEA-A67D-3ACB79FC6612}"/>
+							<Position X="3" Y="4"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="TriggerZone_BEGIN_FALAISE" ID="{F4A87C89-3B6D-40D5-9641-B26F6FBCDF4B}" WorkUnitID="{18170C99-9932-4AEA-A67D-3ACB79FC6612}"/>
+							<Position X="4" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="TriggerZone_END_FALAISE" ID="{4DC4B9DF-DEA7-4EFB-86F7-1693F3C08972}" WorkUnitID="{18170C99-9932-4AEA-A67D-3ACB79FC6612}"/>
+							<Position X="4" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_AMB_FALAISE_MOULIN_3D_LOOP" ID="{C40A64F6-25B9-48CC-8CFF-ADAC6D48F713}" WorkUnitID="{18170C99-9932-4AEA-A67D-3ACB79FC6612}"/>
+							<Position X="5" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="debug_SPEEDPLAYBACK" ID="{F81781CB-1AA9-46E7-A96B-765CF6B13E13}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_DistVillage" ID="{A1B01ACA-BCEB-4CC0-864A-645CE50ABEE7}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_GAMEDEFINED_DISTANCE_MOULIN" ID="{45CE2059-DB18-4F6A-A943-F244616F52EB}"/>
+							<Value>0</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="FALAISE_BEGIN" ID="{45208006-D480-44BB-A159-8FB15AE55C49}"/>
+						<CurrentStateRef Name="ACTIF" ID="{5037D32D-7DF3-4544-AF6C-649D26966A85}"/>
+						<CurrentStateRef Name="PORT" ID="{043CCA0F-0E58-4B37-9D53-F3B7120D3209}"/>
+						<CurrentStateRef Name="CLOCHES_PLAYEDONCE_FALSE" ID="{DC6A1D07-6CB7-41C6-87EF-C34C8E9F1742}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="DEBRIS" ID="{E78B1833-2D04-4CE5-95A1-B2A303719A58}"/>
+						<CurrentSwitchRef Name="FINAL" ID="{76467A9E-03B7-47CF-B455-AA665555B5D8}"/>
+						<CurrentSwitchRef Name="Dirt" ID="{CB99854B-A3D8-429F-ABD9-08EF2C087269}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+				<SoundcasterSession Name="SDC_OBJETS" ID="{A1B362B0-5E3C-46BA-ADD5-A43F0739595A}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Play_InterObjects_STONES_DESTRUCTION" ID="{BA2E0A13-DA55-4832-B359-208629686A11}" WorkUnitID="{18170C99-9932-4AEA-A67D-3ACB79FC6612}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_InterObjects_METALCREUX" ID="{E6FA2BAE-8F51-4297-B8B8-363306C38791}" WorkUnitID="{18170C99-9932-4AEA-A67D-3ACB79FC6612}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_BARREL_ROLL" ID="{EE122232-7C42-4DEF-9F46-02157E9016F2}" WorkUnitID="{18170C99-9932-4AEA-A67D-3ACB79FC6612}"/>
+							<Position X="0" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_InterObjects_WOODS" ID="{D55CDDA9-4130-443C-9D8C-B906787DBD05}" WorkUnitID="{18170C99-9932-4AEA-A67D-3ACB79FC6612}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_InterObjects_CONTAINER" ID="{2E4AE6C7-0778-4C02-8074-3911626EB5D5}" WorkUnitID="{18170C99-9932-4AEA-A67D-3ACB79FC6612}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Stop_BARREL_ROLL" ID="{A62F1ABF-FC5C-4E86-BA1C-4CC5A3A4C02C}" WorkUnitID="{18170C99-9932-4AEA-A67D-3ACB79FC6612}"/>
+							<Position X="1" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_InterObjects_WOODS_LIGHT" ID="{02CEA695-2399-4697-800F-32491A8B3292}" WorkUnitID="{18170C99-9932-4AEA-A67D-3ACB79FC6612}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_EAU_SPLASH" ID="{B24E8C60-B350-4CCB-AB66-03559B3650DF}" WorkUnitID="{18170C99-9932-4AEA-A67D-3ACB79FC6612}"/>
+							<Position X="2" Y="2"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="TUTO_SC_PAINtoGTR" ID="{3C747DAE-43BE-4312-9342-6781079F2B9A}"/>
+							<Value>-96</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SC_SPECIALS_ImpactToSkill" ID="{AD8A6DC4-6E8E-4664-9ABA-4A1E5A61D820}"/>
+							<Value>-12</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="debug_SPEEDPLAYBACK" ID="{F81781CB-1AA9-46E7-A96B-765CF6B13E13}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_DistVillage" ID="{A1B01ACA-BCEB-4CC0-864A-645CE50ABEE7}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_GAMEDEFINED_DISTANCE_MOULIN" ID="{45CE2059-DB18-4F6A-A943-F244616F52EB}"/>
+							<Value>0</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="None" ID="{F7E252E4-E4C4-45B5-B240-76A4E0D8F8EF}"/>
+						<CurrentStateRef Name="ACTIF" ID="{5037D32D-7DF3-4544-AF6C-649D26966A85}"/>
+						<CurrentStateRef Name="VILLAGE" ID="{DA36E68C-BFB9-4945-B864-1626C864EC6F}"/>
+						<CurrentStateRef Name="END" ID="{76AD8184-63A7-4D8F-AC3B-1C1B9AFB0E6D}"/>
+						<CurrentStateRef Name="END" ID="{39D4A364-4B5A-4ABB-923B-FB6380E131DA}"/>
+						<CurrentStateRef Name="CLOCHES_PLAYEDONCE_FALSE" ID="{DC6A1D07-6CB7-41C6-87EF-C34C8E9F1742}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="DESTRUCTION" ID="{14AE909D-4602-4CEC-B7B7-6FAABDB77106}"/>
+						<CurrentSwitchRef Name="FINAL" ID="{76467A9E-03B7-47CF-B455-AA665555B5D8}"/>
+						<CurrentSwitchRef Name="TRUE" ID="{45519F2A-B81A-4BD8-9BBB-A6D0C1A4EB31}"/>
+						<CurrentSwitchRef Name="Dirt" ID="{CB99854B-A3D8-429F-ABD9-08EF2C087269}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+				<SoundcasterSession Name="SDC_CHARA_ACTIONS" ID="{C7056806-0896-48EF-8FE3-F04B718D60AF}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="ARTE_BOW" ID="{D356BD20-D58A-4F5F-926A-FA47633578C3}" WorkUnitID="{18170C99-9932-4AEA-A67D-3ACB79FC6612}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="ARTE_SHOT" ID="{138759B9-AD1E-4191-8054-3F7E9CCF7E8C}" WorkUnitID="{18170C99-9932-4AEA-A67D-3ACB79FC6612}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="ARTE_JUMP" ID="{12437DE8-E85B-43D1-B23E-0DCC357E0A82}" WorkUnitID="{18170C99-9932-4AEA-A67D-3ACB79FC6612}"/>
+							<Position X="0" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="ARTE_HURT" ID="{3EEDA833-1828-41E7-951B-268D1AF94ECD}" WorkUnitID="{18170C99-9932-4AEA-A67D-3ACB79FC6612}"/>
+							<Position X="0" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="HEPHA_ATK" ID="{2D3176F8-0295-476B-A3B7-208F5DB85291}" WorkUnitID="{18170C99-9932-4AEA-A67D-3ACB79FC6612}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="HEPHA_JUMP" ID="{AEC4AA59-9B35-4CDD-A1AA-86808F4620A1}" WorkUnitID="{18170C99-9932-4AEA-A67D-3ACB79FC6612}"/>
+							<Position X="1" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="HEPHA_HURT" ID="{80851B2C-82E0-4CA6-94E3-3F72EAFCAC2F}" WorkUnitID="{18170C99-9932-4AEA-A67D-3ACB79FC6612}"/>
+							<Position X="1" Y="3"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="TUTO_SC_PAINtoGTR" ID="{3C747DAE-43BE-4312-9342-6781079F2B9A}"/>
+							<Value>-96</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SC_SPECIALS_ImpactToSkill" ID="{AD8A6DC4-6E8E-4664-9ABA-4A1E5A61D820}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="debug_SPEEDPLAYBACK" ID="{F81781CB-1AA9-46E7-A96B-765CF6B13E13}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_DistVillage" ID="{A1B01ACA-BCEB-4CC0-864A-645CE50ABEE7}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_GAMEDEFINED_DISTANCE_MOULIN" ID="{45CE2059-DB18-4F6A-A943-F244616F52EB}"/>
+							<Value>0</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="FALAISE_BEGIN" ID="{45208006-D480-44BB-A159-8FB15AE55C49}"/>
+						<CurrentStateRef Name="ACTIF" ID="{5037D32D-7DF3-4544-AF6C-649D26966A85}"/>
+						<CurrentStateRef Name="PORT_MER" ID="{08EEC8DD-B198-464B-8F65-2EA270C2C391}"/>
+						<CurrentStateRef Name="CLOCHES_PLAYEDONCE_TRUE" ID="{D2FD8B23-FE96-4698-970B-DC255A83AC64}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="DEBRIS" ID="{E78B1833-2D04-4CE5-95A1-B2A303719A58}"/>
+						<CurrentSwitchRef Name="INTRO" ID="{593ABECF-3743-44B8-B447-3CD636E018AD}"/>
+						<CurrentSwitchRef Name="TRUE" ID="{45519F2A-B81A-4BD8-9BBB-A6D0C1A4EB31}"/>
+						<CurrentSwitchRef Name="Metal" ID="{05465050-7C53-480A-B288-875374F1E282}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+				<SoundcasterSession Name="SDC_CHARACTERS" ID="{7168A93F-DAD3-4715-A31E-62C9E3C82784}">
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="debug_SPEEDPLAYBACK" ID="{F81781CB-1AA9-46E7-A96B-765CF6B13E13}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_DistVillage" ID="{A1B01ACA-BCEB-4CC0-864A-645CE50ABEE7}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_GAMEDEFINED_DISTANCE_MOULIN" ID="{45CE2059-DB18-4F6A-A943-F244616F52EB}"/>
+							<Value>0</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="FALAISE" ID="{5CB745B9-61E5-476E-B139-0055819A76AE}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="DEBRIS" ID="{E78B1833-2D04-4CE5-95A1-B2A303719A58}"/>
+						<CurrentSwitchRef Name="INTRO" ID="{593ABECF-3743-44B8-B447-3CD636E018AD}"/>
+						<CurrentSwitchRef Name="Dirt" ID="{CB99854B-A3D8-429F-ABD9-08EF2C087269}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+				<SoundcasterSession Name="Test_Hit" ID="{F6B14852-1EA4-4DC3-92ED-3677C891609D}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="test_hit_arte" ID="{7A84078F-B1B3-4B10-B73D-B02C823A748D}" WorkUnitID="{18170C99-9932-4AEA-A67D-3ACB79FC6612}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="test_hit_hepha" ID="{C482A6C6-A3FD-490F-AA2E-C7A9FD00B697}" WorkUnitID="{18170C99-9932-4AEA-A67D-3ACB79FC6612}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="debug_SPEEDPLAYBACK" ID="{F81781CB-1AA9-46E7-A96B-765CF6B13E13}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_DistVillage" ID="{A1B01ACA-BCEB-4CC0-864A-645CE50ABEE7}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_GAMEDEFINED_DISTANCE_MOULIN" ID="{45CE2059-DB18-4F6A-A943-F244616F52EB}"/>
+							<Value>0</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="DEBRIS" ID="{E78B1833-2D04-4CE5-95A1-B2A303719A58}"/>
+						<CurrentSwitchRef Name="FINAL" ID="{76467A9E-03B7-47CF-B455-AA665555B5D8}"/>
+						<CurrentSwitchRef Name="Dirt" ID="{CB99854B-A3D8-429F-ABD9-08EF2C087269}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+				<SoundcasterSession Name="SDC_colomns_test" ID="{758D7411-C907-4086-A05F-B62CBE8CE246}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Play_colomn_piece_07_DEBRIS" ID="{2A5DE02A-51B4-421B-8425-6F87D879F464}" WorkUnitID="{18170C99-9932-4AEA-A67D-3ACB79FC6612}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_colomn_piece_01_DEBRIS" ID="{D19DC418-A654-4B96-8C32-28D3CAEA284F}" WorkUnitID="{18170C99-9932-4AEA-A67D-3ACB79FC6612}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_colomn_piece_07_DESTRUCTION" ID="{C9EA89B3-B512-4FB3-9CFD-F328D9E486CB}" WorkUnitID="{18170C99-9932-4AEA-A67D-3ACB79FC6612}"/>
+							<Position X="0" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_colomn_piece_01_DESTRUCTION" ID="{C5C5D4C7-42D3-41B3-A544-B215A75CBD55}" WorkUnitID="{18170C99-9932-4AEA-A67D-3ACB79FC6612}"/>
+							<Position X="0" Y="4"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_colomn_base_DEBRIS" ID="{BC29EA8B-378F-4AE7-AA40-660CA1894434}" WorkUnitID="{18170C99-9932-4AEA-A67D-3ACB79FC6612}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_colomn_piece_02_DEBRIS" ID="{4C7E8A2B-74C2-4595-99FC-BC840D976D00}" WorkUnitID="{18170C99-9932-4AEA-A67D-3ACB79FC6612}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_colomn_base_DESTRUCTION" ID="{04EF7813-F107-4580-8ADB-D6F5183EE581}" WorkUnitID="{18170C99-9932-4AEA-A67D-3ACB79FC6612}"/>
+							<Position X="1" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_colomn_piece_02_DESTRUCTION" ID="{95096864-97DB-4EFE-B3A9-7C0D48AD9F42}" WorkUnitID="{18170C99-9932-4AEA-A67D-3ACB79FC6612}"/>
+							<Position X="1" Y="4"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_colomn_broken1_DEBRIS" ID="{12379C83-04DC-4F5F-BC6B-1BDF9F2B6701}" WorkUnitID="{18170C99-9932-4AEA-A67D-3ACB79FC6612}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_colomn_piece_03_DEBRIS" ID="{C4BAAE15-3337-4C5C-9C9C-ACFEF0190253}" WorkUnitID="{18170C99-9932-4AEA-A67D-3ACB79FC6612}"/>
+							<Position X="2" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_colomn_broken1_DESTRUCTION" ID="{158D47B2-6B88-44B4-A782-E37386796B61}" WorkUnitID="{18170C99-9932-4AEA-A67D-3ACB79FC6612}"/>
+							<Position X="2" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_colomn_piece_03_DESTRUCTION" ID="{3B89A57B-78BA-4FC1-B0EC-DC07B9CBDD7C}" WorkUnitID="{18170C99-9932-4AEA-A67D-3ACB79FC6612}"/>
+							<Position X="2" Y="4"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_colomn_broken2_DEBRIS" ID="{94E6FEBF-5225-4E1B-93DA-9613883AEF8E}" WorkUnitID="{18170C99-9932-4AEA-A67D-3ACB79FC6612}"/>
+							<Position X="3" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_colomn_piece_04_DEBRIS" ID="{63012284-4FF8-4676-9711-884735284562}" WorkUnitID="{18170C99-9932-4AEA-A67D-3ACB79FC6612}"/>
+							<Position X="3" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_colomn_broken2_DESTRUCTION" ID="{C9FC27EA-9450-4213-8418-4BBCA0D6306E}" WorkUnitID="{18170C99-9932-4AEA-A67D-3ACB79FC6612}"/>
+							<Position X="3" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_colomn_piece_04_DESTRUCTION" ID="{21B51CFF-C9A9-4EBD-A4E6-C6AB12B2FD6F}" WorkUnitID="{18170C99-9932-4AEA-A67D-3ACB79FC6612}"/>
+							<Position X="3" Y="4"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_colomn_brokenfull_DEBRIS" ID="{7F607860-3E3D-4772-B3EC-20205B9F8354}" WorkUnitID="{18170C99-9932-4AEA-A67D-3ACB79FC6612}"/>
+							<Position X="4" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_colomn_piece_05_DEBRIS" ID="{4A9E5824-4B26-4EF6-B7FD-0774591B56F9}" WorkUnitID="{18170C99-9932-4AEA-A67D-3ACB79FC6612}"/>
+							<Position X="4" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_colomn_brokenfull_DESTRUCTION" ID="{45D6BDB5-BDBC-4055-8805-1C1AB1CFE605}" WorkUnitID="{18170C99-9932-4AEA-A67D-3ACB79FC6612}"/>
+							<Position X="4" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_colomn_piece_05_DESTRUCTION" ID="{1D8A3AD8-423A-41BA-AC2A-ED2DC1312CA2}" WorkUnitID="{18170C99-9932-4AEA-A67D-3ACB79FC6612}"/>
+							<Position X="4" Y="4"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_colomn_DEBRIS" ID="{7D12494C-5D19-4020-9136-3C8B3BF14A3D}" WorkUnitID="{18170C99-9932-4AEA-A67D-3ACB79FC6612}"/>
+							<Position X="5" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_colomn_piece_06_DEBRIS" ID="{71FBBA2E-F4EB-42C7-A92C-76DAD26052DB}" WorkUnitID="{18170C99-9932-4AEA-A67D-3ACB79FC6612}"/>
+							<Position X="5" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_colomn_DESTRUCTION" ID="{506591C0-1A2D-46E9-BD33-3BCFF6189E37}" WorkUnitID="{18170C99-9932-4AEA-A67D-3ACB79FC6612}"/>
+							<Position X="5" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_colomn_piece_06_DESTRUCTION" ID="{9D6BF437-FD23-42D7-AE33-78B7B42B03D5}" WorkUnitID="{18170C99-9932-4AEA-A67D-3ACB79FC6612}"/>
+							<Position X="5" Y="4"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="debug_SPEEDPLAYBACK" ID="{F81781CB-1AA9-46E7-A96B-765CF6B13E13}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_DistVillage" ID="{A1B01ACA-BCEB-4CC0-864A-645CE50ABEE7}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_GAMEDEFINED_DISTANCE_MOULIN" ID="{45CE2059-DB18-4F6A-A943-F244616F52EB}"/>
+							<Value>0</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="FALAISE_BEGIN" ID="{45208006-D480-44BB-A159-8FB15AE55C49}"/>
+						<CurrentStateRef Name="ACTIF" ID="{5037D32D-7DF3-4544-AF6C-649D26966A85}"/>
+						<CurrentStateRef Name="PORT_MER" ID="{08EEC8DD-B198-464B-8F65-2EA270C2C391}"/>
+						<CurrentStateRef Name="END" ID="{39D4A364-4B5A-4ABB-923B-FB6380E131DA}"/>
+						<CurrentStateRef Name="CLOCHES_PLAYEDONCE_FALSE" ID="{DC6A1D07-6CB7-41C6-87EF-C34C8E9F1742}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="DESTRUCTION" ID="{14AE909D-4602-4CEC-B7B7-6FAABDB77106}"/>
+						<CurrentSwitchRef Name="FINAL" ID="{76467A9E-03B7-47CF-B455-AA665555B5D8}"/>
+						<CurrentSwitchRef Name="Dirt" ID="{CB99854B-A3D8-429F-ABD9-08EF2C087269}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+				<SoundcasterSession Name="SDC_LISTINTERACTIF" ID="{169B5EFA-59C7-43CC-B770-69A6FCB30E06}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Play_table_ombrella_DESTRUCTION" ID="{53CB269F-60E5-485A-B134-32A940151ADA}" WorkUnitID="{18170C99-9932-4AEA-A67D-3ACB79FC6612}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_wood_plank_DESTRUCTION" ID="{CEA65EC1-63E7-42DE-9529-EFCC875723CA}" WorkUnitID="{18170C99-9932-4AEA-A67D-3ACB79FC6612}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_wooden_stand" ID="{42A4771F-3171-48B6-AAE3-38A3A6A77B7E}" WorkUnitID="{18170C99-9932-4AEA-A67D-3ACB79FC6612}"/>
+							<Position X="0" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_table_ombrella_DEBRIS" ID="{370D3C9B-338C-4175-9F8F-3E420CA69C6D}" WorkUnitID="{18170C99-9932-4AEA-A67D-3ACB79FC6612}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_wood_plank_DEBRIS" ID="{1379B46F-9C5F-4930-8E78-66379E4BED9C}" WorkUnitID="{18170C99-9932-4AEA-A67D-3ACB79FC6612}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_vending_machine" ID="{9B7724DA-4DE0-48AF-B080-75B2440BB26F}" WorkUnitID="{18170C99-9932-4AEA-A67D-3ACB79FC6612}"/>
+							<Position X="1" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_PressSwitch" ID="{D45AAFE2-3C4E-4F56-99A7-E75419BE55BF}" WorkUnitID="{18170C99-9932-4AEA-A67D-3ACB79FC6612}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_ReleaseSwitch" ID="{6103DFFE-4E3D-4F01-85B2-0185A8C70638}" WorkUnitID="{18170C99-9932-4AEA-A67D-3ACB79FC6612}"/>
+							<Position X="3" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_PUZZLEBOX" ID="{BF90ED0B-27F3-4571-AFCC-8688123A492A}" WorkUnitID="{18170C99-9932-4AEA-A67D-3ACB79FC6612}"/>
+							<Position X="4" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="TUTO_SC_PAINtoGTR" ID="{3C747DAE-43BE-4312-9342-6781079F2B9A}"/>
+							<Value>-96</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SC_SPECIALS_ImpactToSkill" ID="{AD8A6DC4-6E8E-4664-9ABA-4A1E5A61D820}"/>
+							<Value>-12</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="debug_SPEEDPLAYBACK" ID="{F81781CB-1AA9-46E7-A96B-765CF6B13E13}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_DistVillage" ID="{A1B01ACA-BCEB-4CC0-864A-645CE50ABEE7}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_GAMEDEFINED_DISTANCE_MOULIN" ID="{45CE2059-DB18-4F6A-A943-F244616F52EB}"/>
+							<Value>0</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="FALAISE_BEGIN" ID="{45208006-D480-44BB-A159-8FB15AE55C49}"/>
+						<CurrentStateRef Name="ACTIF" ID="{5037D32D-7DF3-4544-AF6C-649D26966A85}"/>
+						<CurrentStateRef Name="PORT_MER" ID="{08EEC8DD-B198-464B-8F65-2EA270C2C391}"/>
+						<CurrentStateRef Name="END" ID="{76AD8184-63A7-4D8F-AC3B-1C1B9AFB0E6D}"/>
+						<CurrentStateRef Name="END" ID="{39D4A364-4B5A-4ABB-923B-FB6380E131DA}"/>
+						<CurrentStateRef Name="CLOCHES_PLAYEDONCE_FALSE" ID="{DC6A1D07-6CB7-41C6-87EF-C34C8E9F1742}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="DESTRUCTION" ID="{14AE909D-4602-4CEC-B7B7-6FAABDB77106}"/>
+						<CurrentSwitchRef Name="FINAL" ID="{76467A9E-03B7-47CF-B455-AA665555B5D8}"/>
+						<CurrentSwitchRef Name="TRUE" ID="{45519F2A-B81A-4BD8-9BBB-A6D0C1A4EB31}"/>
+						<CurrentSwitchRef Name="Dirt" ID="{CB99854B-A3D8-429F-ABD9-08EF2C087269}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+				<SoundcasterSession Name="SDC_SKELETS" ID="{02B3F9B6-3181-4D92-82B0-62AE356AC932}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Play_Footsteps_Skelets" ID="{549E0C8C-58F4-4954-8E14-E65E70A6CFF0}" WorkUnitID="{18170C99-9932-4AEA-A67D-3ACB79FC6612}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Attack_Skelets" ID="{AD6E1E8A-4B0C-476C-9E88-66CFF6AF10BA}" WorkUnitID="{18170C99-9932-4AEA-A67D-3ACB79FC6612}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Attack_Hit_Skelets" ID="{78CA1367-2EBD-495D-B03E-BA0D01D5FE61}" WorkUnitID="{18170C99-9932-4AEA-A67D-3ACB79FC6612}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Death_Skelets" ID="{74279B63-9046-47EC-825F-33F9A40F9DBD}" WorkUnitID="{18170C99-9932-4AEA-A67D-3ACB79FC6612}"/>
+							<Position X="2" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Debris_Skelets" ID="{8254D2DB-F536-47A1-9461-EF183E179ECA}" WorkUnitID="{18170C99-9932-4AEA-A67D-3ACB79FC6612}"/>
+							<Position X="3" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Damage_Skelets" ID="{8EDE9D81-B37E-45D4-9DC4-C97F82C12553}" WorkUnitID="{18170C99-9932-4AEA-A67D-3ACB79FC6612}"/>
+							<Position X="4" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="TUTO_SC_PAINtoGTR" ID="{3C747DAE-43BE-4312-9342-6781079F2B9A}"/>
+							<Value>-96</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SC_SPECIALS_ImpactToSkill" ID="{AD8A6DC4-6E8E-4664-9ABA-4A1E5A61D820}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="debug_SPEEDPLAYBACK" ID="{F81781CB-1AA9-46E7-A96B-765CF6B13E13}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_DistVillage" ID="{A1B01ACA-BCEB-4CC0-864A-645CE50ABEE7}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_GAMEDEFINED_DISTANCE_MOULIN" ID="{45CE2059-DB18-4F6A-A943-F244616F52EB}"/>
+							<Value>0</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="None" ID="{F7E252E4-E4C4-45B5-B240-76A4E0D8F8EF}"/>
+						<CurrentStateRef Name="ACTIF" ID="{5037D32D-7DF3-4544-AF6C-649D26966A85}"/>
+						<CurrentStateRef Name="VILLAGE" ID="{DA36E68C-BFB9-4945-B864-1626C864EC6F}"/>
+						<CurrentStateRef Name="END" ID="{76AD8184-63A7-4D8F-AC3B-1C1B9AFB0E6D}"/>
+						<CurrentStateRef Name="END" ID="{39D4A364-4B5A-4ABB-923B-FB6380E131DA}"/>
+						<CurrentStateRef Name="CLOCHES_PLAYEDONCE_FALSE" ID="{DC6A1D07-6CB7-41C6-87EF-C34C8E9F1742}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="DESTRUCTION" ID="{14AE909D-4602-4CEC-B7B7-6FAABDB77106}"/>
+						<CurrentSwitchRef Name="FINAL" ID="{76467A9E-03B7-47CF-B455-AA665555B5D8}"/>
+						<CurrentSwitchRef Name="TRUE" ID="{45519F2A-B81A-4BD8-9BBB-A6D0C1A4EB31}"/>
+						<CurrentSwitchRef Name="Dirt" ID="{CB99854B-A3D8-429F-ABD9-08EF2C087269}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+				<SoundcasterSession Name="SDC_M_BAGARRE" ID="{816E6A34-1F3A-4021-A5C7-61AAFFA3AFE6}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="TEST_PLAYBAGARRE" ID="{92C00DD4-8EA3-4E77-B1DF-69E73AFD0D12}" WorkUnitID="{18170C99-9932-4AEA-A67D-3ACB79FC6612}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Stop_M_BAGARRE_ST" ID="{738617E2-78D6-4D0F-8F3A-B46837B63FF6}" WorkUnitID="{18170C99-9932-4AEA-A67D-3ACB79FC6612}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="TUTO_SC_PAINtoGTR" ID="{3C747DAE-43BE-4312-9342-6781079F2B9A}"/>
+							<Value>-96</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SC_SPECIALS_ImpactToSkill" ID="{AD8A6DC4-6E8E-4664-9ABA-4A1E5A61D820}"/>
+							<Value>-12</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="debug_SPEEDPLAYBACK" ID="{F81781CB-1AA9-46E7-A96B-765CF6B13E13}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_DistVillage" ID="{A1B01ACA-BCEB-4CC0-864A-645CE50ABEE7}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_GAMEDEFINED_DISTANCE_MOULIN" ID="{45CE2059-DB18-4F6A-A943-F244616F52EB}"/>
+							<Value>0</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="FALAISE_BEGIN" ID="{45208006-D480-44BB-A159-8FB15AE55C49}"/>
+						<CurrentStateRef Name="ACTIF" ID="{5037D32D-7DF3-4544-AF6C-649D26966A85}"/>
+						<CurrentStateRef Name="VILLAGE" ID="{DA36E68C-BFB9-4945-B864-1626C864EC6F}"/>
+						<CurrentStateRef Name="None" ID="{B6A231CD-1C41-4048-A287-7C871E57C742}"/>
+						<CurrentStateRef Name="END" ID="{39D4A364-4B5A-4ABB-923B-FB6380E131DA}"/>
+						<CurrentStateRef Name="CLOCHES_PLAYEDONCE_TRUE" ID="{D2FD8B23-FE96-4698-970B-DC255A83AC64}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="DEBRIS" ID="{E78B1833-2D04-4CE5-95A1-B2A303719A58}"/>
+						<CurrentSwitchRef Name="FINAL" ID="{76467A9E-03B7-47CF-B455-AA665555B5D8}"/>
+						<CurrentSwitchRef Name="FALSE" ID="{8EBD0C97-4407-42B0-94A0-C56E27C47B88}"/>
+						<CurrentSwitchRef Name="Dirt" ID="{CB99854B-A3D8-429F-ABD9-08EF2C087269}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+				<SoundcasterSession Name="SDC_M_TUTO" ID="{EBDE2ABB-09F3-4F3B-872F-652DCC76B2D6}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Play_M_TUTO" ID="{99D2A8F0-3638-4A84-BB2A-E17C399CA35B}" WorkUnitID="{18170C99-9932-4AEA-A67D-3ACB79FC6612}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_M_TUTO_PAIN" ID="{17977D3A-B30C-4311-97FD-3C1F5F7EDDD2}" WorkUnitID="{18170C99-9932-4AEA-A67D-3ACB79FC6612}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_M_THEME_TUTO_FRACAS1" ID="{774EA79E-D833-466E-803A-0DC3748F8E8D}" WorkUnitID="{18170C99-9932-4AEA-A67D-3ACB79FC6612}"/>
+							<Position X="2" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_M_THEME_TUTO_FRACAS2" ID="{8C102252-AC1C-406E-B62C-A889687A66D3}" WorkUnitID="{18170C99-9932-4AEA-A67D-3ACB79FC6612}"/>
+							<Position X="3" Y="1"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="TUTO_SC_PAINtoGTR" ID="{3C747DAE-43BE-4312-9342-6781079F2B9A}"/>
+							<Value>-96</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SC_SPECIALS_ImpactToSkill" ID="{AD8A6DC4-6E8E-4664-9ABA-4A1E5A61D820}"/>
+							<Value>-12</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="debug_SPEEDPLAYBACK" ID="{F81781CB-1AA9-46E7-A96B-765CF6B13E13}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_DistVillage" ID="{A1B01ACA-BCEB-4CC0-864A-645CE50ABEE7}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_GAMEDEFINED_DISTANCE_MOULIN" ID="{45CE2059-DB18-4F6A-A943-F244616F52EB}"/>
+							<Value>0</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="FALAISE_BEGIN" ID="{45208006-D480-44BB-A159-8FB15AE55C49}"/>
+						<CurrentStateRef Name="ACTIF" ID="{5037D32D-7DF3-4544-AF6C-649D26966A85}"/>
+						<CurrentStateRef Name="PORT" ID="{043CCA0F-0E58-4B37-9D53-F3B7120D3209}"/>
+						<CurrentStateRef Name="END" ID="{76AD8184-63A7-4D8F-AC3B-1C1B9AFB0E6D}"/>
+						<CurrentStateRef Name="None" ID="{0CA60A7A-6318-49BA-9B87-37691A305380}"/>
+						<CurrentStateRef Name="END" ID="{39D4A364-4B5A-4ABB-923B-FB6380E131DA}"/>
+						<CurrentStateRef Name="None" ID="{906AA8EA-66E8-4C54-8652-F23C96C24AFB}"/>
+						<CurrentStateRef Name="CLOCHES_PLAYEDONCE_FALSE" ID="{DC6A1D07-6CB7-41C6-87EF-C34C8E9F1742}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="DEBRIS" ID="{E78B1833-2D04-4CE5-95A1-B2A303719A58}"/>
+						<CurrentSwitchRef Name="FINAL" ID="{76467A9E-03B7-47CF-B455-AA665555B5D8}"/>
+						<CurrentSwitchRef Name="TRUE" ID="{45519F2A-B81A-4BD8-9BBB-A6D0C1A4EB31}"/>
+						<CurrentSwitchRef Name="Dirt" ID="{CB99854B-A3D8-429F-ABD9-08EF2C087269}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+				<SoundcasterSession Name="SPECIALS" ID="{66C2D868-4180-4BC4-B563-CC75BF9C3720}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Play_LEMUR_HOLD" ID="{A868BE2C-945F-41A1-AF64-AE63619FBC64}" WorkUnitID="{18170C99-9932-4AEA-A67D-3ACB79FC6612}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_DASH" ID="{4ED0972F-098A-4266-9E0F-943459A44A2E}" WorkUnitID="{18170C99-9932-4AEA-A67D-3ACB79FC6612}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_TOURBILOL_STORM" ID="{80AA0D07-FCD3-4A90-9AB3-9B2A4B68EC9A}" WorkUnitID="{18170C99-9932-4AEA-A67D-3ACB79FC6612}"/>
+							<Position X="0" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="ARTE_BOW_BIG" ID="{02A71888-FA28-4813-B71B-152B554CE40A}" WorkUnitID="{18170C99-9932-4AEA-A67D-3ACB79FC6612}"/>
+							<Position X="0" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_ARTE_SOUFFLE" ID="{E2126D75-D45F-47E3-91A9-08C322FF2E33}" WorkUnitID="{18170C99-9932-4AEA-A67D-3ACB79FC6612}"/>
+							<Position X="0" Y="5"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="ARTE_BIG_JUMP" ID="{620BCB3E-FC47-4256-9E5B-C79A5127DD65}" WorkUnitID="{18170C99-9932-4AEA-A67D-3ACB79FC6612}"/>
+							<Position X="0" Y="6"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_LEMUR_BUILD" ID="{CA9702A4-C108-4416-B3FE-A132AE2E84A9}" WorkUnitID="{18170C99-9932-4AEA-A67D-3ACB79FC6612}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_DASH_END" ID="{68BEF214-2E97-4414-8504-FD995965D7B0}" WorkUnitID="{18170C99-9932-4AEA-A67D-3ACB79FC6612}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Stop_TOURBILOL_STORM" ID="{15244914-4ECA-4113-919D-BC431C7BB68F}" WorkUnitID="{18170C99-9932-4AEA-A67D-3ACB79FC6612}"/>
+							<Position X="1" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="ARTE_BIG_HOLD" ID="{345AA730-8543-48C5-B326-E1C13AE2DFD4}" WorkUnitID="{18170C99-9932-4AEA-A67D-3ACB79FC6612}"/>
+							<Position X="1" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Stop_ARTE_BIG_HOLD" ID="{4BFB782E-044A-491B-A414-DE5E4398907B}" WorkUnitID="{18170C99-9932-4AEA-A67D-3ACB79FC6612}"/>
+							<Position X="1" Y="4"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Stop_ARTE_SOUFFLE" ID="{99ADCA77-DBA2-49BC-BDB4-FC9510D749F8}" WorkUnitID="{18170C99-9932-4AEA-A67D-3ACB79FC6612}"/>
+							<Position X="1" Y="5"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="ARTE_SHOT_BIG" ID="{F9558B0A-1771-48E5-8F43-704F50223B41}" WorkUnitID="{18170C99-9932-4AEA-A67D-3ACB79FC6612}"/>
+							<Position X="2" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_SFX_VX_HEPHA_ATK_RND" ID="{E68B99B0-29B4-4FA0-BB53-ADAC41BBEB30}" WorkUnitID="{18170C99-9932-4AEA-A67D-3ACB79FC6612}"/>
+							<Position X="3" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="ARTE_BIG_ARROW" ID="{D093143F-C3A7-43C7-86C1-7041ECB2F474}" WorkUnitID="{18170C99-9932-4AEA-A67D-3ACB79FC6612}"/>
+							<Position X="3" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_SFX_VX_HEPHA_DMG_RND" ID="{655391FD-B59F-45CC-B660-62B078CDAB0F}" WorkUnitID="{18170C99-9932-4AEA-A67D-3ACB79FC6612}"/>
+							<Position X="4" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="ARTE_BIG_EXPLOSION" ID="{D241522B-7664-451A-87C7-168EDC49C63E}" WorkUnitID="{18170C99-9932-4AEA-A67D-3ACB79FC6612}"/>
+							<Position X="4" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_SPECIALS_HEPHA_IMPACT" ID="{9E1CE142-A5BB-4AE0-BA57-79805A884541}" WorkUnitID="{18170C99-9932-4AEA-A67D-3ACB79FC6612}"/>
+							<Position X="5" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="TUTO_SC_PAINtoGTR" ID="{3C747DAE-43BE-4312-9342-6781079F2B9A}"/>
+							<Value>-96</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SC_SPECIALS_ImpactToSkill" ID="{AD8A6DC4-6E8E-4664-9ABA-4A1E5A61D820}"/>
+							<Value>-12</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="debug_SPEEDPLAYBACK" ID="{F81781CB-1AA9-46E7-A96B-765CF6B13E13}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_DistVillage" ID="{A1B01ACA-BCEB-4CC0-864A-645CE50ABEE7}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_GAMEDEFINED_DISTANCE_MOULIN" ID="{45CE2059-DB18-4F6A-A943-F244616F52EB}"/>
+							<Value>0</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="FALAISE_BEGIN" ID="{45208006-D480-44BB-A159-8FB15AE55C49}"/>
+						<CurrentStateRef Name="ACTIF" ID="{5037D32D-7DF3-4544-AF6C-649D26966A85}"/>
+						<CurrentStateRef Name="PORT_MER" ID="{08EEC8DD-B198-464B-8F65-2EA270C2C391}"/>
+						<CurrentStateRef Name="END" ID="{76AD8184-63A7-4D8F-AC3B-1C1B9AFB0E6D}"/>
+						<CurrentStateRef Name="None" ID="{0CA60A7A-6318-49BA-9B87-37691A305380}"/>
+						<CurrentStateRef Name="END" ID="{39D4A364-4B5A-4ABB-923B-FB6380E131DA}"/>
+						<CurrentStateRef Name="INGAME" ID="{46D05DF8-C2ED-40B8-B923-95E086FC1009}"/>
+						<CurrentStateRef Name="CLOCHES_PLAYEDONCE_FALSE" ID="{DC6A1D07-6CB7-41C6-87EF-C34C8E9F1742}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="DEBRIS" ID="{E78B1833-2D04-4CE5-95A1-B2A303719A58}"/>
+						<CurrentSwitchRef Name="FINAL" ID="{76467A9E-03B7-47CF-B455-AA665555B5D8}"/>
+						<CurrentSwitchRef Name="TRUE" ID="{45519F2A-B81A-4BD8-9BBB-A6D0C1A4EB31}"/>
+						<CurrentSwitchRef Name="Dirt" ID="{CB99854B-A3D8-429F-ABD9-08EF2C087269}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundcasterSessions>
+</WwiseDocument>
