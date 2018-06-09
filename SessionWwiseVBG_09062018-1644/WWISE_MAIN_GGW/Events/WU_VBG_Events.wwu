@@ -26257,6 +26257,55 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Stop_All_Scene" ID="{8382191A-AC65-4245-BD89-F1163FA90B73}">
+							<ChildrenList>
+								<Action Name="" ID="{5D493CEE-D2B8-4315-B9F7-A9F3EBEFF787}" ShortID="258151537">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="3"/>
+										<Property Name="FadeTime" Type="Real64" Value="1"/>
+									</PropertyList>
+									<ReferenceList/>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_UI_Move" ID="{E90B7727-F219-487B-BA38-4048DABAADB8}">
+							<ChildrenList>
+								<Action Name="" ID="{880CEB9C-2340-4BA6-9395-D3283D8D74BA}" ShortID="615453855">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="UI_Move" ID="{E7D6AF04-2D89-4A84-82E4-9CA91CBFD292}" WorkUnitID="{4293CC0B-FFA8-4A29-8B13-3FE897B31D3A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_UI_Click" ID="{75842B60-B68C-4D99-9D2C-28622F29EB7D}">
+							<ChildrenList>
+								<Action Name="" ID="{A537E1DC-26FF-4A98-A970-D1D83B2FD336}" ShortID="261444934">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="UI_Click" ID="{7F984EA7-6967-4907-9067-2F1EC9A86196}" WorkUnitID="{4293CC0B-FFA8-4A29-8B13-3FE897B31D3A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{B5154BAB-D567-41B4-AC90-184802820789}" ShortID="1015013279">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="41"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Play_TRANSITION_MENU_RND" ID="{D6F744EC-5518-4BE5-AA36-2299081B1AF4}" WorkUnitID="{18170C99-9932-4AEA-A67D-3ACB79FC6612}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>
