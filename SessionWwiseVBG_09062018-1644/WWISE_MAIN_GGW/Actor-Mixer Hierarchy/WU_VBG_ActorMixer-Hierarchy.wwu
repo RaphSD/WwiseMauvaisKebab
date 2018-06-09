@@ -66068,6 +66068,352 @@
 								</Sound>
 							</ChildrenList>
 						</ActorMixer>
+						<Folder Name="Raph" ID="{116D82D4-F633-4444-8E98-3614808541CC}" ShortID="198261279">
+							<ChildrenList>
+								<ActorMixer Name="Wood_Crash" ID="{F9768619-0BDC-426B-9E08-C6695AC6DBA9}" ShortID="419461173">
+									<PropertyList>
+										<Property Name="OverrideConversion" Type="bool" Value="True"/>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+										<Property Name="PositioningType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="OGG_monoSFX" ID="{2ACB61AE-90B4-4ABC-AE80-7040BF766B26}" WorkUnitID="{6191B221-9369-4674-9333-AC155B0CA5BC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B42A094-68F1-4414-A1E6-24FF64B8FBF8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<RandomSequenceContainer Name="Wood_Crash" ID="{D832A042-E130-453F-9BD3-A529E88A9925}" ShortID="273135060">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{D540263D-8555-4D35-84A1-30DC588F420D}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="200"/>
+																	<Property Name="Min" Type="Real64" Value="-150"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA1A39EC-4140-45BE-8410-0298EA84A9B0}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B42A094-68F1-4414-A1E6-24FF64B8FBF8}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Wood_Crash-001" ID="{08A7AE29-BCA0-41A9-814D-0CA120FA56DA}" ShortID="269007833">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA1A39EC-4140-45BE-8410-0298EA84A9B0}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B42A094-68F1-4414-A1E6-24FF64B8FBF8}"/>
+														</Reference>
+														<Reference Name="UserAuxSend0">
+															<ObjectRef Name="AC_PORT" ID="{57330065-42D0-456F-BF38-FC9438A8BC3F}" WorkUnitID="{2B42A094-68F1-4414-A1E6-24FF64B8FBF8}"/>
+														</Reference>
+														<Reference Name="UserAuxSend1">
+															<ObjectRef Name="AC_FALAISE" ID="{94A2E18E-ABD9-436E-BDAB-7A89594E206A}" WorkUnitID="{2B42A094-68F1-4414-A1E6-24FF64B8FBF8}"/>
+														</Reference>
+														<Reference Name="UserAuxSend2">
+															<ObjectRef Name="AC_VILLAGE" ID="{0D2D0970-187F-476F-BE41-AD8CDD5D3F9B}" WorkUnitID="{2B42A094-68F1-4414-A1E6-24FF64B8FBF8}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Wood_Crash-001" ID="{2314742B-A2B8-4B6A-9F4F-AA8C9228BA41}" ShortID="57865157">
+															<Language>SFX</Language>
+															<AudioFile>Wood_Crash-001.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Wood_Crash-001" ID="{2314742B-A2B8-4B6A-9F4F-AA8C9228BA41}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Wood_Crash-002" ID="{CC377147-2FE2-4397-9EC5-58033539EF9F}" ShortID="362408563">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA1A39EC-4140-45BE-8410-0298EA84A9B0}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B42A094-68F1-4414-A1E6-24FF64B8FBF8}"/>
+														</Reference>
+														<Reference Name="UserAuxSend0">
+															<ObjectRef Name="AC_PORT" ID="{57330065-42D0-456F-BF38-FC9438A8BC3F}" WorkUnitID="{2B42A094-68F1-4414-A1E6-24FF64B8FBF8}"/>
+														</Reference>
+														<Reference Name="UserAuxSend1">
+															<ObjectRef Name="AC_FALAISE" ID="{94A2E18E-ABD9-436E-BDAB-7A89594E206A}" WorkUnitID="{2B42A094-68F1-4414-A1E6-24FF64B8FBF8}"/>
+														</Reference>
+														<Reference Name="UserAuxSend2">
+															<ObjectRef Name="AC_VILLAGE" ID="{0D2D0970-187F-476F-BE41-AD8CDD5D3F9B}" WorkUnitID="{2B42A094-68F1-4414-A1E6-24FF64B8FBF8}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Wood_Crash-002" ID="{9FCA79CF-1855-40EE-9A7A-814D025DF557}" ShortID="463832633">
+															<Language>SFX</Language>
+															<AudioFile>Wood_Crash-002.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Wood_Crash-002" ID="{9FCA79CF-1855-40EE-9A7A-814D025DF557}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Wood_Crash-003" ID="{3FA75E20-B1A9-44D2-8675-33FFF5D7AF39}" ShortID="915481465">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA1A39EC-4140-45BE-8410-0298EA84A9B0}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B42A094-68F1-4414-A1E6-24FF64B8FBF8}"/>
+														</Reference>
+														<Reference Name="UserAuxSend0">
+															<ObjectRef Name="AC_PORT" ID="{57330065-42D0-456F-BF38-FC9438A8BC3F}" WorkUnitID="{2B42A094-68F1-4414-A1E6-24FF64B8FBF8}"/>
+														</Reference>
+														<Reference Name="UserAuxSend1">
+															<ObjectRef Name="AC_FALAISE" ID="{94A2E18E-ABD9-436E-BDAB-7A89594E206A}" WorkUnitID="{2B42A094-68F1-4414-A1E6-24FF64B8FBF8}"/>
+														</Reference>
+														<Reference Name="UserAuxSend2">
+															<ObjectRef Name="AC_VILLAGE" ID="{0D2D0970-187F-476F-BE41-AD8CDD5D3F9B}" WorkUnitID="{2B42A094-68F1-4414-A1E6-24FF64B8FBF8}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Wood_Crash-003" ID="{9C48C967-9FF6-465B-A927-48568EA44E03}" ShortID="897089278">
+															<Language>SFX</Language>
+															<AudioFile>Wood_Crash-003.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Wood_Crash-003" ID="{9C48C967-9FF6-465B-A927-48568EA44E03}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Wood_Crash-004" ID="{A0349BA3-8D5B-4D88-BCC0-87908AAAD0FC}" ShortID="819801477">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA1A39EC-4140-45BE-8410-0298EA84A9B0}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B42A094-68F1-4414-A1E6-24FF64B8FBF8}"/>
+														</Reference>
+														<Reference Name="UserAuxSend0">
+															<ObjectRef Name="AC_PORT" ID="{57330065-42D0-456F-BF38-FC9438A8BC3F}" WorkUnitID="{2B42A094-68F1-4414-A1E6-24FF64B8FBF8}"/>
+														</Reference>
+														<Reference Name="UserAuxSend1">
+															<ObjectRef Name="AC_FALAISE" ID="{94A2E18E-ABD9-436E-BDAB-7A89594E206A}" WorkUnitID="{2B42A094-68F1-4414-A1E6-24FF64B8FBF8}"/>
+														</Reference>
+														<Reference Name="UserAuxSend2">
+															<ObjectRef Name="AC_VILLAGE" ID="{0D2D0970-187F-476F-BE41-AD8CDD5D3F9B}" WorkUnitID="{2B42A094-68F1-4414-A1E6-24FF64B8FBF8}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Wood_Crash-004" ID="{118A6309-591D-4012-95BC-D81BEDD1987B}" ShortID="479029313">
+															<Language>SFX</Language>
+															<AudioFile>Wood_Crash-004.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Wood_Crash-004" ID="{118A6309-591D-4012-95BC-D81BEDD1987B}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Wood_Crash_Light" ID="{A919A631-54BD-4148-8290-9A97F79791D9}" ShortID="994512516">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{08D61092-15D2-4713-A40A-46AE5D1EC408}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="500"/>
+																	<Property Name="Min" Type="Real64" Value="-500"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-5</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA1A39EC-4140-45BE-8410-0298EA84A9B0}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B42A094-68F1-4414-A1E6-24FF64B8FBF8}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Wood_Crash_Light-001" ID="{5EBE9B1C-5484-42A9-8807-F1D43698C328}" ShortID="647949453">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA1A39EC-4140-45BE-8410-0298EA84A9B0}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B42A094-68F1-4414-A1E6-24FF64B8FBF8}"/>
+														</Reference>
+														<Reference Name="UserAuxSend0">
+															<ObjectRef Name="AC_PORT" ID="{57330065-42D0-456F-BF38-FC9438A8BC3F}" WorkUnitID="{2B42A094-68F1-4414-A1E6-24FF64B8FBF8}"/>
+														</Reference>
+														<Reference Name="UserAuxSend1">
+															<ObjectRef Name="AC_FALAISE" ID="{94A2E18E-ABD9-436E-BDAB-7A89594E206A}" WorkUnitID="{2B42A094-68F1-4414-A1E6-24FF64B8FBF8}"/>
+														</Reference>
+														<Reference Name="UserAuxSend2">
+															<ObjectRef Name="AC_VILLAGE" ID="{0D2D0970-187F-476F-BE41-AD8CDD5D3F9B}" WorkUnitID="{2B42A094-68F1-4414-A1E6-24FF64B8FBF8}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Wood_Crash_Light-001" ID="{0FA43344-BE38-446D-8924-A569FDD02EC7}" ShortID="72529592">
+															<Language>SFX</Language>
+															<AudioFile>Wood_Crash_Light-001.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Wood_Crash_Light-001" ID="{0FA43344-BE38-446D-8924-A569FDD02EC7}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Wood_Crash_Light-002" ID="{5D70AA0D-B747-451D-90A0-EFB71F982F3F}" ShortID="734158196">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA1A39EC-4140-45BE-8410-0298EA84A9B0}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B42A094-68F1-4414-A1E6-24FF64B8FBF8}"/>
+														</Reference>
+														<Reference Name="UserAuxSend0">
+															<ObjectRef Name="AC_PORT" ID="{57330065-42D0-456F-BF38-FC9438A8BC3F}" WorkUnitID="{2B42A094-68F1-4414-A1E6-24FF64B8FBF8}"/>
+														</Reference>
+														<Reference Name="UserAuxSend1">
+															<ObjectRef Name="AC_FALAISE" ID="{94A2E18E-ABD9-436E-BDAB-7A89594E206A}" WorkUnitID="{2B42A094-68F1-4414-A1E6-24FF64B8FBF8}"/>
+														</Reference>
+														<Reference Name="UserAuxSend2">
+															<ObjectRef Name="AC_VILLAGE" ID="{0D2D0970-187F-476F-BE41-AD8CDD5D3F9B}" WorkUnitID="{2B42A094-68F1-4414-A1E6-24FF64B8FBF8}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Wood_Crash_Light-002" ID="{28BF7F15-4423-4F39-881C-7CF719B5D315}" ShortID="380582041">
+															<Language>SFX</Language>
+															<AudioFile>Wood_Crash_Light-002.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Wood_Crash_Light-002" ID="{28BF7F15-4423-4F39-881C-7CF719B5D315}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Metal_Crash" ID="{C1F775CF-08F9-4664-B5E0-DBE4DDB30E7F}" ShortID="33159221">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{B225D83A-1093-40AB-B933-C34245F0016A}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="500"/>
+																	<Property Name="Min" Type="Real64" Value="-500"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-7</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA1A39EC-4140-45BE-8410-0298EA84A9B0}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B42A094-68F1-4414-A1E6-24FF64B8FBF8}"/>
+												</Reference>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="AC_PORT" ID="{57330065-42D0-456F-BF38-FC9438A8BC3F}" WorkUnitID="{2B42A094-68F1-4414-A1E6-24FF64B8FBF8}"/>
+												</Reference>
+												<Reference Name="UserAuxSend1">
+													<ObjectRef Name="AC_FALAISE" ID="{94A2E18E-ABD9-436E-BDAB-7A89594E206A}" WorkUnitID="{2B42A094-68F1-4414-A1E6-24FF64B8FBF8}"/>
+												</Reference>
+												<Reference Name="UserAuxSend2">
+													<ObjectRef Name="AC_VILLAGE" ID="{0D2D0970-187F-476F-BE41-AD8CDD5D3F9B}" WorkUnitID="{2B42A094-68F1-4414-A1E6-24FF64B8FBF8}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Metal_Crash-001" ID="{C04A99AF-DF1F-4B4A-91C7-6308F1E17DBD}" ShortID="848001422">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA1A39EC-4140-45BE-8410-0298EA84A9B0}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B42A094-68F1-4414-A1E6-24FF64B8FBF8}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Metal_Crash-001" ID="{1FCBB272-972F-4CA8-95CA-422F2D343AE1}" ShortID="705905416">
+															<Language>SFX</Language>
+															<AudioFile>Metal_Crash-001.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Metal_Crash-001" ID="{1FCBB272-972F-4CA8-95CA-422F2D343AE1}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Metal_Crash-002" ID="{03DCA82D-8CA8-4FFD-8300-3F03A36BAA4F}" ShortID="425192225">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA1A39EC-4140-45BE-8410-0298EA84A9B0}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B42A094-68F1-4414-A1E6-24FF64B8FBF8}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Metal_Crash-002" ID="{27186558-0103-4F7F-9C80-C9384A5B91E0}" ShortID="626121537">
+															<Language>SFX</Language>
+															<AudioFile>Metal_Crash-002.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Metal_Crash-002" ID="{27186558-0103-4F7F-9C80-C9384A5B91E0}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Metal_Crash-003" ID="{306E9BEE-397F-4BFB-85EA-D47B59E72B85}" ShortID="148373837">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA1A39EC-4140-45BE-8410-0298EA84A9B0}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B42A094-68F1-4414-A1E6-24FF64B8FBF8}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Metal_Crash-003" ID="{4A977482-3E4A-42F7-8F23-52F52C8235A3}" ShortID="621038682">
+															<Language>SFX</Language>
+															<AudioFile>Metal_Crash-003.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Metal_Crash-003" ID="{4A977482-3E4A-42F7-8F23-52F52C8235A3}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+									</ChildrenList>
+								</ActorMixer>
+							</ChildrenList>
+						</Folder>
 					</ChildrenList>
 					<StateInfo>
 						<StatePropertyList>

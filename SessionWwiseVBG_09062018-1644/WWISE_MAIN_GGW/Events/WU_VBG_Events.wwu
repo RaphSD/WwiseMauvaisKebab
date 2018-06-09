@@ -22854,6 +22854,16 @@
 														</Reference>
 													</ReferenceList>
 												</Action>
+												<Action Name="" ID="{F7F4C67D-09A1-496F-BC32-D68F0E16994A}" ShortID="780431272">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="1"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Wood_Crash_Light" ID="{A919A631-54BD-4148-8290-9A97F79791D9}" WorkUnitID="{4293CC0B-FFA8-4A29-8B13-3FE897B31D3A}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
 											</ChildrenList>
 										</Event>
 										<Event Name="Play_frontons_DESTRUCTION" ID="{030CD7A2-8D61-44F1-ABAE-46304241D67B}">
@@ -23003,6 +23013,16 @@
 														</Reference>
 													</ReferenceList>
 												</Action>
+												<Action Name="" ID="{2C4C6570-A55D-420A-A5E8-96E0F0544638}" ShortID="833212392">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="1"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Wood_Crash_Light" ID="{A919A631-54BD-4148-8290-9A97F79791D9}" WorkUnitID="{4293CC0B-FFA8-4A29-8B13-3FE897B31D3A}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
 											</ChildrenList>
 										</Event>
 										<Event Name="Play_pallet_DESTRUCTION" ID="{5C4A7394-33E7-43CB-94C7-13E8B71E23A0}">
@@ -23075,6 +23095,16 @@
 														</Reference>
 													</ReferenceList>
 												</Action>
+												<Action Name="" ID="{AF62FF3C-53AA-4D75-9F69-5819792CF5FE}" ShortID="392089928">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="1"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Metal_Crash" ID="{C1F775CF-08F9-4664-B5E0-DBE4DDB30E7F}" WorkUnitID="{4293CC0B-FFA8-4A29-8B13-3FE897B31D3A}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
 											</ChildrenList>
 										</Event>
 										<Event Name="Play_table_hexa_DESTRUCTION" ID="{BF08228F-3D1A-4FDF-8788-9896CC4202EF}">
@@ -23096,6 +23126,16 @@
 													<ReferenceList>
 														<Reference Name="Target">
 															<ObjectRef Name="Play_RND_IMPACT_TABLE" ID="{1F39C5DD-A8B4-4EBC-B51A-7037019B7E5E}" WorkUnitID="{18170C99-9932-4AEA-A67D-3ACB79FC6612}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+												<Action Name="" ID="{5F11EE57-10C0-4A5B-8453-86354E074B73}" ShortID="758136281">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="1"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Wood_Crash" ID="{D832A042-E130-453F-9BD3-A529E88A9925}" WorkUnitID="{4293CC0B-FFA8-4A29-8B13-3FE897B31D3A}"/>
 														</Reference>
 													</ReferenceList>
 												</Action>
@@ -23315,6 +23355,16 @@
 														</Reference>
 													</ReferenceList>
 												</Action>
+												<Action Name="" ID="{14B41F0E-051B-49A7-8839-BF3D336C09FD}" ShortID="53789453">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="1"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Wood_Crash_Light" ID="{A919A631-54BD-4148-8290-9A97F79791D9}" WorkUnitID="{4293CC0B-FFA8-4A29-8B13-3FE897B31D3A}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
 											</ChildrenList>
 										</Event>
 										<Event Name="Play_table_DESTRUCTION" ID="{89CD8A14-08DB-4A4F-94A8-2A95A0AAC257}">
@@ -23336,6 +23386,16 @@
 													<ReferenceList>
 														<Reference Name="Target">
 															<ObjectRef Name="Play_RND_IMPACT_TABLE" ID="{1F39C5DD-A8B4-4EBC-B51A-7037019B7E5E}" WorkUnitID="{18170C99-9932-4AEA-A67D-3ACB79FC6612}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+												<Action Name="" ID="{6953E173-3C11-48AB-AC05-C3FEE1677CDF}" ShortID="747986369">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="1"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Wood_Crash" ID="{D832A042-E130-453F-9BD3-A529E88A9925}" WorkUnitID="{4293CC0B-FFA8-4A29-8B13-3FE897B31D3A}"/>
 														</Reference>
 													</ReferenceList>
 												</Action>
