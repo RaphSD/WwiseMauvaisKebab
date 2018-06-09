@@ -6785,7 +6785,7 @@
 												<State Name="" ID="{FA9AAEA3-A6D1-4513-AEF8-C53D8F83AD13}" ShortID="140285831">
 													<PropertyList>
 														<Property Name="UserAuxSendVolume0" Type="Real64" Value="-96"/>
-														<Property Name="UserAuxSendVolume1" Type="Real64" Value="6"/>
+														<Property Name="UserAuxSendVolume1" Type="Real64" Value="-21"/>
 													</PropertyList>
 												</State>
 											</CustomState>
