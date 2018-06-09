@@ -680,8 +680,16 @@
 							<Position X="0" Y="0"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="SWITCH_Footsteps_Heavy" ID="{43D7C6F5-B7C0-4A6F-90E7-A21C72998C99}" WorkUnitID="{4293CC0B-FFA8-4A29-8B13-3FE897B31D3A}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="Play_M_TUTO_PAIN" ID="{17977D3A-B30C-4311-97FD-3C1F5F7EDDD2}" WorkUnitID="{18170C99-9932-4AEA-A67D-3ACB79FC6612}"/>
 							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="SFX_HEPHA_ATK_RND" ID="{8C19D002-EB25-41D3-A960-36EA8B1808E0}" WorkUnitID="{4293CC0B-FFA8-4A29-8B13-3FE897B31D3A}"/>
+							<Position X="1" Y="1"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="Play_M_THEME_TUTO_FRACAS1" ID="{774EA79E-D833-466E-803A-0DC3748F8E8D}" WorkUnitID="{18170C99-9932-4AEA-A67D-3ACB79FC6612}"/>
@@ -717,10 +725,10 @@
 					<CurrentStateList ShowAll="true">
 						<CurrentStateRef Name="None" ID="{F7E252E4-E4C4-45B5-B240-76A4E0D8F8EF}"/>
 						<CurrentStateRef Name="ACTIF" ID="{5037D32D-7DF3-4544-AF6C-649D26966A85}"/>
-						<CurrentStateRef Name="PORT" ID="{043CCA0F-0E58-4B37-9D53-F3B7120D3209}"/>
+						<CurrentStateRef Name="VILLAGE" ID="{DA36E68C-BFB9-4945-B864-1626C864EC6F}"/>
 						<CurrentStateRef Name="END" ID="{76AD8184-63A7-4D8F-AC3B-1C1B9AFB0E6D}"/>
 						<CurrentStateRef Name="None" ID="{0CA60A7A-6318-49BA-9B87-37691A305380}"/>
-						<CurrentStateRef Name="END" ID="{39D4A364-4B5A-4ABB-923B-FB6380E131DA}"/>
+						<CurrentStateRef Name="None" ID="{D622E5EF-C25F-4EC1-BED3-C54F5F5A28AC}"/>
 						<CurrentStateRef Name="INGAME" ID="{46D05DF8-C2ED-40B8-B923-95E086FC1009}"/>
 						<CurrentStateRef Name="CLOCHES_PLAYEDONCE_FALSE" ID="{DC6A1D07-6CB7-41C6-87EF-C34C8E9F1742}"/>
 					</CurrentStateList>
