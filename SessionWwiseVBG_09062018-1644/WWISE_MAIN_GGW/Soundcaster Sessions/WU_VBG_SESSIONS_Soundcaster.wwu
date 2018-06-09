@@ -4,7 +4,21 @@
 		<WorkUnit Name="WU_VBG_SESSIONS_Soundcaster" ID="{ABDB9467-B005-4135-A1B4-EFC94AF808F8}" PersistMode="Standalone">
 			<ChildrenList>
 				<SoundcasterSession Name="SDC_MAIN" ID="{39D57F5E-396E-45C8-8560-B06504D45311}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="test_M_VILLAGE_DIEGETIQUE" ID="{F6FD5BDF-AFDB-4D35-9AB8-99C39732CD4A}" WorkUnitID="{18170C99-9932-4AEA-A67D-3ACB79FC6612}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+					</ModuleList>
 					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="TUTO_SC_PAINtoGTR" ID="{3C747DAE-43BE-4312-9342-6781079F2B9A}"/>
+							<Value>-96</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SC_SPECIALS_ImpactToSkill" ID="{AD8A6DC4-6E8E-4664-9ABA-4A1E5A61D820}"/>
+							<Value>-12</Value>
+						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="debug_SPEEDPLAYBACK" ID="{F81781CB-1AA9-46E7-A96B-765CF6B13E13}"/>
 							<Value>0</Value>
@@ -19,14 +33,18 @@
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
-						<CurrentStateRef Name="FALAISE_BEGIN" ID="{45208006-D480-44BB-A159-8FB15AE55C49}"/>
+						<CurrentStateRef Name="FALAISE_END" ID="{86783706-57C2-4898-A14E-CAA1944EA592}"/>
 						<CurrentStateRef Name="ACTIF" ID="{5037D32D-7DF3-4544-AF6C-649D26966A85}"/>
-						<CurrentStateRef Name="PORT_MER" ID="{08EEC8DD-B198-464B-8F65-2EA270C2C391}"/>
+						<CurrentStateRef Name="VILLAGE" ID="{DA36E68C-BFB9-4945-B864-1626C864EC6F}"/>
+						<CurrentStateRef Name="None" ID="{B6A231CD-1C41-4048-A287-7C871E57C742}"/>
+						<CurrentStateRef Name="END" ID="{39D4A364-4B5A-4ABB-923B-FB6380E131DA}"/>
+						<CurrentStateRef Name="INGAME" ID="{46D05DF8-C2ED-40B8-B923-95E086FC1009}"/>
 						<CurrentStateRef Name="CLOCHES_PLAYEDONCE_TRUE" ID="{D2FD8B23-FE96-4698-970B-DC255A83AC64}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="DEBRIS" ID="{E78B1833-2D04-4CE5-95A1-B2A303719A58}"/>
 						<CurrentSwitchRef Name="INTRO" ID="{593ABECF-3743-44B8-B447-3CD636E018AD}"/>
+						<CurrentSwitchRef Name="FALSE" ID="{8EBD0C97-4407-42B0-94A0-C56E27C47B88}"/>
 						<CurrentSwitchRef Name="Metal" ID="{05465050-7C53-480A-B288-875374F1E282}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
@@ -725,7 +743,7 @@
 					<CurrentStateList ShowAll="true">
 						<CurrentStateRef Name="None" ID="{F7E252E4-E4C4-45B5-B240-76A4E0D8F8EF}"/>
 						<CurrentStateRef Name="ACTIF" ID="{5037D32D-7DF3-4544-AF6C-649D26966A85}"/>
-						<CurrentStateRef Name="VILLAGE" ID="{DA36E68C-BFB9-4945-B864-1626C864EC6F}"/>
+						<CurrentStateRef Name="PORT_MER" ID="{08EEC8DD-B198-464B-8F65-2EA270C2C391}"/>
 						<CurrentStateRef Name="END" ID="{76AD8184-63A7-4D8F-AC3B-1C1B9AFB0E6D}"/>
 						<CurrentStateRef Name="None" ID="{0CA60A7A-6318-49BA-9B87-37691A305380}"/>
 						<CurrentStateRef Name="None" ID="{D622E5EF-C25F-4EC1-BED3-C54F5F5A28AC}"/>

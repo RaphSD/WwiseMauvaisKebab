@@ -473,13 +473,13 @@
 					</ChildrenList>
 					<StateInfo>
 						<StatePropertyList>
-							<Property Name="Highpass"/>
 							<Property Name="Lowpass"/>
-							<Property Name="MakeUpGain"/>
+							<Property Name="Volume"/>
+							<Property Name="Highpass"/>
 							<Property Name="UserAuxSendVolume0"/>
 							<Property Name="UserAuxSendVolume1"/>
+							<Property Name="MakeUpGain"/>
 							<Property Name="UserAuxSendVolume2"/>
-							<Property Name="Volume"/>
 						</StatePropertyList>
 						<StateGroupList>
 							<StateGroupInfo>
@@ -535,7 +535,6 @@
 									<PropertyList>
 										<Property Name="UserAuxSendVolume0" Type="Real64" Value="-400"/>
 										<Property Name="UserAuxSendVolume1" Type="Real64" Value="-400"/>
-										<Property Name="Volume" Type="Real64" Value="-96"/>
 									</PropertyList>
 								</State>
 							</CustomState>
@@ -1157,13 +1156,13 @@
 					</ChildrenList>
 					<StateInfo>
 						<StatePropertyList>
-							<Property Name="Highpass"/>
 							<Property Name="Lowpass"/>
-							<Property Name="MakeUpGain"/>
+							<Property Name="Volume"/>
+							<Property Name="Highpass"/>
 							<Property Name="UserAuxSendVolume0"/>
 							<Property Name="UserAuxSendVolume1"/>
+							<Property Name="MakeUpGain"/>
 							<Property Name="UserAuxSendVolume2"/>
-							<Property Name="Volume"/>
 						</StatePropertyList>
 						<StateGroupList>
 							<StateGroupInfo>
@@ -1218,7 +1217,6 @@
 									<PropertyList>
 										<Property Name="UserAuxSendVolume0" Type="Real64" Value="-400"/>
 										<Property Name="UserAuxSendVolume1" Type="Real64" Value="-96"/>
-										<Property Name="Volume" Type="Real64" Value="-96"/>
 									</PropertyList>
 								</State>
 							</CustomState>
@@ -1840,13 +1838,13 @@
 					</ChildrenList>
 					<StateInfo>
 						<StatePropertyList>
-							<Property Name="Highpass"/>
 							<Property Name="Lowpass"/>
-							<Property Name="MakeUpGain"/>
+							<Property Name="Volume"/>
+							<Property Name="Highpass"/>
 							<Property Name="UserAuxSendVolume0"/>
 							<Property Name="UserAuxSendVolume1"/>
+							<Property Name="MakeUpGain"/>
 							<Property Name="UserAuxSendVolume2"/>
-							<Property Name="Volume"/>
 						</StatePropertyList>
 						<StateGroupList>
 							<StateGroupInfo>
@@ -1901,7 +1899,6 @@
 									<PropertyList>
 										<Property Name="UserAuxSendVolume0" Type="Real64" Value="-400"/>
 										<Property Name="UserAuxSendVolume1" Type="Real64" Value="-96"/>
-										<Property Name="Volume" Type="Real64" Value="-96"/>
 									</PropertyList>
 								</State>
 							</CustomState>
@@ -2517,13 +2514,13 @@
 					</ChildrenList>
 					<StateInfo>
 						<StatePropertyList>
-							<Property Name="Highpass"/>
 							<Property Name="Lowpass"/>
-							<Property Name="MakeUpGain"/>
+							<Property Name="Volume"/>
+							<Property Name="Highpass"/>
 							<Property Name="UserAuxSendVolume0"/>
 							<Property Name="UserAuxSendVolume1"/>
+							<Property Name="MakeUpGain"/>
 							<Property Name="UserAuxSendVolume2"/>
-							<Property Name="Volume"/>
 						</StatePropertyList>
 						<StateGroupList>
 							<StateGroupInfo>
@@ -2578,7 +2575,6 @@
 									<PropertyList>
 										<Property Name="UserAuxSendVolume0" Type="Real64" Value="-96"/>
 										<Property Name="UserAuxSendVolume1" Type="Real64" Value="-400"/>
-										<Property Name="Volume" Type="Real64" Value="-96"/>
 									</PropertyList>
 								</State>
 							</CustomState>
@@ -3235,13 +3231,13 @@
 					</ChildrenList>
 					<StateInfo>
 						<StatePropertyList>
-							<Property Name="Highpass"/>
 							<Property Name="Lowpass"/>
-							<Property Name="MakeUpGain"/>
+							<Property Name="Volume"/>
+							<Property Name="Highpass"/>
 							<Property Name="UserAuxSendVolume0"/>
 							<Property Name="UserAuxSendVolume1"/>
+							<Property Name="MakeUpGain"/>
 							<Property Name="UserAuxSendVolume2"/>
-							<Property Name="Volume"/>
 						</StatePropertyList>
 						<StateGroupList>
 							<StateGroupInfo>
@@ -3297,7 +3293,6 @@
 									<PropertyList>
 										<Property Name="UserAuxSendVolume0" Type="Real64" Value="-400"/>
 										<Property Name="UserAuxSendVolume1" Type="Real64" Value="-96"/>
-										<Property Name="Volume" Type="Real64" Value="-96"/>
 									</PropertyList>
 								</State>
 							</CustomState>
@@ -3934,13 +3929,13 @@
 					</ChildrenList>
 					<StateInfo>
 						<StatePropertyList>
-							<Property Name="Highpass"/>
 							<Property Name="Lowpass"/>
-							<Property Name="MakeUpGain"/>
+							<Property Name="Volume"/>
+							<Property Name="Highpass"/>
 							<Property Name="UserAuxSendVolume0"/>
 							<Property Name="UserAuxSendVolume1"/>
+							<Property Name="MakeUpGain"/>
 							<Property Name="UserAuxSendVolume2"/>
-							<Property Name="Volume"/>
 						</StatePropertyList>
 						<StateGroupList>
 							<StateGroupInfo>
@@ -3998,7 +3993,6 @@
 										<Property Name="UserAuxSendVolume0" Type="Real64" Value="-96"/>
 										<Property Name="UserAuxSendVolume1" Type="Real64" Value="-96"/>
 										<Property Name="UserAuxSendVolume2" Type="Real64" Value="5"/>
-										<Property Name="Volume" Type="Real64" Value="-96"/>
 									</PropertyList>
 								</State>
 							</CustomState>
@@ -4991,13 +4985,13 @@
 					</ChildrenList>
 					<StateInfo>
 						<StatePropertyList>
-							<Property Name="Highpass"/>
 							<Property Name="Lowpass"/>
-							<Property Name="MakeUpGain"/>
+							<Property Name="Volume"/>
+							<Property Name="Highpass"/>
 							<Property Name="UserAuxSendVolume0"/>
 							<Property Name="UserAuxSendVolume1"/>
+							<Property Name="MakeUpGain"/>
 							<Property Name="UserAuxSendVolume2"/>
-							<Property Name="Volume"/>
 						</StatePropertyList>
 						<StateGroupList>
 							<StateGroupInfo MusicSyncType="3">
