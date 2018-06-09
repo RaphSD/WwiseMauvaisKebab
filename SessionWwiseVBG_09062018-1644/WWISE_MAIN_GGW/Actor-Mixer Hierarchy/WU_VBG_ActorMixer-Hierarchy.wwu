@@ -6785,7 +6785,7 @@
 												<State Name="" ID="{FA9AAEA3-A6D1-4513-AEF8-C53D8F83AD13}" ShortID="140285831">
 													<PropertyList>
 														<Property Name="UserAuxSendVolume0" Type="Real64" Value="-96"/>
-														<Property Name="UserAuxSendVolume1" Type="Real64" Value="-21"/>
+														<Property Name="UserAuxSendVolume1" Type="Real64" Value="-41"/>
 													</PropertyList>
 												</State>
 											</CustomState>
@@ -8835,7 +8835,13 @@
 													</CustomState>
 													<CustomState>
 														<StateRef Name="VILLAGE" ID="{DA36E68C-BFB9-4945-B864-1626C864EC6F}"/>
-														<State Name="" ID="{7A6DBDE5-4296-4203-AE3E-F0B44783820F}" ShortID="3553421"/>
+														<State Name="" ID="{7A6DBDE5-4296-4203-AE3E-F0B44783820F}" ShortID="3553421">
+															<PropertyList>
+																<Property Name="UserAuxSendVolume0" Type="Real64" Value="-96"/>
+																<Property Name="UserAuxSendVolume1" Type="Real64" Value="-96"/>
+																<Property Name="UserAuxSendVolume2" Type="Real64" Value="-96"/>
+															</PropertyList>
+														</State>
 													</CustomState>
 													<CustomState>
 														<StateRef Name="PORT" ID="{043CCA0F-0E58-4B37-9D53-F3B7120D3209}"/>
@@ -66102,6 +66108,7 @@
 								<State Name="" ID="{A81EB4D6-5FED-42C0-90FF-DAE8C449BCC9}" ShortID="96112982">
 									<PropertyList>
 										<Property Name="UserAuxSendVolume0" Type="Real64" Value="-96"/>
+										<Property Name="UserAuxSendVolume1" Type="Real64" Value="-96"/>
 										<Property Name="UserAuxSendVolume2" Type="Real64" Value="-96"/>
 									</PropertyList>
 								</State>
@@ -66116,6 +66123,7 @@
 									<PropertyList>
 										<Property Name="UserAuxSendVolume0" Type="Real64" Value="-96"/>
 										<Property Name="UserAuxSendVolume1" Type="Real64" Value="-96"/>
+										<Property Name="UserAuxSendVolume2" Type="Real64" Value="-96"/>
 									</PropertyList>
 								</State>
 							</CustomState>

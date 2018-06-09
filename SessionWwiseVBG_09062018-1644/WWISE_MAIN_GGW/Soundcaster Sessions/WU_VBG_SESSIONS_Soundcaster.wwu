@@ -717,7 +717,7 @@
 					<CurrentStateList ShowAll="true">
 						<CurrentStateRef Name="None" ID="{F7E252E4-E4C4-45B5-B240-76A4E0D8F8EF}"/>
 						<CurrentStateRef Name="ACTIF" ID="{5037D32D-7DF3-4544-AF6C-649D26966A85}"/>
-						<CurrentStateRef Name="VILLAGE" ID="{DA36E68C-BFB9-4945-B864-1626C864EC6F}"/>
+						<CurrentStateRef Name="PORT" ID="{043CCA0F-0E58-4B37-9D53-F3B7120D3209}"/>
 						<CurrentStateRef Name="END" ID="{76AD8184-63A7-4D8F-AC3B-1C1B9AFB0E6D}"/>
 						<CurrentStateRef Name="None" ID="{0CA60A7A-6318-49BA-9B87-37691A305380}"/>
 						<CurrentStateRef Name="END" ID="{39D4A364-4B5A-4ABB-923B-FB6380E131DA}"/>
