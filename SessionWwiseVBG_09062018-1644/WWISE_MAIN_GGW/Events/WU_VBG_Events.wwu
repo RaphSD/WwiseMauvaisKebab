@@ -26255,6 +26255,16 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
+								<Action Name="" ID="{9F6D69F9-5388-45F8-83EB-68AE5BEEB9F0}" ShortID="1045330898">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="VILLAGE" ID="{DA36E68C-BFB9-4945-B864-1626C864EC6F}" WorkUnitID="{CE988CDB-2DEC-4B44-AE99-406B162A76C1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
 							</ChildrenList>
 						</Event>
 						<Event Name="Stop_All_Scene" ID="{8382191A-AC65-4245-BD89-F1163FA90B73}">
@@ -26268,9 +26278,9 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Play_UI_Move" ID="{E90B7727-F219-487B-BA38-4048DABAADB8}">
+						<Event Name="Play_UI_Move" ID="{5E3679D0-A252-40CD-A985-6816EAD8745A}">
 							<ChildrenList>
-								<Action Name="" ID="{880CEB9C-2340-4BA6-9395-D3283D8D74BA}" ShortID="615453855">
+								<Action Name="" ID="{00E56CE5-4851-4C0C-B376-D203AC19C490}" ShortID="52988559">
 									<PropertyList>
 										<Property Name="ActionType" Type="int16" Value="1"/>
 									</PropertyList>
@@ -26282,9 +26292,9 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Play_UI_Click" ID="{75842B60-B68C-4D99-9D2C-28622F29EB7D}">
+						<Event Name="Play_UI_Click" ID="{A3EF1F2C-F927-4F47-B563-BA26D944B7B0}">
 							<ChildrenList>
-								<Action Name="" ID="{A537E1DC-26FF-4A98-A970-D1D83B2FD336}" ShortID="261444934">
+								<Action Name="" ID="{A7E8D656-E4F5-4084-BB1C-FB0DABEAE56A}" ShortID="503795502">
 									<PropertyList>
 										<Property Name="ActionType" Type="int16" Value="1"/>
 									</PropertyList>
@@ -26294,7 +26304,7 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
-								<Action Name="" ID="{B5154BAB-D567-41B4-AC90-184802820789}" ShortID="1015013279">
+								<Action Name="" ID="{4A1C7440-76AB-45DF-B01D-A8E86ED34AC8}" ShortID="36834993">
 									<PropertyList>
 										<Property Name="ActionType" Type="int16" Value="41"/>
 									</PropertyList>

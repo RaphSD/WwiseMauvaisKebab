@@ -22,6 +22,7 @@
 				<Property Name="Event Action List\{53CB269F-60E5-485A-B134-32A940151ADA}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{55856375-2402-4BF7-A66A-2EC69AF2F3E6}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{58077742-8764-4D28-A783-E6F66242B8EE}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{5E3679D0-A252-40CD-A985-6816EAD8745A}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{5FC48B48-B0A4-4CBD-B647-A46B7C8A4337}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{6129AC88-CDBA-4455-8188-FA01DC3551A0}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{66BA869A-4057-402E-8C91-98B468FCE5D5}\x64_Expand States" Type="string" Value=""/>
@@ -34,6 +35,7 @@
 				<Property Name="Event Action List\{95096864-97DB-4EFE-B3A9-7C0D48AD9F42}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{99D2A8F0-3638-4A84-BB2A-E17C399CA35B}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{A21D63E0-1746-4313-B0A2-AAA78CB6FDB9}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{A3EF1F2C-F927-4F47-B563-BA26D944B7B0}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{A4E833AC-CEA0-48C9-B52B-475260CB5132}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{AB276976-FEBB-471A-B21E-9EBF71350373}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{B52BF4B7-441E-432A-8762-FCB2BD383BEA}\x64_Expand States" Type="string" Value=""/>
@@ -66,9 +68,9 @@
 				</Property>
 				<Property Name="General\LatestLanguage" Type="int32" Value="684519430"/>
 				<Property Name="General\LatestPlatform" Type="string" Value="Windows"/>
-				<Property Name="GenerateSoundBanks\x64_SelectedLanguages" Type="string" Value=""/>
-				<Property Name="GenerateSoundBanks\x64_SelectedPlatforms" Type="string" Value=""/>
-				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value=""/>
+				<Property Name="GenerateSoundBanks\x64_SelectedLanguages" Type="string" Value="BvDMKA=="/>
+				<Property Name="GenerateSoundBanks\x64_SelectedPlatforms" Type="string" Value="M+9yL8Q/f0GAhtO1ioZJvQ=="/>
+				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value="+DiMrcDPqEqW731lYCNrvw=="/>
 				<Property Name="HardwareController\CurrentSession" Type="string" Value="{00000000-0000-0000-0000-000000000000}"/>
 				<Property Name="MeterView\LastObject1" Type="string" Value="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
 				<Property Name="MeterView\MeterMode1" Type="int32" Value="1"/>
