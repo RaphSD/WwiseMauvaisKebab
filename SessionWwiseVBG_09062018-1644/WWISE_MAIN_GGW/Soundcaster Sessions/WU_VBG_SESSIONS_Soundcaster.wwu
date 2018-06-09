@@ -715,13 +715,13 @@
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
-						<CurrentStateRef Name="FALAISE_BEGIN" ID="{45208006-D480-44BB-A159-8FB15AE55C49}"/>
+						<CurrentStateRef Name="None" ID="{F7E252E4-E4C4-45B5-B240-76A4E0D8F8EF}"/>
 						<CurrentStateRef Name="ACTIF" ID="{5037D32D-7DF3-4544-AF6C-649D26966A85}"/>
-						<CurrentStateRef Name="VILLAGE" ID="{DA36E68C-BFB9-4945-B864-1626C864EC6F}"/>
+						<CurrentStateRef Name="PORT_MER" ID="{08EEC8DD-B198-464B-8F65-2EA270C2C391}"/>
 						<CurrentStateRef Name="END" ID="{76AD8184-63A7-4D8F-AC3B-1C1B9AFB0E6D}"/>
 						<CurrentStateRef Name="None" ID="{0CA60A7A-6318-49BA-9B87-37691A305380}"/>
 						<CurrentStateRef Name="END" ID="{39D4A364-4B5A-4ABB-923B-FB6380E131DA}"/>
-						<CurrentStateRef Name="None" ID="{906AA8EA-66E8-4C54-8652-F23C96C24AFB}"/>
+						<CurrentStateRef Name="INGAME" ID="{46D05DF8-C2ED-40B8-B923-95E086FC1009}"/>
 						<CurrentStateRef Name="CLOCHES_PLAYEDONCE_FALSE" ID="{DC6A1D07-6CB7-41C6-87EF-C34C8E9F1742}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">

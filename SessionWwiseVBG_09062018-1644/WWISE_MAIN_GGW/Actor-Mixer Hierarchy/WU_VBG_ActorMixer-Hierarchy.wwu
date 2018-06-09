@@ -170,12 +170,12 @@
 									</ChildrenList>
 									<StateInfo>
 										<StatePropertyList>
-											<Property Name="Highpass"/>
-											<Property Name="Volume"/>
 											<Property Name="Pitch"/>
 											<Property Name="Lowpass"/>
-											<Property Name="UserAuxSendVolume1"/>
+											<Property Name="Volume"/>
+											<Property Name="Highpass"/>
 											<Property Name="UserAuxSendVolume0"/>
+											<Property Name="UserAuxSendVolume1"/>
 											<Property Name="MakeUpGain"/>
 											<Property Name="UserAuxSendVolume2"/>
 										</StatePropertyList>
@@ -1578,12 +1578,12 @@
 									</ChildrenList>
 									<StateInfo>
 										<StatePropertyList>
-											<Property Name="Highpass"/>
-											<Property Name="Volume"/>
 											<Property Name="Pitch"/>
 											<Property Name="Lowpass"/>
-											<Property Name="UserAuxSendVolume1"/>
+											<Property Name="Volume"/>
+											<Property Name="Highpass"/>
 											<Property Name="UserAuxSendVolume0"/>
+											<Property Name="UserAuxSendVolume1"/>
 											<Property Name="MakeUpGain"/>
 											<Property Name="UserAuxSendVolume2"/>
 										</StatePropertyList>
@@ -2504,12 +2504,12 @@
 									</ChildrenList>
 									<StateInfo>
 										<StatePropertyList>
-											<Property Name="Highpass"/>
-											<Property Name="Volume"/>
 											<Property Name="Pitch"/>
 											<Property Name="Lowpass"/>
-											<Property Name="UserAuxSendVolume1"/>
+											<Property Name="Volume"/>
+											<Property Name="Highpass"/>
 											<Property Name="UserAuxSendVolume0"/>
+											<Property Name="UserAuxSendVolume1"/>
 											<Property Name="MakeUpGain"/>
 											<Property Name="UserAuxSendVolume2"/>
 										</StatePropertyList>
@@ -3199,12 +3199,12 @@
 									</ChildrenList>
 									<StateInfo>
 										<StatePropertyList>
-											<Property Name="Highpass"/>
-											<Property Name="Volume"/>
 											<Property Name="Pitch"/>
 											<Property Name="Lowpass"/>
-											<Property Name="UserAuxSendVolume1"/>
+											<Property Name="Volume"/>
+											<Property Name="Highpass"/>
 											<Property Name="UserAuxSendVolume0"/>
+											<Property Name="UserAuxSendVolume1"/>
 											<Property Name="MakeUpGain"/>
 											<Property Name="UserAuxSendVolume2"/>
 										</StatePropertyList>
@@ -3748,10 +3748,10 @@
 													</PositioningInfo>
 													<StateInfo>
 														<StatePropertyList>
-															<Property Name="Highpass"/>
-															<Property Name="Volume"/>
 															<Property Name="Pitch"/>
 															<Property Name="Lowpass"/>
+															<Property Name="Volume"/>
+															<Property Name="Highpass"/>
 															<Property Name="UserAuxSendVolume0"/>
 															<Property Name="MakeUpGain"/>
 														</StatePropertyList>
@@ -4873,12 +4873,12 @@
 									</ChildrenList>
 									<StateInfo>
 										<StatePropertyList>
-											<Property Name="Highpass"/>
-											<Property Name="Volume"/>
 											<Property Name="Pitch"/>
 											<Property Name="Lowpass"/>
-											<Property Name="UserAuxSendVolume1"/>
+											<Property Name="Volume"/>
+											<Property Name="Highpass"/>
 											<Property Name="UserAuxSendVolume0"/>
+											<Property Name="UserAuxSendVolume1"/>
 											<Property Name="MakeUpGain"/>
 											<Property Name="UserAuxSendVolume2"/>
 										</StatePropertyList>
@@ -6726,12 +6726,12 @@
 									</ChildrenList>
 									<StateInfo>
 										<StatePropertyList>
-											<Property Name="Highpass"/>
-											<Property Name="Volume"/>
 											<Property Name="Pitch"/>
 											<Property Name="Lowpass"/>
-											<Property Name="UserAuxSendVolume1"/>
+											<Property Name="Volume"/>
+											<Property Name="Highpass"/>
 											<Property Name="UserAuxSendVolume0"/>
+											<Property Name="UserAuxSendVolume1"/>
 											<Property Name="MakeUpGain"/>
 											<Property Name="UserAuxSendVolume2"/>
 										</StatePropertyList>
@@ -7362,12 +7362,12 @@
 									</ChildrenList>
 									<StateInfo>
 										<StatePropertyList>
-											<Property Name="Highpass"/>
-											<Property Name="Volume"/>
 											<Property Name="Pitch"/>
 											<Property Name="Lowpass"/>
-											<Property Name="UserAuxSendVolume1"/>
+											<Property Name="Volume"/>
+											<Property Name="Highpass"/>
 											<Property Name="UserAuxSendVolume0"/>
+											<Property Name="UserAuxSendVolume1"/>
 											<Property Name="MakeUpGain"/>
 										</StatePropertyList>
 										<StateGroupList>
@@ -7891,12 +7891,12 @@
 											</ChildrenList>
 											<StateInfo>
 												<StatePropertyList>
-													<Property Name="Highpass"/>
-													<Property Name="Volume"/>
 													<Property Name="Pitch"/>
 													<Property Name="Lowpass"/>
-													<Property Name="UserAuxSendVolume1"/>
+													<Property Name="Volume"/>
+													<Property Name="Highpass"/>
 													<Property Name="UserAuxSendVolume0"/>
+													<Property Name="UserAuxSendVolume1"/>
 													<Property Name="MakeUpGain"/>
 													<Property Name="UserAuxSendVolume2"/>
 												</StatePropertyList>
@@ -8186,12 +8186,12 @@
 											</ChildrenList>
 											<StateInfo>
 												<StatePropertyList>
-													<Property Name="Highpass"/>
-													<Property Name="Volume"/>
 													<Property Name="Pitch"/>
 													<Property Name="Lowpass"/>
-													<Property Name="UserAuxSendVolume1"/>
+													<Property Name="Volume"/>
+													<Property Name="Highpass"/>
 													<Property Name="UserAuxSendVolume0"/>
+													<Property Name="UserAuxSendVolume1"/>
 													<Property Name="MakeUpGain"/>
 													<Property Name="UserAuxSendVolume2"/>
 												</StatePropertyList>
@@ -8799,12 +8799,12 @@
 											</ChildrenList>
 											<StateInfo>
 												<StatePropertyList>
-													<Property Name="Highpass"/>
-													<Property Name="Volume"/>
 													<Property Name="Pitch"/>
 													<Property Name="Lowpass"/>
-													<Property Name="UserAuxSendVolume1"/>
+													<Property Name="Volume"/>
+													<Property Name="Highpass"/>
 													<Property Name="UserAuxSendVolume0"/>
+													<Property Name="UserAuxSendVolume1"/>
 													<Property Name="MakeUpGain"/>
 													<Property Name="UserAuxSendVolume2"/>
 												</StatePropertyList>
@@ -9456,12 +9456,12 @@
 											</ChildrenList>
 											<StateInfo>
 												<StatePropertyList>
-													<Property Name="Highpass"/>
-													<Property Name="Volume"/>
 													<Property Name="Pitch"/>
 													<Property Name="Lowpass"/>
-													<Property Name="UserAuxSendVolume1"/>
+													<Property Name="Volume"/>
+													<Property Name="Highpass"/>
 													<Property Name="UserAuxSendVolume0"/>
+													<Property Name="UserAuxSendVolume1"/>
 													<Property Name="MakeUpGain"/>
 													<Property Name="UserAuxSendVolume2"/>
 												</StatePropertyList>
@@ -63036,12 +63036,12 @@
 							</ChildrenList>
 							<StateInfo>
 								<StatePropertyList>
-									<Property Name="Highpass"/>
-									<Property Name="Volume"/>
 									<Property Name="Pitch"/>
 									<Property Name="Lowpass"/>
-									<Property Name="UserAuxSendVolume1"/>
+									<Property Name="Volume"/>
+									<Property Name="Highpass"/>
 									<Property Name="UserAuxSendVolume0"/>
+									<Property Name="UserAuxSendVolume1"/>
 									<Property Name="MakeUpGain"/>
 									<Property Name="UserAuxSendVolume2"/>
 								</StatePropertyList>
@@ -66065,12 +66065,12 @@
 					</ChildrenList>
 					<StateInfo>
 						<StatePropertyList>
-							<Property Name="Highpass"/>
-							<Property Name="Volume"/>
 							<Property Name="Pitch"/>
 							<Property Name="Lowpass"/>
-							<Property Name="UserAuxSendVolume1"/>
+							<Property Name="Volume"/>
+							<Property Name="Highpass"/>
 							<Property Name="UserAuxSendVolume0"/>
+							<Property Name="UserAuxSendVolume1"/>
 							<Property Name="MakeUpGain"/>
 							<Property Name="UserAuxSendVolume2"/>
 						</StatePropertyList>
@@ -66091,7 +66091,7 @@
 								<StateRef Name="PORT_MER" ID="{08EEC8DD-B198-464B-8F65-2EA270C2C391}"/>
 								<State Name="" ID="{FB039863-47FA-4664-8046-B90B3865C943}" ShortID="674241010">
 									<PropertyList>
-										<Property Name="UserAuxSendVolume0" Type="Real64" Value="-18"/>
+										<Property Name="UserAuxSendVolume0" Type="Real64" Value="-37"/>
 										<Property Name="UserAuxSendVolume1" Type="Real64" Value="-96"/>
 										<Property Name="UserAuxSendVolume2" Type="Real64" Value="-96"/>
 									</PropertyList>
@@ -66123,7 +66123,7 @@
 								<StateRef Name="PORT" ID="{043CCA0F-0E58-4B37-9D53-F3B7120D3209}"/>
 								<State Name="" ID="{8352CFCD-3278-4A20-9A8A-4B367FDC2479}" ShortID="1066701992">
 									<PropertyList>
-										<Property Name="UserAuxSendVolume0" Type="Real64" Value="-18"/>
+										<Property Name="UserAuxSendVolume0" Type="Real64" Value="-37"/>
 										<Property Name="UserAuxSendVolume1" Type="Real64" Value="-96"/>
 										<Property Name="UserAuxSendVolume2" Type="Real64" Value="-96"/>
 									</PropertyList>
