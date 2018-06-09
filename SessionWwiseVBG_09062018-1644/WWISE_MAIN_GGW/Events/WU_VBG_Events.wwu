@@ -525,16 +525,6 @@
 								</Event>
 								<Event Name="Play_M_TUTO" ID="{99D2A8F0-3638-4A84-BB2A-E17C399CA35B}">
 									<ChildrenList>
-										<Action Name="" ID="{848903B9-6C5A-49C2-81C2-43DA6FDEBAC5}" ShortID="259883314">
-											<PropertyList>
-												<Property Name="ActionType" Type="int16" Value="22"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="None" ID="{0CA60A7A-6318-49BA-9B87-37691A305380}" WorkUnitID="{CE988CDB-2DEC-4B44-AE99-406B162A76C1}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
 										<Action Name="" ID="{E7D05AB8-611D-47EF-8293-4D2C4192BEB4}" ShortID="452884477">
 											<PropertyList>
 												<Property Name="ActionType" Type="int16" Value="1"/>
