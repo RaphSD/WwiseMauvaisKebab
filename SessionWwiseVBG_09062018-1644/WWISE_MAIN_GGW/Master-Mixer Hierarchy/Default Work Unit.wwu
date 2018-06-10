@@ -87,6 +87,13 @@
 						<Bus Name="M" ID="{D3DCFA47-4DAA-4AA2-9128-E0A7E9FB6208}">
 							<ChildrenList>
 								<Bus Name="M_RVB" ID="{C8393370-1A12-4D28-96F5-628497ADF0D9}">
+									<PropertyList>
+										<Property Name="BusVolume" Type="Real64">
+											<ValueList>
+												<Value>-4</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ChildrenList>
 										<AuxBus Name="M_FALAISE_RVB" ID="{4C9DD660-34C6-4B58-A460-7C5DE1473FD8}">
 											<ReferenceList>

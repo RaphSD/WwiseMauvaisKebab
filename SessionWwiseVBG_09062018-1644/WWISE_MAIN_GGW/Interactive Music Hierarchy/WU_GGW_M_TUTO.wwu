@@ -4,13 +4,6 @@
 		<WorkUnit Name="WU_GGW_M_TUTO" ID="{2BD541CC-F5D4-4567-A98E-EA286A3A5547}" PersistMode="Standalone">
 			<ChildrenList>
 				<MusicSwitchContainer Name="SW_M_THEME_TUTO" ID="{D9EF2377-8477-43F9-8F5A-3AD7CC1BE560}" ShortID="340328828">
-					<PropertyList>
-						<Property Name="Volume" Type="Real64">
-							<ValueList>
-								<Value>6</Value>
-							</ValueList>
-						</Property>
-					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA1A39EC-4140-45BE-8410-0298EA84A9B0}"/>
@@ -25,7 +18,7 @@
 								<Property Name="Tempo" Type="Real64" Value="105"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-17</Value>
+										<Value>-7</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
