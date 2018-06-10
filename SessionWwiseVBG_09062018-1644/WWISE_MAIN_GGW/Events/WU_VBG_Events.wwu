@@ -22662,6 +22662,16 @@
 														</Reference>
 													</ReferenceList>
 												</Action>
+												<Action Name="" ID="{1EEC5307-1BF0-4777-AAAD-B29E7E0FEE22}" ShortID="310665019">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="1"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Stone_Crash" ID="{ABE6079D-9950-45CD-A932-9E630953782A}" WorkUnitID="{4293CC0B-FFA8-4A29-8B13-3FE897B31D3A}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
 											</ChildrenList>
 										</Event>
 										<Event Name="Play_barrel_DESTRUCTION" ID="{E89DF438-B454-40B5-B22E-03A96CE1E410}">
@@ -22683,6 +22693,16 @@
 													<ReferenceList>
 														<Reference Name="Target">
 															<ObjectRef Name="Play_RND_DEBRIS_BARREL" ID="{F3729C56-413F-42BC-85CA-DDD51C8CB564}" WorkUnitID="{18170C99-9932-4AEA-A67D-3ACB79FC6612}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+												<Action Name="" ID="{BDE10DE0-04BC-46D6-B580-EBD1F5FB2267}" ShortID="866173732">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="1"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Wood_Crash_Light" ID="{A919A631-54BD-4148-8290-9A97F79791D9}" WorkUnitID="{4293CC0B-FFA8-4A29-8B13-3FE897B31D3A}"/>
 														</Reference>
 													</ReferenceList>
 												</Action>
@@ -22965,6 +22985,16 @@
 														</Reference>
 													</ReferenceList>
 												</Action>
+												<Action Name="" ID="{51710578-97B3-4CAD-80FF-833BF361179C}" ShortID="387968268">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="1"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Stone_Crash" ID="{ABE6079D-9950-45CD-A932-9E630953782A}" WorkUnitID="{4293CC0B-FFA8-4A29-8B13-3FE897B31D3A}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
 											</ChildrenList>
 										</Event>
 										<Event Name="Play_colomn_piece_05_DESTRUCTION" ID="{1D8A3AD8-423A-41BA-AC2A-ED2DC1312CA2}">
@@ -23047,6 +23077,16 @@
 														</Reference>
 													</ReferenceList>
 												</Action>
+												<Action Name="" ID="{CFD4EC7E-3FDA-420A-960A-CD51DBB6AD55}" ShortID="882475480">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="1"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Wood_Crash_Light" ID="{A919A631-54BD-4148-8290-9A97F79791D9}" WorkUnitID="{4293CC0B-FFA8-4A29-8B13-3FE897B31D3A}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
 											</ChildrenList>
 										</Event>
 										<Event Name="Play_pot_leaves_DESTRUCTION" ID="{CD0C5708-92FE-4398-ABFA-BC13F28FB081}">
@@ -23068,6 +23108,16 @@
 													<ReferenceList>
 														<Reference Name="Target">
 															<ObjectRef Name="Play_RND_IMPACT_POT_LEAVES" ID="{31E18F89-16E4-4CF8-968A-F2E2324463D7}" WorkUnitID="{18170C99-9932-4AEA-A67D-3ACB79FC6612}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+												<Action Name="" ID="{481C764D-E794-41A3-A3C1-6EE23B3619D9}" ShortID="154286330">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="1"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Stone_Crash" ID="{ABE6079D-9950-45CD-A932-9E630953782A}" WorkUnitID="{4293CC0B-FFA8-4A29-8B13-3FE897B31D3A}"/>
 														</Reference>
 													</ReferenceList>
 												</Action>
@@ -23256,6 +23306,16 @@
 													<ReferenceList>
 														<Reference Name="Target">
 															<ObjectRef Name="Play_RND_IMPACT_COLOMN" ID="{CD2D26BC-CA58-4A51-BF9E-A2012096A012}" WorkUnitID="{18170C99-9932-4AEA-A67D-3ACB79FC6612}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+												<Action Name="" ID="{7306B8DA-A450-46B1-A91B-AD9A06FE4978}" ShortID="678262904">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="1"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Stone_Crash" ID="{ABE6079D-9950-45CD-A932-9E630953782A}" WorkUnitID="{4293CC0B-FFA8-4A29-8B13-3FE897B31D3A}"/>
 														</Reference>
 													</ReferenceList>
 												</Action>

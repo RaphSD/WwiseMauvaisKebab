@@ -66410,6 +66410,230 @@
 												</Sound>
 											</ChildrenList>
 										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Stone_Crash" ID="{ABE6079D-9950-45CD-A932-9E630953782A}" ShortID="688899339">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-10</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA1A39EC-4140-45BE-8410-0298EA84A9B0}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B42A094-68F1-4414-A1E6-24FF64B8FBF8}"/>
+												</Reference>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="AC_PORT" ID="{57330065-42D0-456F-BF38-FC9438A8BC3F}" WorkUnitID="{2B42A094-68F1-4414-A1E6-24FF64B8FBF8}"/>
+												</Reference>
+												<Reference Name="UserAuxSend1">
+													<ObjectRef Name="AC_FALAISE" ID="{94A2E18E-ABD9-436E-BDAB-7A89594E206A}" WorkUnitID="{2B42A094-68F1-4414-A1E6-24FF64B8FBF8}"/>
+												</Reference>
+												<Reference Name="UserAuxSend2">
+													<ObjectRef Name="AC_VILLAGE" ID="{0D2D0970-187F-476F-BE41-AD8CDD5D3F9B}" WorkUnitID="{2B42A094-68F1-4414-A1E6-24FF64B8FBF8}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Stone_Crash-001" ID="{F18FD002-1531-41C0-970D-4E6B054913B0}" ShortID="329446694">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA1A39EC-4140-45BE-8410-0298EA84A9B0}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B42A094-68F1-4414-A1E6-24FF64B8FBF8}"/>
+														</Reference>
+														<Reference Name="UserAuxSend0">
+															<ObjectRef Name="AC_PORT" ID="{57330065-42D0-456F-BF38-FC9438A8BC3F}" WorkUnitID="{2B42A094-68F1-4414-A1E6-24FF64B8FBF8}"/>
+														</Reference>
+														<Reference Name="UserAuxSend1">
+															<ObjectRef Name="AC_FALAISE" ID="{94A2E18E-ABD9-436E-BDAB-7A89594E206A}" WorkUnitID="{2B42A094-68F1-4414-A1E6-24FF64B8FBF8}"/>
+														</Reference>
+														<Reference Name="UserAuxSend2">
+															<ObjectRef Name="AC_VILLAGE" ID="{0D2D0970-187F-476F-BE41-AD8CDD5D3F9B}" WorkUnitID="{2B42A094-68F1-4414-A1E6-24FF64B8FBF8}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Stone_Crash-001" ID="{E5AC9C01-9BBB-45EB-A059-1B73AD145EDC}" ShortID="642589696">
+															<Language>SFX</Language>
+															<AudioFile>Stone_Crash-001.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Stone_Crash-001" ID="{E5AC9C01-9BBB-45EB-A059-1B73AD145EDC}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Stone_Crash-002" ID="{94AE510D-C9CE-4494-A322-85F02688856E}" ShortID="1045450621">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA1A39EC-4140-45BE-8410-0298EA84A9B0}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B42A094-68F1-4414-A1E6-24FF64B8FBF8}"/>
+														</Reference>
+														<Reference Name="UserAuxSend0">
+															<ObjectRef Name="AC_PORT" ID="{57330065-42D0-456F-BF38-FC9438A8BC3F}" WorkUnitID="{2B42A094-68F1-4414-A1E6-24FF64B8FBF8}"/>
+														</Reference>
+														<Reference Name="UserAuxSend1">
+															<ObjectRef Name="AC_FALAISE" ID="{94A2E18E-ABD9-436E-BDAB-7A89594E206A}" WorkUnitID="{2B42A094-68F1-4414-A1E6-24FF64B8FBF8}"/>
+														</Reference>
+														<Reference Name="UserAuxSend2">
+															<ObjectRef Name="AC_VILLAGE" ID="{0D2D0970-187F-476F-BE41-AD8CDD5D3F9B}" WorkUnitID="{2B42A094-68F1-4414-A1E6-24FF64B8FBF8}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Stone_Crash-002" ID="{4C99643F-7439-4335-A751-B73E0E12151B}" ShortID="733996383">
+															<Language>SFX</Language>
+															<AudioFile>Stone_Crash-002.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Stone_Crash-002" ID="{4C99643F-7439-4335-A751-B73E0E12151B}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Stone_Crash-003" ID="{6D846AD8-2BDB-47A0-B183-C1D0FBB14EDA}" ShortID="115182396">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA1A39EC-4140-45BE-8410-0298EA84A9B0}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B42A094-68F1-4414-A1E6-24FF64B8FBF8}"/>
+														</Reference>
+														<Reference Name="UserAuxSend0">
+															<ObjectRef Name="AC_PORT" ID="{57330065-42D0-456F-BF38-FC9438A8BC3F}" WorkUnitID="{2B42A094-68F1-4414-A1E6-24FF64B8FBF8}"/>
+														</Reference>
+														<Reference Name="UserAuxSend1">
+															<ObjectRef Name="AC_FALAISE" ID="{94A2E18E-ABD9-436E-BDAB-7A89594E206A}" WorkUnitID="{2B42A094-68F1-4414-A1E6-24FF64B8FBF8}"/>
+														</Reference>
+														<Reference Name="UserAuxSend2">
+															<ObjectRef Name="AC_VILLAGE" ID="{0D2D0970-187F-476F-BE41-AD8CDD5D3F9B}" WorkUnitID="{2B42A094-68F1-4414-A1E6-24FF64B8FBF8}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Stone_Crash-003" ID="{FA35968D-9729-48FD-A681-2FAF84FDB736}" ShortID="960232410">
+															<Language>SFX</Language>
+															<AudioFile>Stone_Crash-003.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Stone_Crash-003" ID="{FA35968D-9729-48FD-A681-2FAF84FDB736}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Stone_Crash-004" ID="{54C171A5-69EE-4E77-9196-B67D4B21DA74}" ShortID="204377054">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA1A39EC-4140-45BE-8410-0298EA84A9B0}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B42A094-68F1-4414-A1E6-24FF64B8FBF8}"/>
+														</Reference>
+														<Reference Name="UserAuxSend0">
+															<ObjectRef Name="AC_PORT" ID="{57330065-42D0-456F-BF38-FC9438A8BC3F}" WorkUnitID="{2B42A094-68F1-4414-A1E6-24FF64B8FBF8}"/>
+														</Reference>
+														<Reference Name="UserAuxSend1">
+															<ObjectRef Name="AC_FALAISE" ID="{94A2E18E-ABD9-436E-BDAB-7A89594E206A}" WorkUnitID="{2B42A094-68F1-4414-A1E6-24FF64B8FBF8}"/>
+														</Reference>
+														<Reference Name="UserAuxSend2">
+															<ObjectRef Name="AC_VILLAGE" ID="{0D2D0970-187F-476F-BE41-AD8CDD5D3F9B}" WorkUnitID="{2B42A094-68F1-4414-A1E6-24FF64B8FBF8}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Stone_Crash-004" ID="{131543B5-19BD-44C5-ACF2-039CA84E00EE}" ShortID="749869361">
+															<Language>SFX</Language>
+															<AudioFile>Stone_Crash-004.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Stone_Crash-004" ID="{131543B5-19BD-44C5-ACF2-039CA84E00EE}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Stone_Crash-005" ID="{DB370790-DFC9-424C-BCF7-A0684400F1BC}" ShortID="483260140">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA1A39EC-4140-45BE-8410-0298EA84A9B0}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B42A094-68F1-4414-A1E6-24FF64B8FBF8}"/>
+														</Reference>
+														<Reference Name="UserAuxSend0">
+															<ObjectRef Name="AC_PORT" ID="{57330065-42D0-456F-BF38-FC9438A8BC3F}" WorkUnitID="{2B42A094-68F1-4414-A1E6-24FF64B8FBF8}"/>
+														</Reference>
+														<Reference Name="UserAuxSend1">
+															<ObjectRef Name="AC_FALAISE" ID="{94A2E18E-ABD9-436E-BDAB-7A89594E206A}" WorkUnitID="{2B42A094-68F1-4414-A1E6-24FF64B8FBF8}"/>
+														</Reference>
+														<Reference Name="UserAuxSend2">
+															<ObjectRef Name="AC_VILLAGE" ID="{0D2D0970-187F-476F-BE41-AD8CDD5D3F9B}" WorkUnitID="{2B42A094-68F1-4414-A1E6-24FF64B8FBF8}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Stone_Crash-005" ID="{0B955855-9224-49F2-821E-158D1CD97934}" ShortID="185083881">
+															<Language>SFX</Language>
+															<AudioFile>Stone_Crash-005.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Stone_Crash-005" ID="{0B955855-9224-49F2-821E-158D1CD97934}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Stone_Crash-006" ID="{01F44F3B-4B8E-4759-BD60-1055AAB05C29}" ShortID="554002558">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA1A39EC-4140-45BE-8410-0298EA84A9B0}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B42A094-68F1-4414-A1E6-24FF64B8FBF8}"/>
+														</Reference>
+														<Reference Name="UserAuxSend0">
+															<ObjectRef Name="AC_PORT" ID="{57330065-42D0-456F-BF38-FC9438A8BC3F}" WorkUnitID="{2B42A094-68F1-4414-A1E6-24FF64B8FBF8}"/>
+														</Reference>
+														<Reference Name="UserAuxSend1">
+															<ObjectRef Name="AC_FALAISE" ID="{94A2E18E-ABD9-436E-BDAB-7A89594E206A}" WorkUnitID="{2B42A094-68F1-4414-A1E6-24FF64B8FBF8}"/>
+														</Reference>
+														<Reference Name="UserAuxSend2">
+															<ObjectRef Name="AC_VILLAGE" ID="{0D2D0970-187F-476F-BE41-AD8CDD5D3F9B}" WorkUnitID="{2B42A094-68F1-4414-A1E6-24FF64B8FBF8}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Stone_Crash-006" ID="{350DD624-6AD7-4B3B-B867-A9C4322F75D2}" ShortID="204036708">
+															<Language>SFX</Language>
+															<AudioFile>Stone_Crash-006.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Stone_Crash-006" ID="{350DD624-6AD7-4B3B-B867-A9C4322F75D2}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Stone_Crash-007" ID="{4F939E1C-D43B-4154-BA0B-5EFAE5889D20}" ShortID="318279406">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA1A39EC-4140-45BE-8410-0298EA84A9B0}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B42A094-68F1-4414-A1E6-24FF64B8FBF8}"/>
+														</Reference>
+														<Reference Name="UserAuxSend0">
+															<ObjectRef Name="AC_PORT" ID="{57330065-42D0-456F-BF38-FC9438A8BC3F}" WorkUnitID="{2B42A094-68F1-4414-A1E6-24FF64B8FBF8}"/>
+														</Reference>
+														<Reference Name="UserAuxSend1">
+															<ObjectRef Name="AC_FALAISE" ID="{94A2E18E-ABD9-436E-BDAB-7A89594E206A}" WorkUnitID="{2B42A094-68F1-4414-A1E6-24FF64B8FBF8}"/>
+														</Reference>
+														<Reference Name="UserAuxSend2">
+															<ObjectRef Name="AC_VILLAGE" ID="{0D2D0970-187F-476F-BE41-AD8CDD5D3F9B}" WorkUnitID="{2B42A094-68F1-4414-A1E6-24FF64B8FBF8}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Stone_Crash-007" ID="{6EC6DDE3-4FD2-4B83-AF5D-CE7C2EC4AE05}" ShortID="10893063">
+															<Language>SFX</Language>
+															<AudioFile>Stone_Crash-007.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Stone_Crash-007" ID="{6EC6DDE3-4FD2-4B83-AF5D-CE7C2EC4AE05}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
 									</ChildrenList>
 								</ActorMixer>
 							</ChildrenList>
