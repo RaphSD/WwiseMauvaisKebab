@@ -22754,6 +22754,26 @@
 														</Reference>
 													</ReferenceList>
 												</Action>
+												<Action Name="" ID="{2CEBBAA4-B631-447F-B0D6-3AED676F1C11}" ShortID="69103080">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="1"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Stone_Crash" ID="{ABE6079D-9950-45CD-A932-9E630953782A}" WorkUnitID="{4293CC0B-FFA8-4A29-8B13-3FE897B31D3A}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+												<Action Name="" ID="{B9C8B7B3-B257-4E05-8281-B868B1146506}" ShortID="957869829">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="1"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Stone_Crash_Heavy" ID="{E2F19ABC-AD9E-4119-B3EB-4F672AB8C95E}" WorkUnitID="{4293CC0B-FFA8-4A29-8B13-3FE897B31D3A}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
 											</ChildrenList>
 										</Event>
 										<Event Name="Play_colomn_piece_02_DESTRUCTION" ID="{95096864-97DB-4EFE-B3A9-7C0D48AD9F42}">

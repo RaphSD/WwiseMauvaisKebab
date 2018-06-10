@@ -603,13 +603,13 @@
 					</ChildrenList>
 					<StateInfo>
 						<StatePropertyList>
+							<Property Name="Highpass"/>
 							<Property Name="Lowpass"/>
 							<Property Name="Volume"/>
-							<Property Name="Highpass"/>
 							<Property Name="UserAuxSendVolume0"/>
 							<Property Name="UserAuxSendVolume1"/>
-							<Property Name="MakeUpGain"/>
 							<Property Name="UserAuxSendVolume2"/>
+							<Property Name="MakeUpGain"/>
 						</StatePropertyList>
 						<StateGroupList>
 							<StateGroupInfo>
@@ -1288,13 +1288,13 @@
 					</ChildrenList>
 					<StateInfo>
 						<StatePropertyList>
+							<Property Name="Highpass"/>
 							<Property Name="Lowpass"/>
 							<Property Name="Volume"/>
-							<Property Name="Highpass"/>
 							<Property Name="UserAuxSendVolume0"/>
 							<Property Name="UserAuxSendVolume1"/>
-							<Property Name="MakeUpGain"/>
 							<Property Name="UserAuxSendVolume2"/>
+							<Property Name="MakeUpGain"/>
 						</StatePropertyList>
 						<StateGroupList>
 							<StateGroupInfo>
@@ -1970,13 +1970,13 @@
 					</ChildrenList>
 					<StateInfo>
 						<StatePropertyList>
+							<Property Name="Highpass"/>
 							<Property Name="Lowpass"/>
 							<Property Name="Volume"/>
-							<Property Name="Highpass"/>
 							<Property Name="UserAuxSendVolume0"/>
 							<Property Name="UserAuxSendVolume1"/>
-							<Property Name="MakeUpGain"/>
 							<Property Name="UserAuxSendVolume2"/>
+							<Property Name="MakeUpGain"/>
 						</StatePropertyList>
 						<StateGroupList>
 							<StateGroupInfo>
@@ -2647,13 +2647,13 @@
 					</ChildrenList>
 					<StateInfo>
 						<StatePropertyList>
+							<Property Name="Highpass"/>
 							<Property Name="Lowpass"/>
 							<Property Name="Volume"/>
-							<Property Name="Highpass"/>
 							<Property Name="UserAuxSendVolume0"/>
 							<Property Name="UserAuxSendVolume1"/>
-							<Property Name="MakeUpGain"/>
 							<Property Name="UserAuxSendVolume2"/>
+							<Property Name="MakeUpGain"/>
 						</StatePropertyList>
 						<StateGroupList>
 							<StateGroupInfo>
@@ -3380,13 +3380,13 @@
 					</ChildrenList>
 					<StateInfo>
 						<StatePropertyList>
+							<Property Name="Highpass"/>
 							<Property Name="Lowpass"/>
 							<Property Name="Volume"/>
-							<Property Name="Highpass"/>
 							<Property Name="UserAuxSendVolume0"/>
 							<Property Name="UserAuxSendVolume1"/>
-							<Property Name="MakeUpGain"/>
 							<Property Name="UserAuxSendVolume2"/>
+							<Property Name="MakeUpGain"/>
 						</StatePropertyList>
 						<StateGroupList>
 							<StateGroupInfo>
@@ -3980,16 +3980,133 @@
 								</MusicPlaylistItem>
 							</Playlist>
 						</MusicPlaylistContainer>
+						<MusicPlaylistContainer Name="INTRO" ID="{065BDE9C-3003-4DE5-887D-4513C5DFFB35}" ShortID="718669794">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA1A39EC-4140-45BE-8410-0298EA84A9B0}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B42A094-68F1-4414-A1E6-24FF64B8FBF8}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="M_THEME_VILLAGE_INTRO_SAZ_V2" ID="{4EA0C7BF-BAB6-400A-A86B-52EC07C017A9}" ShortID="260032885">
+									<PropertyList>
+										<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
+										<Property Name="EndPosition" Type="Real64" Value="7384.60416666667"/>
+										<Property Name="PositioningType" Type="int16" Value="1"/>
+										<Property Name="Tempo" Type="Real64" Value="130"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="SHARESET_ATTENUATION_M_DIEGETIQUE" ID="{06E128DE-D6E9-4868-A213-4783A6961150}" WorkUnitID="{B17C497F-A5EC-4196-9E9D-5E3816C4EF25}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="OGGstereo_Musique" ID="{EA6869D9-1955-4D73-9B52-25C312BFFC12}" WorkUnitID="{6191B221-9369-4674-9333-AC155B0CA5BC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="M_DRY" ID="{A4856902-9336-4E76-AF6A-5D2A1F580A1B}" WorkUnitID="{2B42A094-68F1-4414-A1E6-24FF64B8FBF8}"/>
+										</Reference>
+										<Reference Name="UserAuxSend0">
+											<ObjectRef Name="M_PORT_RVB" ID="{4039EBFF-2400-4578-8F9F-94214D86D0F0}" WorkUnitID="{2B42A094-68F1-4414-A1E6-24FF64B8FBF8}"/>
+										</Reference>
+										<Reference Name="UserAuxSend1">
+											<ObjectRef Name="M_FALAISE_RVB" ID="{4C9DD660-34C6-4B58-A460-7C5DE1473FD8}" WorkUnitID="{2B42A094-68F1-4414-A1E6-24FF64B8FBF8}"/>
+										</Reference>
+										<Reference Name="UserAuxSend2">
+											<ObjectRef Name="M_VILLAGE_RVB" ID="{3120EE01-40A8-4A6D-9AD2-16C5717D99D4}" WorkUnitID="{2B42A094-68F1-4414-A1E6-24FF64B8FBF8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="M_THEME_VILLAGE_INTRO_SAZ_V2" ID="{1C858540-21DD-4520-B7E3-E5619E302221}" ShortID="140660155">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B42A094-68F1-4414-A1E6-24FF64B8FBF8}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="M_THEME_VILLAGE_INTRO_SAZ_V2" ID="{F5E55430-C57F-453E-B955-F082F32C5F59}" ShortID="88079557">
+													<Language>SFX</Language>
+													<AudioFile>M_THEME_VILLAGE_INTRO_SAZ_V2.wav</AudioFile>
+													<ConvertedFileIDList>
+														<File ID="132057207"/>
+													</ConvertedFileIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{60AD8584-C12B-4C10-BD8F-C3F65D00438E}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{30600CEE-CE9D-4DAD-8F37-FB882AB4AFCD}">
+													<ClipList>
+														<MusicClip Name="M_THEME_VILLAGE_INTRO_SAZ_V2" ID="{4146B93E-E379-4166-B1BF-8D2AC867274A}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="7384.60416666667"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="M_THEME_VILLAGE_INTRO_SAZ_V2" ID="{F5E55430-C57F-453E-B955-F082F32C5F59}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{DBE95584-4A59-4B50-A882-24365DB0B94F}"/>
+										<MusicCue Name="Exit Cue" ID="{1FC9F10E-EDC1-4A24-891A-3EE5F38883B8}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="7384.60416666667"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{493BAC6A-37C4-48CF-867E-67B33B0970B0}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{610E2B10-58FA-4754-A595-F77229E92B85}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<Playlist>
+								<MusicPlaylistItem Name="" ID="{2A4C0D03-684D-4D7C-9D75-16515B27B476}" ShortID="206413045">
+									<PropertyList>
+										<Property Name="LoopCount" Type="int16" Value="0"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{212346C7-B070-40FA-8E0E-AA70965F4061}" ShortID="54824257">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="M_THEME_VILLAGE_INTRO_SAZ_V2" ID="{4EA0C7BF-BAB6-400A-A86B-52EC07C017A9}"/>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
+							</Playlist>
+						</MusicPlaylistContainer>
 					</ChildrenList>
 					<StateInfo>
 						<StatePropertyList>
+							<Property Name="Highpass"/>
 							<Property Name="Lowpass"/>
 							<Property Name="Volume"/>
-							<Property Name="Highpass"/>
 							<Property Name="UserAuxSendVolume0"/>
 							<Property Name="UserAuxSendVolume1"/>
-							<Property Name="MakeUpGain"/>
 							<Property Name="UserAuxSendVolume2"/>
+							<Property Name="MakeUpGain"/>
 						</StatePropertyList>
 						<StateGroupList>
 							<StateGroupInfo>
@@ -5035,13 +5152,13 @@
 					</ChildrenList>
 					<StateInfo>
 						<StatePropertyList>
+							<Property Name="Highpass"/>
 							<Property Name="Lowpass"/>
 							<Property Name="Volume"/>
-							<Property Name="Highpass"/>
 							<Property Name="UserAuxSendVolume0"/>
 							<Property Name="UserAuxSendVolume1"/>
-							<Property Name="MakeUpGain"/>
 							<Property Name="UserAuxSendVolume2"/>
+							<Property Name="MakeUpGain"/>
 						</StatePropertyList>
 						<StateGroupList>
 							<StateGroupInfo MusicSyncType="3">
