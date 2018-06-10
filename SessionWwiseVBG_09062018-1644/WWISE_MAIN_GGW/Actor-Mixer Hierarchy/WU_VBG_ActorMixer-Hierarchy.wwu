@@ -50095,6 +50095,67 @@
 												</BlendContainer>
 											</ChildrenList>
 										</ActorMixer>
+										<ActorMixer Name="VENDING_MACHINE" ID="{9913E8BC-A6FD-43FB-9737-9F882A3F85ED}" ShortID="422366635">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA1A39EC-4140-45BE-8410-0298EA84A9B0}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B42A094-68F1-4414-A1E6-24FF64B8FBF8}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Vending_Machine" ID="{65238119-191D-4F3D-BC12-05830DEAE549}" ShortID="497710039">
+													<PropertyList>
+														<Property Name="Pitch" Type="int32">
+															<ModifierList>
+																<ModifierInfo>
+																	<Modifier Name="" ID="{84E4F6DD-108B-4106-9606-6643C584B893}">
+																		<PropertyList>
+																			<Property Name="Enabled" Type="bool" Value="True"/>
+																			<Property Name="Max" Type="Real64" Value="500"/>
+																			<Property Name="Min" Type="Real64" Value="-202"/>
+																		</PropertyList>
+																	</Modifier>
+																</ModifierInfo>
+															</ModifierList>
+														</Property>
+														<Property Name="PositioningType" Type="int16" Value="1"/>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-11</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="OGG_monoSFX" ID="{2ACB61AE-90B4-4ABC-AE80-7040BF766B26}" WorkUnitID="{6191B221-9369-4674-9333-AC155B0CA5BC}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B42A094-68F1-4414-A1E6-24FF64B8FBF8}"/>
+														</Reference>
+														<Reference Name="UserAuxSend0">
+															<ObjectRef Name="AC_PORT" ID="{57330065-42D0-456F-BF38-FC9438A8BC3F}" WorkUnitID="{2B42A094-68F1-4414-A1E6-24FF64B8FBF8}"/>
+														</Reference>
+														<Reference Name="UserAuxSend1">
+															<ObjectRef Name="AC_FALAISE" ID="{94A2E18E-ABD9-436E-BDAB-7A89594E206A}" WorkUnitID="{2B42A094-68F1-4414-A1E6-24FF64B8FBF8}"/>
+														</Reference>
+														<Reference Name="UserAuxSend2">
+															<ObjectRef Name="AC_VILLAGE" ID="{0D2D0970-187F-476F-BE41-AD8CDD5D3F9B}" WorkUnitID="{2B42A094-68F1-4414-A1E6-24FF64B8FBF8}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Vending_Machine" ID="{7FAC1ED9-7142-4629-A924-2C00183DA2B4}" ShortID="783043278">
+															<Language>SFX</Language>
+															<AudioFile>Vending_Machine.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Vending_Machine" ID="{7FAC1ED9-7142-4629-A924-2C00183DA2B4}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</ActorMixer>
 									</ChildrenList>
 								</ActorMixer>
 								<ActorMixer Name="NON_DESTRUCTIBLE" ID="{45D3AC2C-6E08-499A-A7EC-BF00CE45A825}" ShortID="756397112">

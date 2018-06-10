@@ -23580,6 +23580,20 @@
 												</Action>
 											</ChildrenList>
 										</Event>
+										<Event Name="Play_vending_machine_DESTRUCTION" ID="{313F1414-4AE6-4038-AA36-E6CEEEAF1318}">
+											<ChildrenList>
+												<Action Name="" ID="{6F0D3B32-6D81-4F25-AE27-608B90A8F0C5}" ShortID="174136854">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="1"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Vending_Machine" ID="{65238119-191D-4F3D-BC12-05830DEAE549}" WorkUnitID="{4293CC0B-FFA8-4A29-8B13-3FE897B31D3A}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
 									</ChildrenList>
 								</Folder>
 								<Folder Name="play" ID="{EF8FB24B-7257-4A08-94DD-AD4330ACAD4F}" ShortID="246206852">
