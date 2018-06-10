@@ -811,7 +811,7 @@
 						<Entry>
 							<Path>
 								<PathElementRef Name="VILLAGE" ID="{DA36E68C-BFB9-4945-B864-1626C864EC6F}"/>
-								<PathElementRef Name="MUSIQUE_VILLAGE_END" ID="{81BA56A8-B260-4C7C-8A81-7B38928FA1C8}"/>
+								<PathElementRef Name="None" ID="{D622E5EF-C25F-4EC1-BED3-C54F5F5A28AC}"/>
 								<PathElementRef Name="MAP_ZONE_FALAISE" ID="{574E5013-147D-40A3-BEB6-FB2429A1169D}"/>
 							</Path>
 							<AudioNodeInfo>
@@ -1501,7 +1501,7 @@
 						<Entry>
 							<Path>
 								<PathElementRef Name="VILLAGE" ID="{DA36E68C-BFB9-4945-B864-1626C864EC6F}"/>
-								<PathElementRef Name="MUSIQUE_VILLAGE_END" ID="{81BA56A8-B260-4C7C-8A81-7B38928FA1C8}"/>
+								<PathElementRef Name="None" ID="{D622E5EF-C25F-4EC1-BED3-C54F5F5A28AC}"/>
 								<PathElementRef Name="MAP_ZONE_FALAISE" ID="{574E5013-147D-40A3-BEB6-FB2429A1169D}"/>
 							</Path>
 							<AudioNodeInfo>
@@ -2194,7 +2194,7 @@
 						<Entry>
 							<Path>
 								<PathElementRef Name="VILLAGE" ID="{DA36E68C-BFB9-4945-B864-1626C864EC6F}"/>
-								<PathElementRef Name="MUSIQUE_VILLAGE_END" ID="{81BA56A8-B260-4C7C-8A81-7B38928FA1C8}"/>
+								<PathElementRef Name="None" ID="{D622E5EF-C25F-4EC1-BED3-C54F5F5A28AC}"/>
 								<PathElementRef Name="MAP_ZONE_FALAISE" ID="{574E5013-147D-40A3-BEB6-FB2429A1169D}"/>
 							</Path>
 							<AudioNodeInfo>
@@ -2895,7 +2895,7 @@
 						<Entry>
 							<Path>
 								<PathElementRef Name="VILLAGE" ID="{DA36E68C-BFB9-4945-B864-1626C864EC6F}"/>
-								<PathElementRef Name="MUSIQUE_VILLAGE_END" ID="{81BA56A8-B260-4C7C-8A81-7B38928FA1C8}"/>
+								<PathElementRef Name="None" ID="{D622E5EF-C25F-4EC1-BED3-C54F5F5A28AC}"/>
 								<PathElementRef Name="MAP_ZONE_FALAISE" ID="{574E5013-147D-40A3-BEB6-FB2429A1169D}"/>
 							</Path>
 							<AudioNodeInfo>
@@ -3625,7 +3625,7 @@
 						<Entry>
 							<Path>
 								<PathElementRef Name="VILLAGE" ID="{DA36E68C-BFB9-4945-B864-1626C864EC6F}"/>
-								<PathElementRef Name="MUSIQUE_VILLAGE_END" ID="{81BA56A8-B260-4C7C-8A81-7B38928FA1C8}"/>
+								<PathElementRef Name="None" ID="{D622E5EF-C25F-4EC1-BED3-C54F5F5A28AC}"/>
 								<PathElementRef Name="MAP_ZONE_FALAISE" ID="{574E5013-147D-40A3-BEB6-FB2429A1169D}"/>
 							</Path>
 							<AudioNodeInfo>
@@ -4358,7 +4358,7 @@
 						<Entry>
 							<Path>
 								<PathElementRef Name="VILLAGE" ID="{DA36E68C-BFB9-4945-B864-1626C864EC6F}"/>
-								<PathElementRef Name="MUSIQUE_VILLAGE_END" ID="{81BA56A8-B260-4C7C-8A81-7B38928FA1C8}"/>
+								<PathElementRef Name="None" ID="{D622E5EF-C25F-4EC1-BED3-C54F5F5A28AC}"/>
 								<PathElementRef Name="MAP_ZONE_FALAISE" ID="{574E5013-147D-40A3-BEB6-FB2429A1169D}"/>
 							</Path>
 							<AudioNodeInfo>

@@ -596,11 +596,11 @@
 						<StatePropertyList>
 							<Property Name="Highpass"/>
 							<Property Name="Lowpass"/>
-							<Property Name="MakeUpGain"/>
+							<Property Name="Volume"/>
 							<Property Name="UserAuxSendVolume0"/>
 							<Property Name="UserAuxSendVolume1"/>
 							<Property Name="UserAuxSendVolume2"/>
-							<Property Name="Volume"/>
+							<Property Name="MakeUpGain"/>
 						</StatePropertyList>
 					</StateInfo>
 					<TransitionList>
@@ -1346,11 +1346,11 @@
 						<StatePropertyList>
 							<Property Name="Highpass"/>
 							<Property Name="Lowpass"/>
-							<Property Name="MakeUpGain"/>
+							<Property Name="Volume"/>
 							<Property Name="UserAuxSendVolume0"/>
 							<Property Name="UserAuxSendVolume1"/>
 							<Property Name="UserAuxSendVolume2"/>
-							<Property Name="Volume"/>
+							<Property Name="MakeUpGain"/>
 						</StatePropertyList>
 					</StateInfo>
 					<TransitionList>
@@ -2065,11 +2065,11 @@
 						<StatePropertyList>
 							<Property Name="Highpass"/>
 							<Property Name="Lowpass"/>
-							<Property Name="MakeUpGain"/>
+							<Property Name="Volume"/>
 							<Property Name="UserAuxSendVolume0"/>
 							<Property Name="UserAuxSendVolume1"/>
 							<Property Name="UserAuxSendVolume2"/>
-							<Property Name="Volume"/>
+							<Property Name="MakeUpGain"/>
 						</StatePropertyList>
 					</StateInfo>
 					<TransitionList>
@@ -3041,11 +3041,11 @@
 						<StatePropertyList>
 							<Property Name="Highpass"/>
 							<Property Name="Lowpass"/>
-							<Property Name="MakeUpGain"/>
+							<Property Name="Volume"/>
 							<Property Name="UserAuxSendVolume0"/>
 							<Property Name="UserAuxSendVolume1"/>
 							<Property Name="UserAuxSendVolume2"/>
-							<Property Name="Volume"/>
+							<Property Name="MakeUpGain"/>
 						</StatePropertyList>
 					</StateInfo>
 					<TransitionList>
@@ -4017,11 +4017,11 @@
 						<StatePropertyList>
 							<Property Name="Highpass"/>
 							<Property Name="Lowpass"/>
-							<Property Name="MakeUpGain"/>
+							<Property Name="Volume"/>
 							<Property Name="UserAuxSendVolume0"/>
 							<Property Name="UserAuxSendVolume1"/>
 							<Property Name="UserAuxSendVolume2"/>
-							<Property Name="Volume"/>
+							<Property Name="MakeUpGain"/>
 						</StatePropertyList>
 					</StateInfo>
 					<TransitionList>
@@ -4986,11 +4986,11 @@
 						<StatePropertyList>
 							<Property Name="Highpass"/>
 							<Property Name="Lowpass"/>
-							<Property Name="MakeUpGain"/>
+							<Property Name="Volume"/>
 							<Property Name="UserAuxSendVolume0"/>
 							<Property Name="UserAuxSendVolume1"/>
 							<Property Name="UserAuxSendVolume2"/>
-							<Property Name="Volume"/>
+							<Property Name="MakeUpGain"/>
 						</StatePropertyList>
 					</StateInfo>
 					<TransitionList>
@@ -5733,11 +5733,11 @@
 						<StatePropertyList>
 							<Property Name="Highpass"/>
 							<Property Name="Lowpass"/>
-							<Property Name="MakeUpGain"/>
+							<Property Name="Volume"/>
 							<Property Name="UserAuxSendVolume0"/>
 							<Property Name="UserAuxSendVolume1"/>
 							<Property Name="UserAuxSendVolume2"/>
-							<Property Name="Volume"/>
+							<Property Name="MakeUpGain"/>
 						</StatePropertyList>
 					</StateInfo>
 					<TransitionList>
