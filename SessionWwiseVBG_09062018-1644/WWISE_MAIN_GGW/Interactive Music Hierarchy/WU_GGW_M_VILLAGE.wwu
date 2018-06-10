@@ -808,6 +808,16 @@
 								<AudioNodeRef Name="THEME" ID="{191EA2F9-3EFD-4274-A44F-9D4CE5B56F3D}" WorkUnitID="{DA12653D-A0D2-457D-9AEF-C2B679649C28}" Platform="Linked"/>
 							</AudioNodeInfo>
 						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="VILLAGE" ID="{DA36E68C-BFB9-4945-B864-1626C864EC6F}"/>
+								<PathElementRef Name="MUSIQUE_VILLAGE_END" ID="{81BA56A8-B260-4C7C-8A81-7B38928FA1C8}"/>
+								<PathElementRef Name="MAP_ZONE_FALAISE" ID="{574E5013-147D-40A3-BEB6-FB2429A1169D}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="THEME" ID="{191EA2F9-3EFD-4274-A44F-9D4CE5B56F3D}" WorkUnitID="{DA12653D-A0D2-457D-9AEF-C2B679649C28}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
 					</EntryList>
 				</MusicSwitchContainer>
 				<MusicSwitchContainer Name="M_THEME_VILLAGE_BASS" ID="{870456FB-348C-4AFE-8FFF-37963EC3A565}" ShortID="237770495">
@@ -1483,6 +1493,16 @@
 								<PathElementRef Name="FALAISE" ID="{5CB745B9-61E5-476E-B139-0055819A76AE}"/>
 								<PathElementRef Name="None" ID="{D622E5EF-C25F-4EC1-BED3-C54F5F5A28AC}"/>
 								<PathElementRef Name="FALAISE_END" ID="{86783706-57C2-4898-A14E-CAA1944EA592}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="THEME" ID="{44559D0E-AABD-48FC-A30D-E6A0233FC336}" WorkUnitID="{DA12653D-A0D2-457D-9AEF-C2B679649C28}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="VILLAGE" ID="{DA36E68C-BFB9-4945-B864-1626C864EC6F}"/>
+								<PathElementRef Name="MUSIQUE_VILLAGE_END" ID="{81BA56A8-B260-4C7C-8A81-7B38928FA1C8}"/>
+								<PathElementRef Name="MAP_ZONE_FALAISE" ID="{574E5013-147D-40A3-BEB6-FB2429A1169D}"/>
 							</Path>
 							<AudioNodeInfo>
 								<AudioNodeRef Name="THEME" ID="{44559D0E-AABD-48FC-A30D-E6A0233FC336}" WorkUnitID="{DA12653D-A0D2-457D-9AEF-C2B679649C28}" Platform="Linked"/>
@@ -2166,6 +2186,16 @@
 								<PathElementRef Name="FALAISE" ID="{5CB745B9-61E5-476E-B139-0055819A76AE}"/>
 								<PathElementRef Name="None" ID="{D622E5EF-C25F-4EC1-BED3-C54F5F5A28AC}"/>
 								<PathElementRef Name="FALAISE_END" ID="{86783706-57C2-4898-A14E-CAA1944EA592}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="THEME" ID="{27F8DAAD-F407-4837-8553-BD6EB9746753}" WorkUnitID="{DA12653D-A0D2-457D-9AEF-C2B679649C28}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="VILLAGE" ID="{DA36E68C-BFB9-4945-B864-1626C864EC6F}"/>
+								<PathElementRef Name="MUSIQUE_VILLAGE_END" ID="{81BA56A8-B260-4C7C-8A81-7B38928FA1C8}"/>
+								<PathElementRef Name="MAP_ZONE_FALAISE" ID="{574E5013-147D-40A3-BEB6-FB2429A1169D}"/>
 							</Path>
 							<AudioNodeInfo>
 								<AudioNodeRef Name="THEME" ID="{27F8DAAD-F407-4837-8553-BD6EB9746753}" WorkUnitID="{DA12653D-A0D2-457D-9AEF-C2B679649C28}" Platform="Linked"/>
@@ -2857,6 +2887,16 @@
 								<PathElementRef Name="FALAISE" ID="{5CB745B9-61E5-476E-B139-0055819A76AE}"/>
 								<PathElementRef Name="None" ID="{D622E5EF-C25F-4EC1-BED3-C54F5F5A28AC}"/>
 								<PathElementRef Name="FALAISE_END" ID="{86783706-57C2-4898-A14E-CAA1944EA592}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="THEME" ID="{1713407B-74E6-4BD3-ABA9-F537145EC7F2}" WorkUnitID="{DA12653D-A0D2-457D-9AEF-C2B679649C28}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="VILLAGE" ID="{DA36E68C-BFB9-4945-B864-1626C864EC6F}"/>
+								<PathElementRef Name="MUSIQUE_VILLAGE_END" ID="{81BA56A8-B260-4C7C-8A81-7B38928FA1C8}"/>
+								<PathElementRef Name="MAP_ZONE_FALAISE" ID="{574E5013-147D-40A3-BEB6-FB2429A1169D}"/>
 							</Path>
 							<AudioNodeInfo>
 								<AudioNodeRef Name="THEME" ID="{1713407B-74E6-4BD3-ABA9-F537145EC7F2}" WorkUnitID="{DA12653D-A0D2-457D-9AEF-C2B679649C28}" Platform="Linked"/>
@@ -3582,6 +3622,16 @@
 								<AudioNodeRef Name="THEME" ID="{3C8F2820-0D79-4545-88A8-F96976B28ACA}" WorkUnitID="{DA12653D-A0D2-457D-9AEF-C2B679649C28}" Platform="Linked"/>
 							</AudioNodeInfo>
 						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="VILLAGE" ID="{DA36E68C-BFB9-4945-B864-1626C864EC6F}"/>
+								<PathElementRef Name="MUSIQUE_VILLAGE_END" ID="{81BA56A8-B260-4C7C-8A81-7B38928FA1C8}"/>
+								<PathElementRef Name="MAP_ZONE_FALAISE" ID="{574E5013-147D-40A3-BEB6-FB2429A1169D}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="THEME" ID="{3C8F2820-0D79-4545-88A8-F96976B28ACA}" WorkUnitID="{DA12653D-A0D2-457D-9AEF-C2B679649C28}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
 					</EntryList>
 				</MusicSwitchContainer>
 				<MusicSwitchContainer Name="M_THEME_VILLAGE_SAZ" ID="{746EF1F6-261A-409B-B2FE-D210C930BEF2}" ShortID="543232593">
@@ -4192,10 +4242,14 @@
 									<PropertyList>
 										<Property Name="DestinationContextType" Type="int16" Value="2"/>
 										<Property Name="ExitSourceCustomCueMatchName" Type="string" Value="TRANStoTHEME"/>
+										<Property Name="SourceContextType" Type="int16" Value="2"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="DestinationContextObject">
 											<ObjectRef Name="THEME" ID="{881FC760-22A6-4286-9DC5-9FB1520E3DE1}" WorkUnitID="{DA12653D-A0D2-457D-9AEF-C2B679649C28}"/>
+										</Reference>
+										<Reference Name="SourceContextObject">
+											<ObjectRef Name="INTRO" ID="{065BDE9C-3003-4DE5-887D-4513C5DFFB35}" WorkUnitID="{DA12653D-A0D2-457D-9AEF-C2B679649C28}"/>
 										</Reference>
 									</ReferenceList>
 									<TransitionInfo>
@@ -4296,6 +4350,16 @@
 								<PathElementRef Name="FALAISE" ID="{5CB745B9-61E5-476E-B139-0055819A76AE}"/>
 								<PathElementRef Name="None" ID="{D622E5EF-C25F-4EC1-BED3-C54F5F5A28AC}"/>
 								<PathElementRef Name="FALAISE_END" ID="{86783706-57C2-4898-A14E-CAA1944EA592}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="THEME" ID="{881FC760-22A6-4286-9DC5-9FB1520E3DE1}" WorkUnitID="{DA12653D-A0D2-457D-9AEF-C2B679649C28}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="VILLAGE" ID="{DA36E68C-BFB9-4945-B864-1626C864EC6F}"/>
+								<PathElementRef Name="MUSIQUE_VILLAGE_END" ID="{81BA56A8-B260-4C7C-8A81-7B38928FA1C8}"/>
+								<PathElementRef Name="MAP_ZONE_FALAISE" ID="{574E5013-147D-40A3-BEB6-FB2429A1169D}"/>
 							</Path>
 							<AudioNodeInfo>
 								<AudioNodeRef Name="THEME" ID="{881FC760-22A6-4286-9DC5-9FB1520E3DE1}" WorkUnitID="{DA12653D-A0D2-457D-9AEF-C2B679649C28}" Platform="Linked"/>
