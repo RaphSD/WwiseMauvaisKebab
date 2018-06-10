@@ -4484,12 +4484,7 @@
 														<Property Name="Delay" Type="Real64">
 															<ModifierList>
 																<ModifierInfo>
-																	<Modifier Name="" ID="{0AD0352D-FDAA-4789-A93A-2D3F28DB077B}">
-																		<PropertyList>
-																			<Property Name="Enabled" Type="bool" Value="True"/>
-																			<Property Name="Max" Type="Real64" Value="0.4"/>
-																		</PropertyList>
-																	</Modifier>
+																	<Modifier Name="" ID="{0AD0352D-FDAA-4789-A93A-2D3F28DB077B}"/>
 																</ModifierInfo>
 															</ModifierList>
 														</Property>
@@ -4522,7 +4517,6 @@
 																<ModifierInfo>
 																	<Modifier Name="" ID="{097B5F1C-F0C5-4E4A-BF80-0EEFA4BCC2F4}">
 																		<PropertyList>
-																			<Property Name="Enabled" Type="bool" Value="True"/>
 																			<Property Name="Max" Type="Real64" Value="0.4"/>
 																		</PropertyList>
 																	</Modifier>
@@ -4558,7 +4552,6 @@
 																<ModifierInfo>
 																	<Modifier Name="" ID="{E936B382-A078-48DE-8B35-8755FC8B5B64}">
 																		<PropertyList>
-																			<Property Name="Enabled" Type="bool" Value="True"/>
 																			<Property Name="Max" Type="Real64" Value="0.4"/>
 																		</PropertyList>
 																	</Modifier>
@@ -4594,7 +4587,6 @@
 																<ModifierInfo>
 																	<Modifier Name="" ID="{6687A7B7-5D49-4D90-AF7B-2A706A0B8FED}">
 																		<PropertyList>
-																			<Property Name="Enabled" Type="bool" Value="True"/>
 																			<Property Name="Max" Type="Real64" Value="0.4"/>
 																		</PropertyList>
 																	</Modifier>
@@ -4630,7 +4622,6 @@
 																<ModifierInfo>
 																	<Modifier Name="" ID="{C5C0C602-E7A6-4ABA-926A-6B78774311D7}">
 																		<PropertyList>
-																			<Property Name="Enabled" Type="bool" Value="True"/>
 																			<Property Name="Max" Type="Real64" Value="0.4"/>
 																		</PropertyList>
 																	</Modifier>
@@ -4666,7 +4657,6 @@
 																<ModifierInfo>
 																	<Modifier Name="" ID="{7CA62F86-EAC6-423F-BBA3-31B613B4A6AA}">
 																		<PropertyList>
-																			<Property Name="Enabled" Type="bool" Value="True"/>
 																			<Property Name="Max" Type="Real64" Value="0.4"/>
 																		</PropertyList>
 																	</Modifier>
@@ -4702,7 +4692,6 @@
 																<ModifierInfo>
 																	<Modifier Name="" ID="{D78C4853-959D-42CF-AA43-26CCE23561BC}">
 																		<PropertyList>
-																			<Property Name="Enabled" Type="bool" Value="True"/>
 																			<Property Name="Max" Type="Real64" Value="0.4"/>
 																		</PropertyList>
 																	</Modifier>
@@ -4738,7 +4727,6 @@
 																<ModifierInfo>
 																	<Modifier Name="" ID="{6E58AC3B-E6AC-439B-A383-62DBAE3787AF}">
 																		<PropertyList>
-																			<Property Name="Enabled" Type="bool" Value="True"/>
 																			<Property Name="Max" Type="Real64" Value="0.4"/>
 																		</PropertyList>
 																	</Modifier>
@@ -4774,7 +4762,6 @@
 																<ModifierInfo>
 																	<Modifier Name="" ID="{4E0F9C38-84DA-4B8C-A9B9-405B38858B1A}">
 																		<PropertyList>
-																			<Property Name="Enabled" Type="bool" Value="True"/>
 																			<Property Name="Max" Type="Real64" Value="0.4"/>
 																		</PropertyList>
 																	</Modifier>
@@ -4810,7 +4797,6 @@
 																<ModifierInfo>
 																	<Modifier Name="" ID="{D64C0866-3BF6-4A5C-AE99-5F29E344A5BF}">
 																		<PropertyList>
-																			<Property Name="Enabled" Type="bool" Value="True"/>
 																			<Property Name="Max" Type="Real64" Value="0.4"/>
 																		</PropertyList>
 																	</Modifier>
@@ -4846,7 +4832,6 @@
 																<ModifierInfo>
 																	<Modifier Name="" ID="{3A4AD92E-9E27-4198-ACA5-50AEC5171076}">
 																		<PropertyList>
-																			<Property Name="Enabled" Type="bool" Value="True"/>
 																			<Property Name="Max" Type="Real64" Value="0.4"/>
 																		</PropertyList>
 																	</Modifier>
@@ -4882,7 +4867,6 @@
 																<ModifierInfo>
 																	<Modifier Name="" ID="{D341EDAF-C83A-48BD-96EF-53CBFD804812}">
 																		<PropertyList>
-																			<Property Name="Enabled" Type="bool" Value="True"/>
 																			<Property Name="Max" Type="Real64" Value="0.4"/>
 																		</PropertyList>
 																	</Modifier>
