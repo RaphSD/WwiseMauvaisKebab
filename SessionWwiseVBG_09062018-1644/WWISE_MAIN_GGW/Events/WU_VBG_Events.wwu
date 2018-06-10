@@ -604,6 +604,111 @@
 								</Event>
 							</ChildrenList>
 						</Folder>
+						<Event Name="Play_GAME_OVER" ID="{610E8E3D-54A6-48F0-8F9D-D2D79E134747}">
+							<ChildrenList>
+								<Action Name="" ID="{F980B7E9-26B1-4974-9EF0-9C72DDDB27A4}" ShortID="501976910">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="M_THEME_BAGARRE_PERC2" ID="{33FF049A-2CA2-4DC7-893A-C959F95EE902}" WorkUnitID="{5EB01FC3-A3DA-4C52-B728-37A098355BAF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{72D2F3F2-F506-42B1-8853-FCBB5E7F0E26}" ShortID="632467246">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="M_THEME_BAGARRE_SAZ" ID="{BC622B97-F720-449A-A611-E1019B90803F}" WorkUnitID="{5EB01FC3-A3DA-4C52-B728-37A098355BAF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{34348ED7-A8C2-46B7-826C-BDAE037AB20F}" ShortID="868978134">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="M_THEME_BAGARRE_GTR2" ID="{32560FE8-9FC1-4BC8-BC01-A0104E7E280C}" WorkUnitID="{5EB01FC3-A3DA-4C52-B728-37A098355BAF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{E0348EC2-F755-4C49-AC73-4384F850872F}" ShortID="405283032">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="M_THEME_BAGARRE_PERC1" ID="{93090B77-053C-4B07-B007-28E9FF555B99}" WorkUnitID="{5EB01FC3-A3DA-4C52-B728-37A098355BAF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{E16E12C8-7A0C-4E0F-B0EC-623C8E238887}" ShortID="374916272">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="M_THEME_BAGARRE_ST" ID="{1BFF9D84-ADBE-4C42-BECD-802DF12A7387}" WorkUnitID="{5EB01FC3-A3DA-4C52-B728-37A098355BAF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{B81603A3-594D-4324-90A2-D90A2F157743}" ShortID="391595100">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="M_THEME_BAGARRE_BOUZ" ID="{9AC77B34-066E-4AA2-B694-2CF30D71BC17}" WorkUnitID="{5EB01FC3-A3DA-4C52-B728-37A098355BAF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{17ACA79C-EBFD-471D-9564-D98E5A684844}" ShortID="789730755">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="M_THEME_BAGARRE_ACC" ID="{73022CA7-3201-4509-B19D-000B541FEB99}" WorkUnitID="{5EB01FC3-A3DA-4C52-B728-37A098355BAF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{903781A0-B633-407A-961E-85D6D6A94243}" ShortID="79616399">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="GAME OVER" ID="{C9A7B830-4C72-4CD3-9336-F803681E07A1}" WorkUnitID="{4293CC0B-FFA8-4A29-8B13-3FE897B31D3A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_VICTOIRE" ID="{EC52B947-9B14-48C6-BBD8-F67E8FA0FB72}">
+							<ChildrenList>
+								<Action Name="" ID="{0C4E6A9D-9417-412B-974E-296030EE6830}" ShortID="854226547">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="VICTOIRE_1" ID="{BB2DC61D-41A1-46E0-B6ED-AF26A02A501B}" WorkUnitID="{4293CC0B-FFA8-4A29-8B13-3FE897B31D3A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="AMB_events" ID="{E4A3FA10-36D9-4E79-A65F-EF9CC6A63234}" ShortID="499868295">
