@@ -66070,7 +66070,7 @@
 						</ActorMixer>
 						<Folder Name="Raph" ID="{116D82D4-F633-4444-8E98-3614808541CC}" ShortID="198261279">
 							<ChildrenList>
-								<ActorMixer Name="Wood_Crash" ID="{F9768619-0BDC-426B-9E08-C6695AC6DBA9}" ShortID="419461173">
+								<ActorMixer Name="Crash" ID="{F9768619-0BDC-426B-9E08-C6695AC6DBA9}" ShortID="419461173">
 									<PropertyList>
 										<Property Name="OverrideConversion" Type="bool" Value="True"/>
 										<Property Name="OverridePositioning" Type="bool" Value="True"/>
@@ -66412,6 +66412,19 @@
 										</RandomSequenceContainer>
 										<RandomSequenceContainer Name="Stone_Crash" ID="{ABE6079D-9950-45CD-A932-9E630953782A}" ShortID="688899339">
 											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{F6BE4E68-D086-4A24-8DAD-94F987D6B84F}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="500"/>
+																	<Property Name="Min" Type="Real64" Value="-500"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
 														<Value>-10</Value>
