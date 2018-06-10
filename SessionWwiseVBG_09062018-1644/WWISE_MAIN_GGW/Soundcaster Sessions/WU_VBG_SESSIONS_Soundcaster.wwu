@@ -660,6 +660,10 @@
 							<ObjectRef Name="Stop_M_BAGARRE_ST" ID="{738617E2-78D6-4D0F-8F3A-B46837B63FF6}" WorkUnitID="{18170C99-9932-4AEA-A67D-3ACB79FC6612}"/>
 							<Position X="1" Y="0"/>
 						</Module>
+						<Module>
+							<ObjectRef Name="Play_GAME_OVER" ID="{610E8E3D-54A6-48F0-8F9D-D2D79E134747}" WorkUnitID="{18170C99-9932-4AEA-A67D-3ACB79FC6612}"/>
+							<Position X="1" Y="1"/>
+						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
