@@ -23821,6 +23821,20 @@
 												</Action>
 											</ChildrenList>
 										</Event>
+										<Event Name="Play_crane_vertical" ID="{E114C752-8DB2-4E0C-BC08-B91E46F70970}">
+											<ChildrenList>
+												<Action Name="" ID="{4ED2B01A-9013-42AC-8296-A6BB024F0989}" ShortID="919989509">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="1"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="CRANE_OnPLAY_Vertical" ID="{AAA908A4-80C1-4815-9A0A-A8CAD352CB11}" WorkUnitID="{4293CC0B-FFA8-4A29-8B13-3FE897B31D3A}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
 									</ChildrenList>
 								</Folder>
 								<Folder Name="stop" ID="{0155FF27-CFB8-4E2C-A998-F3EEA905BB66}" ShortID="853469707">
