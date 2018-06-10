@@ -66192,6 +66192,13 @@
 											</ChildrenList>
 										</ActorMixer>
 										<ActorMixer Name="GROS_SAUT" ID="{9D8F29C6-EA24-4FA6-A3BA-7BC0E0D2FA48}" ShortID="738853722">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-4</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA1A39EC-4140-45BE-8410-0298EA84A9B0}"/>
@@ -66216,11 +66223,6 @@
 																	</Modifier>
 																</ModifierInfo>
 															</ModifierList>
-														</Property>
-														<Property Name="Volume" Type="Real64">
-															<ValueList>
-																<Value>7</Value>
-															</ValueList>
 														</Property>
 													</PropertyList>
 													<ReferenceList>
@@ -66268,25 +66270,6 @@
 															</ChildrenList>
 															<ActiveSourceList>
 																<ActiveSource Name="SFX_ARTE_JUMP_RND-2" ID="{0AA15702-6CCA-4195-A0FC-E522C267E6D7}" Platform="Linked"/>
-															</ActiveSourceList>
-														</Sound>
-														<Sound Name="SFX_ARTE_JUMP_RND-3" ID="{9A9975B8-4230-4119-AF1F-8A538A2EB288}" ShortID="744868468">
-															<ReferenceList>
-																<Reference Name="Conversion">
-																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA1A39EC-4140-45BE-8410-0298EA84A9B0}"/>
-																</Reference>
-																<Reference Name="OutputBus">
-																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B42A094-68F1-4414-A1E6-24FF64B8FBF8}"/>
-																</Reference>
-															</ReferenceList>
-															<ChildrenList>
-																<AudioFileSource Name="SFX_ARTE_JUMP_RND-3" ID="{036C84D8-112A-47BD-92B7-21D414580FAB}" ShortID="431776107">
-																	<Language>SFX</Language>
-																	<AudioFile>SFX_ARTE_JUMP_RND-3.wav</AudioFile>
-																</AudioFileSource>
-															</ChildrenList>
-															<ActiveSourceList>
-																<ActiveSource Name="SFX_ARTE_JUMP_RND-3" ID="{036C84D8-112A-47BD-92B7-21D414580FAB}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
 														<Sound Name="SFX_ARTE_JUMP_RND-4" ID="{D7C76B54-C446-441E-B2B8-5C5B6659BBDF}" ShortID="749013440">
