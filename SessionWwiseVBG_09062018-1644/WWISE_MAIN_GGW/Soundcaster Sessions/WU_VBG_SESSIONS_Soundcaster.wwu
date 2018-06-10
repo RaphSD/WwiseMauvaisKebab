@@ -35,9 +35,9 @@
 					<CurrentStateList ShowAll="true">
 						<CurrentStateRef Name="FALAISE_END" ID="{86783706-57C2-4898-A14E-CAA1944EA592}"/>
 						<CurrentStateRef Name="ACTIF" ID="{5037D32D-7DF3-4544-AF6C-649D26966A85}"/>
-						<CurrentStateRef Name="VILLAGE" ID="{DA36E68C-BFB9-4945-B864-1626C864EC6F}"/>
+						<CurrentStateRef Name="PORT" ID="{043CCA0F-0E58-4B37-9D53-F3B7120D3209}"/>
 						<CurrentStateRef Name="None" ID="{B6A231CD-1C41-4048-A287-7C871E57C742}"/>
-						<CurrentStateRef Name="END" ID="{39D4A364-4B5A-4ABB-923B-FB6380E131DA}"/>
+						<CurrentStateRef Name="None" ID="{D622E5EF-C25F-4EC1-BED3-C54F5F5A28AC}"/>
 						<CurrentStateRef Name="INGAME" ID="{46D05DF8-C2ED-40B8-B923-95E086FC1009}"/>
 						<CurrentStateRef Name="CLOCHES_PLAYEDONCE_TRUE" ID="{D2FD8B23-FE96-4698-970B-DC255A83AC64}"/>
 					</CurrentStateList>

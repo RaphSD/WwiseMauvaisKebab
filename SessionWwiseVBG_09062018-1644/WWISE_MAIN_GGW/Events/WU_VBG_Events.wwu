@@ -23319,6 +23319,16 @@
 														</Reference>
 													</ReferenceList>
 												</Action>
+												<Action Name="" ID="{3249104C-A402-4D1F-9D38-7C0586CA4A6E}" ShortID="550744363">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="1"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Stone_Crash_Heavy" ID="{E2F19ABC-AD9E-4119-B3EB-4F672AB8C95E}" WorkUnitID="{4293CC0B-FFA8-4A29-8B13-3FE897B31D3A}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
 											</ChildrenList>
 										</Event>
 										<Event Name="Play_coffee_blackboard_DESTRUCTION" ID="{66BA869A-4057-402E-8C91-98B468FCE5D5}">
