@@ -791,6 +791,16 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
+								<Action Name="" ID="{B2D6C6CB-8EF0-4581-97B2-8A2B4864244B}" ShortID="925760505">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="PLAY" ID="{E521A502-7540-4671-B194-E451C1EC7103}" WorkUnitID="{CE988CDB-2DEC-4B44-AE99-406B162A76C1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
 							</ChildrenList>
 						</Event>
 						<Event Name="AMB_PORT" ID="{4B1DF12D-4ADA-4ECF-B917-099F6432248F}">
@@ -1141,16 +1151,6 @@
 											<ReferenceList>
 												<Reference Name="Target">
 													<ObjectRef Name="PORT_BATEAU2_RND" ID="{A6EF9CEC-B790-4185-86D5-D481C6B391CA}" WorkUnitID="{4293CC0B-FFA8-4A29-8B13-3FE897B31D3A}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-										<Action Name="" ID="{4D640534-DC5F-48EE-995F-BE6472AEBE0C}" ShortID="531491671">
-											<PropertyList>
-												<Property Name="ActionType" Type="int16" Value="22"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="PLAY" ID="{E521A502-7540-4671-B194-E451C1EC7103}" WorkUnitID="{CE988CDB-2DEC-4B44-AE99-406B162A76C1}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
