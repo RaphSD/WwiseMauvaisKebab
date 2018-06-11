@@ -69,6 +69,7 @@
 					<ChildrenList>
 						<State Name="None" ID="{D622E5EF-C25F-4EC1-BED3-C54F5F5A28AC}"/>
 						<State Name="END" ID="{39D4A364-4B5A-4ABB-923B-FB6380E131DA}"/>
+						<State Name="PLAY" ID="{E521A502-7540-4671-B194-E451C1EC7103}"/>
 					</ChildrenList>
 				</StateGroup>
 				<StateGroup Name="MUSIQUE_BAGARRE_END" ID="{337806C1-B083-4265-B144-203CECB1EF4C}">

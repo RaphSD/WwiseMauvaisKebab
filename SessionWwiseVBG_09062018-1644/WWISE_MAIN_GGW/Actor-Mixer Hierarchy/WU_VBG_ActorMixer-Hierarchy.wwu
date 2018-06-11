@@ -170,10 +170,10 @@
 									</ChildrenList>
 									<StateInfo>
 										<StatePropertyList>
-											<Property Name="Pitch"/>
+											<Property Name="Volume"/>
 											<Property Name="Highpass"/>
 											<Property Name="Lowpass"/>
-											<Property Name="Volume"/>
+											<Property Name="Pitch"/>
 											<Property Name="UserAuxSendVolume0"/>
 											<Property Name="UserAuxSendVolume1"/>
 											<Property Name="UserAuxSendVolume2"/>
@@ -1578,10 +1578,10 @@
 									</ChildrenList>
 									<StateInfo>
 										<StatePropertyList>
-											<Property Name="Pitch"/>
+											<Property Name="Volume"/>
 											<Property Name="Highpass"/>
 											<Property Name="Lowpass"/>
-											<Property Name="Volume"/>
+											<Property Name="Pitch"/>
 											<Property Name="UserAuxSendVolume0"/>
 											<Property Name="UserAuxSendVolume1"/>
 											<Property Name="UserAuxSendVolume2"/>
@@ -2504,10 +2504,10 @@
 									</ChildrenList>
 									<StateInfo>
 										<StatePropertyList>
-											<Property Name="Pitch"/>
+											<Property Name="Volume"/>
 											<Property Name="Highpass"/>
 											<Property Name="Lowpass"/>
-											<Property Name="Volume"/>
+											<Property Name="Pitch"/>
 											<Property Name="UserAuxSendVolume0"/>
 											<Property Name="UserAuxSendVolume1"/>
 											<Property Name="UserAuxSendVolume2"/>
@@ -3199,10 +3199,10 @@
 									</ChildrenList>
 									<StateInfo>
 										<StatePropertyList>
-											<Property Name="Pitch"/>
+											<Property Name="Volume"/>
 											<Property Name="Highpass"/>
 											<Property Name="Lowpass"/>
-											<Property Name="Volume"/>
+											<Property Name="Pitch"/>
 											<Property Name="UserAuxSendVolume0"/>
 											<Property Name="UserAuxSendVolume1"/>
 											<Property Name="UserAuxSendVolume2"/>
@@ -3748,10 +3748,10 @@
 													</PositioningInfo>
 													<StateInfo>
 														<StatePropertyList>
-															<Property Name="Pitch"/>
+															<Property Name="Volume"/>
 															<Property Name="Highpass"/>
 															<Property Name="Lowpass"/>
-															<Property Name="Volume"/>
+															<Property Name="Pitch"/>
 															<Property Name="UserAuxSendVolume0"/>
 															<Property Name="MakeUpGain"/>
 														</StatePropertyList>
@@ -4873,10 +4873,10 @@
 									</ChildrenList>
 									<StateInfo>
 										<StatePropertyList>
-											<Property Name="Pitch"/>
+											<Property Name="Volume"/>
 											<Property Name="Highpass"/>
 											<Property Name="Lowpass"/>
-											<Property Name="Volume"/>
+											<Property Name="Pitch"/>
 											<Property Name="UserAuxSendVolume0"/>
 											<Property Name="UserAuxSendVolume1"/>
 											<Property Name="UserAuxSendVolume2"/>
@@ -6726,10 +6726,10 @@
 									</ChildrenList>
 									<StateInfo>
 										<StatePropertyList>
-											<Property Name="Pitch"/>
+											<Property Name="Volume"/>
 											<Property Name="Highpass"/>
 											<Property Name="Lowpass"/>
-											<Property Name="Volume"/>
+											<Property Name="Pitch"/>
 											<Property Name="UserAuxSendVolume0"/>
 											<Property Name="UserAuxSendVolume1"/>
 											<Property Name="UserAuxSendVolume2"/>
@@ -7362,10 +7362,10 @@
 									</ChildrenList>
 									<StateInfo>
 										<StatePropertyList>
-											<Property Name="Pitch"/>
+											<Property Name="Volume"/>
 											<Property Name="Highpass"/>
 											<Property Name="Lowpass"/>
-											<Property Name="Volume"/>
+											<Property Name="Pitch"/>
 											<Property Name="UserAuxSendVolume0"/>
 											<Property Name="UserAuxSendVolume1"/>
 											<Property Name="MakeUpGain"/>
@@ -7891,10 +7891,10 @@
 											</ChildrenList>
 											<StateInfo>
 												<StatePropertyList>
-													<Property Name="Pitch"/>
+													<Property Name="Volume"/>
 													<Property Name="Highpass"/>
 													<Property Name="Lowpass"/>
-													<Property Name="Volume"/>
+													<Property Name="Pitch"/>
 													<Property Name="UserAuxSendVolume0"/>
 													<Property Name="UserAuxSendVolume1"/>
 													<Property Name="UserAuxSendVolume2"/>
@@ -8186,10 +8186,10 @@
 											</ChildrenList>
 											<StateInfo>
 												<StatePropertyList>
-													<Property Name="Pitch"/>
+													<Property Name="Volume"/>
 													<Property Name="Highpass"/>
 													<Property Name="Lowpass"/>
-													<Property Name="Volume"/>
+													<Property Name="Pitch"/>
 													<Property Name="UserAuxSendVolume0"/>
 													<Property Name="UserAuxSendVolume1"/>
 													<Property Name="UserAuxSendVolume2"/>
@@ -8799,10 +8799,10 @@
 											</ChildrenList>
 											<StateInfo>
 												<StatePropertyList>
-													<Property Name="Pitch"/>
+													<Property Name="Volume"/>
 													<Property Name="Highpass"/>
 													<Property Name="Lowpass"/>
-													<Property Name="Volume"/>
+													<Property Name="Pitch"/>
 													<Property Name="UserAuxSendVolume0"/>
 													<Property Name="UserAuxSendVolume1"/>
 													<Property Name="UserAuxSendVolume2"/>
@@ -9462,10 +9462,10 @@
 											</ChildrenList>
 											<StateInfo>
 												<StatePropertyList>
-													<Property Name="Pitch"/>
+													<Property Name="Volume"/>
 													<Property Name="Highpass"/>
 													<Property Name="Lowpass"/>
-													<Property Name="Volume"/>
+													<Property Name="Pitch"/>
 													<Property Name="UserAuxSendVolume0"/>
 													<Property Name="UserAuxSendVolume1"/>
 													<Property Name="UserAuxSendVolume2"/>
@@ -18783,7 +18783,7 @@
 														<Property Name="PositioningType" Type="int16" Value="1"/>
 														<Property Name="Volume" Type="Real64">
 															<ValueList>
-																<Value>14</Value>
+																<Value>7</Value>
 															</ValueList>
 															<ModifierList>
 																<ModifierInfo>
@@ -50123,7 +50123,7 @@
 														<Property Name="PositioningType" Type="int16" Value="1"/>
 														<Property Name="Volume" Type="Real64">
 															<ValueList>
-																<Value>-11</Value>
+																<Value>-8</Value>
 															</ValueList>
 														</Property>
 													</PropertyList>
@@ -63461,10 +63461,10 @@
 							</ChildrenList>
 							<StateInfo>
 								<StatePropertyList>
-									<Property Name="Pitch"/>
+									<Property Name="Volume"/>
 									<Property Name="Highpass"/>
 									<Property Name="Lowpass"/>
-									<Property Name="Volume"/>
+									<Property Name="Pitch"/>
 									<Property Name="UserAuxSendVolume0"/>
 									<Property Name="UserAuxSendVolume1"/>
 									<Property Name="UserAuxSendVolume2"/>
@@ -65777,7 +65777,17 @@
 												</Sound>
 												<RandomSequenceContainer Name="ARTE_EXPLOSION_BIG_RND" ID="{533F78CD-E84D-4FFC-AB91-B6A6B0C2EBA3}" ShortID="50814346">
 													<PropertyList>
+														<Property Name="Lowpass" Type="int16">
+															<ValueList>
+																<Value>11</Value>
+															</ValueList>
+														</Property>
 														<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-3</Value>
+															</ValueList>
+														</Property>
 													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
@@ -65846,6 +65856,11 @@
 												<Property Name="RenderEffect0" Type="bool">
 													<ValueList>
 														<Value>True</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-8</Value>
 													</ValueList>
 												</Property>
 											</PropertyList>
@@ -67184,10 +67199,10 @@
 					</ChildrenList>
 					<StateInfo>
 						<StatePropertyList>
-							<Property Name="Pitch"/>
+							<Property Name="Volume"/>
 							<Property Name="Highpass"/>
 							<Property Name="Lowpass"/>
-							<Property Name="Volume"/>
+							<Property Name="Pitch"/>
 							<Property Name="UserAuxSendVolume0"/>
 							<Property Name="UserAuxSendVolume1"/>
 							<Property Name="UserAuxSendVolume2"/>
@@ -67425,6 +67440,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="VICTOIRE_1" ID="{BB2DC61D-41A1-46E0-B6ED-AF26A02A501B}" ShortID="637153512">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-5</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA1A39EC-4140-45BE-8410-0298EA84A9B0}"/>

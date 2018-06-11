@@ -1144,6 +1144,16 @@
 												</Reference>
 											</ReferenceList>
 										</Action>
+										<Action Name="" ID="{4D640534-DC5F-48EE-995F-BE6472AEBE0C}" ShortID="531491671">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="22"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="PLAY" ID="{E521A502-7540-4671-B194-E451C1EC7103}" WorkUnitID="{CE988CDB-2DEC-4B44-AE99-406B162A76C1}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
 									</ChildrenList>
 								</Event>
 								<Event Name="TriggerZone_PORT_MER" ID="{CAA76D2D-EF84-45F9-BB34-6FC40A3FD9D8}">

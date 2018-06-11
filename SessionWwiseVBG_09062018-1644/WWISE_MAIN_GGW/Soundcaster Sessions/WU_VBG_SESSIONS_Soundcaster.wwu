@@ -691,10 +691,10 @@
 						<CurrentStateRef Name="FALAISE_END" ID="{86783706-57C2-4898-A14E-CAA1944EA592}"/>
 						<CurrentStateRef Name="ACTIF" ID="{5037D32D-7DF3-4544-AF6C-649D26966A85}"/>
 						<CurrentStateRef Name="VILLAGE" ID="{DA36E68C-BFB9-4945-B864-1626C864EC6F}"/>
-						<CurrentStateRef Name="None" ID="{B6A231CD-1C41-4048-A287-7C871E57C742}"/>
-						<CurrentStateRef Name="None" ID="{D622E5EF-C25F-4EC1-BED3-C54F5F5A28AC}"/>
+						<CurrentStateRef Name="END" ID="{76AD8184-63A7-4D8F-AC3B-1C1B9AFB0E6D}"/>
+						<CurrentStateRef Name="PLAY" ID="{E521A502-7540-4671-B194-E451C1EC7103}"/>
 						<CurrentStateRef Name="INGAME" ID="{46D05DF8-C2ED-40B8-B923-95E086FC1009}"/>
-						<CurrentStateRef Name="CLOCHES_PLAYEDONCE_FALSE" ID="{DC6A1D07-6CB7-41C6-87EF-C34C8E9F1742}"/>
+						<CurrentStateRef Name="CLOCHES_PLAYEDONCE_TRUE" ID="{D2FD8B23-FE96-4698-970B-DC255A83AC64}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="DEBRIS" ID="{E78B1833-2D04-4CE5-95A1-B2A303719A58}"/>
