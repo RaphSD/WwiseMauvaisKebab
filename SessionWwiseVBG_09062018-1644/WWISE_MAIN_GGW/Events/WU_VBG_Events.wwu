@@ -704,6 +704,90 @@
 						</Event>
 						<Event Name="Play_VICTOIRE" ID="{EC52B947-9B14-48C6-BBD8-F67E8FA0FB72}">
 							<ChildrenList>
+								<Action Name="" ID="{28D1E0DA-5BB6-4727-B40B-7F01150CA830}" ShortID="364883670">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="M_THEME_BAGARRE_PERC2" ID="{33FF049A-2CA2-4DC7-893A-C959F95EE902}" WorkUnitID="{5EB01FC3-A3DA-4C52-B728-37A098355BAF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{BFB9980C-8814-4401-B258-7F4FC01DF824}" ShortID="886457731">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="M_THEME_BAGARRE_PERC1" ID="{93090B77-053C-4B07-B007-28E9FF555B99}" WorkUnitID="{5EB01FC3-A3DA-4C52-B728-37A098355BAF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{71D544CC-A532-437E-B3A9-435D16A901D5}" ShortID="102267225">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="M_THEME_BAGARRE_GTR2" ID="{32560FE8-9FC1-4BC8-BC01-A0104E7E280C}" WorkUnitID="{5EB01FC3-A3DA-4C52-B728-37A098355BAF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{DBB21CF5-E525-4CD7-A635-2840A28552A7}" ShortID="926515013">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="M_THEME_BAGARRE_SAZ" ID="{BC622B97-F720-449A-A611-E1019B90803F}" WorkUnitID="{5EB01FC3-A3DA-4C52-B728-37A098355BAF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{F20CF47B-4512-488A-A875-83312AAEDF8F}" ShortID="140493963">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="M_THEME_BAGARRE_ST" ID="{1BFF9D84-ADBE-4C42-BECD-802DF12A7387}" WorkUnitID="{5EB01FC3-A3DA-4C52-B728-37A098355BAF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{D81958E3-7D62-4D68-8974-74FA1805EE24}" ShortID="720381444">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="M_THEME_BAGARRE_BOUZ" ID="{9AC77B34-066E-4AA2-B694-2CF30D71BC17}" WorkUnitID="{5EB01FC3-A3DA-4C52-B728-37A098355BAF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{63FF604F-4875-42AD-ACAA-F1F940D66053}" ShortID="922791090">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="M_THEME_BAGARRE_ACC" ID="{73022CA7-3201-4509-B19D-000B541FEB99}" WorkUnitID="{5EB01FC3-A3DA-4C52-B728-37A098355BAF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
 								<Action Name="" ID="{0C4E6A9D-9417-412B-974E-296030EE6830}" ShortID="854226547">
 									<PropertyList>
 										<Property Name="ActionType" Type="int16" Value="1"/>
