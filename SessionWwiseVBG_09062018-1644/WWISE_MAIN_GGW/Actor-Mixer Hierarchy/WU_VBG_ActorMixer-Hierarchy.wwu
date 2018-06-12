@@ -54476,6 +54476,8 @@
 														<Value>1</Value>
 													</ValueList>
 												</Property>
+												<Property Name="OverridePositioning" Type="bool" Value="True"/>
+												<Property Name="PositioningType" Type="int16" Value="1"/>
 												<Property Name="UseMaxSoundPerInstance" Type="bool">
 													<ValueList>
 														<Value>True</Value>
@@ -54483,6 +54485,9 @@
 												</Property>
 											</PropertyList>
 											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="Crane_Attenuation" ID="{9D3B6F02-2B84-442E-936D-199842F22862}" WorkUnitID="{365E8E69-C77B-442E-9365-1A43EEB81331}"/>
+												</Reference>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA1A39EC-4140-45BE-8410-0298EA84A9B0}"/>
 												</Reference>
